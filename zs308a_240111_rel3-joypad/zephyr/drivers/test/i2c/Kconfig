@@ -1,0 +1,36 @@
+# drivers configuration options
+
+# Copyright (c) 2015 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+config TEST_I2C_MASTER
+	bool "Enable Asynchronous call support"
+	default n
+	help
+	  This option enable i2c master test.
+
+config TEST_MASTER_AT_I2C_DEV
+	string "Which I2C dev you would like to test i2c master on"
+	default "I2C_0"
+	help
+	  This option assign which I2C to test with
+
+config TEST_I2C_SLAVE
+	bool "Enable Asynchronous call support"
+	default n
+	help
+	  This option enable i2c slave test.
+
+config TEST_SLAVE_AT_I2C_DEV
+	string "Which I2C dev you would like to test i2c slave on"
+	default "I2C_1"
+	help
+	  This option assign which I2C to test with
+
+config TEST_I2C_SLAVE_ADDR
+	hex
+	prompt "USB HID device interrupt out endpoint address"
+	default 0x60
+	range 0x00 0xff
+	help
+		This option assign slave address when you enable test/i2c_slave.c

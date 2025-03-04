@@ -1,0 +1,14 @@
+sample:
+  description: Sensor CPU sample
+    application
+  name: sensor cpu test
+common:
+    tags: introduction
+    harness: console
+    harness_config:
+      type: one_line
+      regex:
+        - "Hello World! (.*)"
+tests:
+  sample.basic.sc_test:
+    tags: introduction

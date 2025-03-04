@@ -1,0 +1,251 @@
+/*
+ * Copyright (c) 2019 Marc Reilly
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+#ifndef DRIVER_PANEL_COMMON_H__
+#define DRIVER_PANEL_COMMON_H__
+
+#include <soc.h>
+#include <board.h>
+#include <drivers/gpio.h>
+#include <drivers/display/display_controller.h>
+
+#ifndef CONFIG_MERGE_WORK_Q
+/* lcd used ldc work queue default */
+#define CONFIG_LCD_WORK_QUEUE (1)
+#define CONFIG_LCD_WORK_Q_STACK_SIZE (1024)
+#endif
+
+/* Horizontal-Resolution reported by get_capabilities() */
+#ifndef CONFIG_PANEL_HOR_RES
+#  define CONFIG_PANEL_HOR_RES CONFIG_PANEL_TIMING_HACTIVE
+#elif CONFIG_PANEL_HOR_RES > CONFIG_PANEL_TIMING_HACTIVE
+#  error "CONFIG_PANEL_HOR_RES must not exceed CONFIG_PANEL_TIMING_HACTIVE"
+#endif
+
+/* Vertical-Resolution reported by get_capabilities() */
+#ifndef CONFIG_PANEL_VER_RES
+#  define CONFIG_PANEL_VER_RES CONFIG_PANEL_TIMING_VACTIVE
+#elif CONFIG_PANEL_VER_RES > CONFIG_PANEL_TIMING_VACTIVE
+#  error "CONFIG_PANEL_VER_RES must not exceed CONFIG_PANEL_TIMING_VACTIVE"
+#endif
+
+/* Horizontal offset from the active area by write() */
+#ifndef CONFIG_PANEL_OFFSET_X
+#  define CONFIG_PANEL_OFFSET_X (0)
+#elif CONFIG_PANEL_OFFSET_X + CONFIG_PANEL_HOR_RES > CONFIG_PANEL_TIMING_HACTIVE
+#  error "CONFIG_PANEL_OFFSET_X + CONFIG_PANEL_HOR_RES must not exceed CONFIG_PANEL_TIMING_HACTIVE"
+#endif
+
+/* Vertical offset from the active area by write() */
+#ifndef CONFIG_PANEL_OFFSET_Y
+#  define CONFIG_PANEL_OFFSET_Y (0)
+#elif CONFIG_PANEL_OFFSET_Y + CONFIG_PANEL_VER_RES > CONFIG_PANEL_TIMING_VACTIVE
+#  error "CONFIG_PANEL_OFFSET_Y + CONFIG_PANEL_VER_RES must not exceed CONFIG_PANEL_TIMING_VACTIVE"
+#endif
+
+/* Orientatioin: rotation angle [0|90|180|270] */
+#ifndef CONFIG_PANEL_ORIENTATION
+#  define CONFIG_PANEL_ORIENTATION (0)
+#endif
+
+/* define variable of struct display_videoport */
+#ifndef CONFIG_PANEL_PORT_CS
+#  define CONFIG_PANEL_PORT_CS (0)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_LSB_FIRST
+#  define CONFIG_PANEL_PORT_LSB_FIRST (0)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_SPI_CPOL
+#  define CONFIG_PANEL_PORT_SPI_CPOL (1)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_SPI_CPHA
+#  define CONFIG_PANEL_PORT_SPI_CPHA (1)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_SPI_RX_DELAY_CHAIN_NS
+#  define CONFIG_PANEL_PORT_SPI_RX_DELAY_CHAIN_NS (0)
+#endif
+
+/* dummy cycles between read command and the following data (if exist) */
+#ifndef CONFIG_PANEL_PORT_SPI_RX_DUMMY_CYCLES
+#  define CONFIG_PANEL_PORT_SPI_RX_DUMMY_CYCLES (3)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_SPI_DCP_MODE
+#  define CONFIG_PANEL_PORT_SPI_DCP_MODE (0)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_SPI_DUAL_LANE
+#  define CONFIG_PANEL_PORT_SPI_DUAL_LANE (1)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_CPU_CLK_HIGH_DURATION
+#  define CONFIG_PANEL_PORT_CPU_CLK_HIGH_DURATION (1)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_CPU_CLK_LOW_DURATION
+#  define CONFIG_PANEL_PORT_CPU_CLK_LOW_DURATION (1)
+#endif
+
+#ifndef CONFIG_PANEL_PORT_BUS_WIDTH
+#  define CONFIG_PANEL_PORT_BUS_WIDTH (8)
+#endif
+
+#if DISPLAY_PORT_TYPE_MAJOR(CONFIG_PANEL_PORT_TYPE) == DISPLAY_PORT_CPU
+#define PANEL_VIDEO_PORT_INITIALIZER \
+	{ \
+		.type = CONFIG_PANEL_PORT_TYPE, \
+		.cpu_mode = { \
+			.cs = CONFIG_PANEL_PORT_CS, \
+			.lsb_first = CONFIG_PANEL_PORT_LSB_FIRST, \
+			.bus_width = CONFIG_PANEL_PORT_BUS_WIDTH, \
+			.pclk_high_duration = CONFIG_PANEL_PORT_CPU_CLK_HIGH_DURATION, \
+			.pclk_low_duration = CONFIG_PANEL_PORT_CPU_CLK_LOW_DURATION, \
+		}, \
+	}
+#elif DISPLAY_PORT_TYPE_MAJOR(CONFIG_PANEL_PORT_TYPE) == DISPLAY_PORT_RGB
+#define PANEL_VIDEO_PORT_INITIALIZER \
+	{ \
+		.type = CONFIG_PANEL_PORT_TYPE, \
+		.rgb_mode = { \
+			.lsb_first = CONFIG_PANEL_PORT_LSB_FIRST, \
+			.bus_width = CONFIG_PANEL_PORT_BUS_WIDTH, \
+		}, \
+	}
+#elif DISPLAY_PORT_TYPE_MAJOR(CONFIG_PANEL_PORT_TYPE) == DISPLAY_PORT_SPI
+#define PANEL_VIDEO_PORT_INITIALIZER \
+	{ \
+		.type = CONFIG_PANEL_PORT_TYPE, \
+		.spi_mode = { \
+			.cs = CONFIG_PANEL_PORT_CS, \
+			.lsb_first = CONFIG_PANEL_PORT_LSB_FIRST, \
+			.cpol = CONFIG_PANEL_PORT_SPI_CPOL, \
+			.cpha = CONFIG_PANEL_PORT_SPI_CPHA, \
+			.dual_lane = CONFIG_PANEL_PORT_SPI_DUAL_LANE, \
+			.dcp_mode = CONFIG_PANEL_PORT_SPI_DCP_MODE, \
+			.rx_dummy_cycles = CONFIG_PANEL_PORT_SPI_RX_DUMMY_CYCLES, \
+			.rx_delay_chain_ns = CONFIG_PANEL_PORT_SPI_RX_DELAY_CHAIN_NS, \
+		}, \
+	}
+#else
+#warning "invalid port type."
+#endif
+
+#define PANEL_VIDEO_PORT_DEFINE(name) \
+	struct display_videoport name = PANEL_VIDEO_PORT_INITIALIZER
+
+/* define variable of struct display_videomode */
+#ifndef CONFIG_PANEL_TIMING_REFRESH_RATE_HZ
+#  define CONFIG_PANEL_TIMING_REFRESH_RATE_HZ (60)
+#endif
+
+#ifndef CONFIG_PANEL_TIMING_PIXEL_CLK_KHZ
+#  define CONFIG_PANEL_TIMING_PIXEL_CLK_KHZ (50000)
+#endif
+
+/* measured in pixels */
+#ifndef CONFIG_PANEL_TIMING_HACTIVE
+#  define CONFIG_PANEL_TIMING_HACTIVE (1)
+#endif
+
+/* measured in clock cycles */
+#ifndef CONFIG_PANEL_TIMING_HFRONT_PORCH
+#  define CONFIG_PANEL_TIMING_HFRONT_PORCH (0)
+#endif
+
+/* measured in clock cycles */
+#ifndef CONFIG_PANEL_TIMING_HBACK_PORCH
+#  define CONFIG_PANEL_TIMING_HBACK_PORCH (0)
+#endif
+
+/* measured in clock cycles */
+#ifndef CONFIG_PANEL_TIMING_HSYNC_LEN
+#  define CONFIG_PANEL_TIMING_HSYNC_LEN (0)
+#endif
+
+/* measured in lines */
+#ifndef CONFIG_PANEL_TIMING_VACTIVE
+#  define CONFIG_PANEL_TIMING_VACTIVE (1)
+#endif
+
+/* measured in lines */
+#ifndef CONFIG_PANEL_TIMING_VFRONT_PORCH
+#  define CONFIG_PANEL_TIMING_VFRONT_PORCH (0)
+#endif
+
+/* measured in lines */
+#ifndef CONFIG_PANEL_TIMING_VBACK_PORCH
+#  define CONFIG_PANEL_TIMING_VBACK_PORCH (0)
+#endif
+
+/* measured in lines */
+#ifndef CONFIG_PANEL_TIMING_VSYNC_LEN
+#  define CONFIG_PANEL_TIMING_VSYNC_LEN (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_TE_ACTIVE
+#  define PANEL_VIDEO_MODE_TE_FLAGS ((CONFIG_PANEL_TIMING_TE_ACTIVE) ? DISPLAY_FLAGS_TE_HIGH : DISPLAY_FLAGS_TE_LOW)
+#else
+#  define PANEL_VIDEO_MODE_TE_FLAGS (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_HSYNC_ACTIVE
+#  define PANEL_VIDEO_MODE_HSYNC_FLAGS ((CONFIG_PANEL_TIMING_HSYNC_ACTIVE) ? DISPLAY_FLAGS_HSYNC_HIGH : DISPLAY_FLAGS_HSYNC_LOW)
+#else
+#  define PANEL_VIDEO_MODE_HSYNC_FLAGS (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_VSYNC_ACTIVE
+#  define PANEL_VIDEO_MODE_VSYNC_FLAGS ((CONFIG_PANEL_TIMING_VSYNC_ACTIVE) ? DISPLAY_FLAGS_VSYNC_HIGH : DISPLAY_FLAGS_VSYNC_LOW)
+#else
+#  define PANEL_VIDEO_MODE_VSYNC_FLAGS (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_DE_ACTIVE
+#  define PANEL_VIDEO_MODE_DE_FLAGS ((CONFIG_PANEL_TIMING_DE_ACTIVE) ? DISPLAY_FLAGS_DE_HIGH : DISPLAY_FLAGS_DE_LOW)
+#else
+#  define PANEL_VIDEO_MODE_DE_FLAGS (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_PIXELCLK_ACTIVE
+#  define PANEL_VIDEO_MODE_PIXELCLK_FLAGS ((CONFIG_PANEL_TIMING_PIXELCLK_ACTIVE) ? DISPLAY_FLAGS_PIXDATA_NEGEDGE : DISPLAY_FLAGS_PIXDATA_POSEDGE)
+#else
+#  define PANEL_VIDEO_MODE_PIXELCLK_FLAGS (0)
+#endif
+
+#ifdef CONFIG_PANEL_TIMING_SYNCCLK_ACTIVE
+#  define PANEL_VIDEO_MODE_SYNCCLK_FLAGS ((CONFIG_PANEL_TIMING_SYNCCLK_ACTIVE) ? DISPLAY_FLAGS_SYNC_NEGEDGE : DISPLAY_FLAGS_SYNC_POSEDGE)
+#else
+#  define PANEL_VIDEO_MODE_SYNCCLK_FLAGS (0)
+#endif
+
+#define PANEL_VIDEO_MODE_INITIALIZER(format) \
+	{ \
+		.pixel_format = format, \
+		.pixel_clk = CONFIG_PANEL_TIMING_PIXEL_CLK_KHZ, \
+		.refresh_rate = CONFIG_PANEL_TIMING_REFRESH_RATE_HZ, \
+		.hactive = CONFIG_PANEL_TIMING_HACTIVE, \
+		.hfront_porch = CONFIG_PANEL_TIMING_HFRONT_PORCH, \
+		.hback_porch = CONFIG_PANEL_TIMING_HBACK_PORCH, \
+		.hsync_len = CONFIG_PANEL_TIMING_HSYNC_LEN, \
+		.vactive = CONFIG_PANEL_TIMING_VACTIVE, \
+		.vfront_porch = CONFIG_PANEL_TIMING_VFRONT_PORCH, \
+		.vback_porch = CONFIG_PANEL_TIMING_VBACK_PORCH, \
+		.vsync_len = CONFIG_PANEL_TIMING_VSYNC_LEN, \
+		.flags = PANEL_VIDEO_MODE_TE_FLAGS	 | \
+				PANEL_VIDEO_MODE_HSYNC_FLAGS | \
+				PANEL_VIDEO_MODE_VSYNC_FLAGS | \
+				PANEL_VIDEO_MODE_DE_FLAGS	 | \
+				PANEL_VIDEO_MODE_PIXELCLK_FLAGS | \
+				PANEL_VIDEO_MODE_SYNCCLK_FLAGS, \
+	}
+
+#define PANEL_VIDEO_MODE_DEFINE(name, format) \
+	struct display_videomode name = PANEL_VIDEO_MODE_INITIALIZER(format)
+
+#endif /* DRIVER_PANEL_COMMON_H__ */

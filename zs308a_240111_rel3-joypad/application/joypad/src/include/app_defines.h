@@ -1,0 +1,47 @@
+/*
+ * Copyright (c) 2019 Actions Semiconductor Co., Ltd
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#ifndef _APP_DEFINES_H
+#define _APP_DEFINES_H
+
+#include <msg_manager.h>
+
+#define APP_ID_MAIN		"main"
+#define APP_ID_BTHID	"bthid"
+#define APP_ID_BTSPP	"btspp"
+#define APP_ID_USBHID   "usbhid"
+#define APP_ID_ATT		"att"
+// 
+#define APP_ID_LIST { \
+	APP_ID_BTHID, APP_ID_BTSPP, APP_ID_USBHID, APP_ID_ATT, \
+}
+
+enum {
+	MSG_APP_VOLUME_UP = MSG_APP_MESSAGE_START,
+	MSG_APP_VOLUME_DOWN,
+
+	MSG_APP_WIFI_CONNECT,
+	MSG_APP_WIFI_DISCONNECT,
+	MSG_APP_WIFI_UPLOAD,
+	MSG_APP_WIFI_DOWNLOAD,
+
+	MSG_APP_RECORD_IOERR,
+	MSG_APP_RECORD_START_STOP,
+	MSG_APP_RECORD_PAUSE_RESUME,
+	MSG_APP_RECORD_MUTE,
+
+	MSG_APP_ENTER_MASS_STORAGE,
+	MSG_APP_EXIT_MASS_STORAGE,
+	MSG_BT_PLAY_TWS_PAIR ,
+    MSG_BT_PLAY_CLEAR_LIST,
+    MSG_BT_SIRI_START,
+    MSG_BT_CALL_LAST_NO,
+	MSG_BT_APP_MESSAGE_START,
+};
+
+extern char share_stack_area[CONFIG_APP_STACKSIZE];
+
+#endif  // _APP_DEFINES_H

@@ -1,0 +1,28 @@
+# Kconfig - Actions Sensor manager
+
+#
+# Copyright (c) 2016 Actions Corporation
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+if SENSOR
+
+config SENSOR_MANAGER
+	bool
+	prompt "Sensor Manager Support"
+	select SENSOR_SERVICE
+	select SENSOR_HAL
+	select SENSOR_ALGO
+	default n
+	help
+	This option enables actions sensor manager.
+
+config SENSOR_SERVICE
+	bool
+	prompt "Sensor Service Support"
+	default n
+	help
+	This option enables actions sensor service.
+
+endif # SENSOR

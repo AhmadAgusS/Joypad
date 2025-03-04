@@ -1,0 +1,13 @@
+# ST77903 display driver configuration options
+
+# Copyright (c) 2019 Marc Reilly <marc@cpdesign.com.au>
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig PANEL_ST77903
+	bool "ST77903 display driver"
+	help
+	  Enable driver for ST77903 display driver.
+
+if PANEL_ST77903
+
+endif # PANEL_ST77903

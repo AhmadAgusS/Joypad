@@ -1,0 +1,79 @@
+# Configuration options for Actions Sensor
+
+# Copyright (c) 2020 Actions Technology Co., Ltd
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig SENSOR_ALGO
+	bool "Sensor algorithm"
+	help
+	  Enable Sensor algorithm
+
+if SENSOR_ALGO
+
+config SENSOR_ALGO_HR_GH30X
+	bool "GH30X heart-rate algorithm"
+	default n
+	help
+	  Enable GH30X heart-rate algorithm
+
+config SENSOR_ALGO_HR_VCARE
+	bool "VCARE heart-rate algorithm"
+	default n
+	help
+	  Enable VCARE heart-rate algorithm
+
+config SENSOR_ALGO_HR_HX3605
+	bool "HX3605 heart-rate algorithm"
+	default n
+	help
+	  Enable HX3605 heart-rate algorithm
+	  
+config SENSOR_ALGO_HR_HX3690
+	bool "HX3690 heart-rate algorithm"
+	default n
+	help
+	  Enable HX3690 heart-rate algorithm
+	  
+config SENSOR_ALGO_MOTION_CYWEE
+	bool "Cywee motion algorithm"
+	default n
+	help
+	  Enable Cywee motion algorithm
+
+config SENSOR_ALGO_MOTION_CYWEE_DML
+	bool "Cywee motion algorithm DML"
+	default n
+	help
+	  Enable Cywee motion algorithm DML
+
+config SENSOR_ALGO_MOTION_SILAN
+	bool "Silan motion algorithm"
+	default n
+	help
+	  Enable Silan motion algorithm
+
+config HR_ROM_BASE
+	hex
+	default 0x10001000 if SOC_LARK
+	help
+	  Sensor rom base address for sensor algorithm
+
+config SENSOR_ROM_BASE
+	hex
+	default 0x10020000 if SOC_LARK
+	help
+	  Sensor rom base address for sensor algorithm
+
+config SENSOR_SLEEP_ROM_BASE
+	hex
+#	default 0x1003a000 if SOC_LARK
+	help
+	  Sensor rom base address for sensor algorithm
+
+config SENSOR_RAM_CODE_SIZE
+	hex "Sensor ram code size"
+	default 0x3000
+	help
+	  Sensor ram code size for sensor algorithm
+
+endif # SENSOR_ALGO

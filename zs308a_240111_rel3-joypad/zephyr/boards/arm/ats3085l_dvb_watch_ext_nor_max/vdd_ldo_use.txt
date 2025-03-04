@@ -1,0 +1,1 @@
+该板型VDD 默认是用DCDC 模式的，如果硬件是用LDO，需要把mbrec_vdd_ldo.bin 覆盖mbrec.bin 就可以了

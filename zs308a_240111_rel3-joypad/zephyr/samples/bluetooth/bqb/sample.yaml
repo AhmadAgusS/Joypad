@@ -1,0 +1,14 @@
+sample:
+  description: BQB Test sample, the simplest Zephyr
+    application
+  name: bt bqb test
+common:
+    tags: introduction
+    harness: console
+    harness_config:
+      type: one_line
+      regex:
+        - "BQB Test! (.*)"
+tests:
+  sample.basic.helloworld:
+    tags: introduction

@@ -1,0 +1,96 @@
+manifest:
+  projects:
+  - name: cmsis
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_HAL_CMSIS
+    revision: b0612c97c1401feeb4160add6462c3627fe90fc7
+    path: thirdparty/hal/cmsis
+  - name: fatfs
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_FS_FATFS
+    revision: 4d800869b786a6dec653d8683b72c17a9e0a6a57
+    path: thirdparty/fs/fatfs
+  - name: lvgl
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_LVGL
+    revision: 230485b523c266eb522cc66441b59469a71906ae
+    path: thirdparty/lib/gui/lvgl
+  - name: alipay
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_ALIPAY
+    revision: 15ca6090053c40e06ee45b2d0cf5a4033c4a72a9
+    path: thirdparty/lib/alipay
+  - name: alipay_wxpay
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_ALIPAY_WXPAY
+    revision: cb74d623aff8b480f62a759ce2e62c076ba41750
+    path: thirdparty/lib/alipay_wxpay
+  - name: mbedtls
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_CRYPTO_MBEDTLS
+    revision: 5765cb7f75a9973ae9232d438e361a9d7bbc49e7
+    path: thirdparty/crypto/mbedtls
+  - name: segger
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_DBG_SEGGER
+    revision: 3a52ab222133193802d3c3b4d21730b9b1f1d2f6
+    path: thirdparty/debug/segger
+  - name: tinycrypt
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_CRYPTO_TINYCRYPT
+    revision: 9bdf43334d57a4c982acba7586336e69faeecc1a
+    path: thirdparty/crypto/tinycrypt
+  - name: littlefs
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_FS_LITTLEFS
+    revision: 9e4498d1c73009acd84bb36036ee5e2869112a6c
+    path: thirdparty/fs/littlefs
+  - name: bootloader
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_BOOT_LOADER
+    revision: 503e1d0dd9e59b36e23c85f6f1482eefcb3c8062
+  - name: framework_base
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_FRAMEWORK_BASE
+    revision: 283362ee3aaec3b46fa103f2823b24dfaca7cbdb
+    path: framework/base
+  - name: framework_system
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_SYSTEM
+    revision: 33635321ba28078e64e79f47b7d598f752bd449e
+    path: framework/system
+  - name: audio
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_AUDIO
+    revision: 1b564f1377e111f9637ba3c8fad35f40b00469e4
+    path: framework/audio
+  - name: media
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_MEDIA_BASE
+    revision: c3f6c55eb8d95edd96ab291749aabeb0dc201a41
+    path: framework/media
+  - name: ota
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_OTA
+    revision: f2909d8ac11db10f68da088ebfd949317895d24b
+    path: framework/ota
+  - name: bluetooth
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_BLUETOOTH
+    revision: 3f83a20b72ebc8f20525af4f1269a7ae1c3969c1
+    path: framework/bluetooth
+  - name: display
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_DISPLAY
+    revision: 16edb7754859e9ef95a4ac427920c4004a445b93
+    path: framework/display
+  - name: usb
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_USB
+    revision: 57b15ee359cdc997f3570297c3cc3bba329cbccc
+    path: framework/usb
+  - name: sensor
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_LIB_SENSOR
+    revision: c5d4332ec79cc5859e7a0b2591efbf78108a4b66
+    path: framework/sensor
+  - name: bt_watch
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_APPLICATION_BT_WATCH
+    revision: 0a1c7fd38456e5f0483c921a4873d7f9cec6a6d2
+    path: application/bt_watch
+  - name: bt_watch_call
+    url: ssh://192.168.4.4:29418/ZH/actions/BT_WATCH_CALL
+    revision: 796834b08288369e9bade24db2e1e56d5692bb12
+    path: application/bt_watch_call
+  - name: bt_watch_no_psram
+    url: ssh://192.168.4.4:29418/ZH/actions/BT_WATCH_NO_PSRAM
+    revision: 4b2949c3e4761c6b06dffa09b498c01afed21c8e
+    path: application/bt_watch_no_psram
+  - name: view_demo
+    url: ssh://192.168.4.4:29418/ZH/actions/ZSDK_APPLICATION_VIEW_DEMO
+    revision: bcd16afe1f35ec6a582f0c8dc8635ce2ee24ff31
+    path: application/view_demo
+  self:
+    path: zephyr
+    west-commands: scripts/west-commands.yml

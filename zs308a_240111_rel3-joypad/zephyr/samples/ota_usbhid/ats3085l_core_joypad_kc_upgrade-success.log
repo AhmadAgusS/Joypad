@@ -1,0 +1,2111 @@
+[14:08:15.953]  
+[14:08:15.953]  Ver1.1-adfu (build Nov 15 2023 20:13:29)
+[14:08:15.953]  system_set_svcc: 0x2200fe4
+[14:08:15.953]  WIO0_CTL: 0x3
+[14:08:15.953]  WAKE_CTL_SVCC: 0x105
+[14:08:15.953]  [D] adfus run
+[14:08:16.489]  system binding storage type 0
+[14:08:16.489]  spinor0_binding
+[14:08:16.489]  spinor status: {0x00 0x02 0x60},0xef
+[14:08:16.489]  nor id = {0xef, 0x40, 0x18, 0x00}
+[14:08:16.554]  erase start 0, size 1000, p=0
+[14:08:16.634]  erase start 1000, size 400, p=0
+[14:08:16.714]  write start 1000, size 400
+[14:08:16.792]  erase start 4000, size f800, p=0
+[14:08:17.513]  write start 4000, size f800
+[14:08:17.705]  erase start 24000, size 37680, p=0
+[14:08:19.209]  write start 24000, size 37680
+[14:08:19.768]  erase start 1a2000, size 8080, p=0
+[14:08:20.167]  write start 1a2000, size 8080
+[14:08:20.297]  erase start 1c7000, size 40, p=0
+[14:08:20.360]  write start 1c7000, size 40
+[14:08:20.439]  erase start 1e7000, size 40, p=0
+[14:08:20.504]  write start 1e7000, size 40
+[14:08:20.568]  erase start 20b000, size 1140, p=0
+[14:08:20.679]  write start 20b000, size 1140
+[14:08:20.728]  source data crc b717a268
+[14:08:20.744]  calculate crc b717a268
+[14:08:20.744]  source data crc fb46852
+[14:08:20.792]  calculate crc fb46852
+[14:08:20.807]  source data crc dce9abbd
+[14:08:20.968]  calculate crc dce9abbd
+[14:08:20.984]  source data crc 1c7680da
+[14:08:20.999]  calculate crc 1c7680da
+[14:08:21.015]  source data crc f98885b2
+[14:08:21.015]  calculate crc f98885b2
+[14:08:21.032]  source data crc ba9156ed
+[14:08:21.032]  calculate crc ba9156ed
+[14:08:21.048]  source data crc 105bd2c3
+[14:08:21.048]  calculate crc 105bd2c3
+[14:08:21.128]  erase start 1b5000, size 2000, p=0
+[14:08:21.239]  erase start 0, size 1000, p=0
+[14:08:21.304]  write start 0, size 1000
+[14:08:21.368]  finshed:a=1,t=230 ms
+[14:08:21.687]  
+[14:08:21.687]  Ver1.1-mbrec (build Nov  8 2022 14:00:49)
+[14:08:21.687]  dvfs= 0xa
+[14:08:21.740]  NO=0x8a1551b3,0xa70a09e6
+[14:08:21.740]  WK_PD=0x100004
+[14:08:21.740]  nor: 0x00000000, 1
+[14:08:21.740]  rdm en 0
+[14:08:21.740]  para=0x1000,r=1, i=0, crc=0
+[14:08:21.740]  blen=0xf610,of=0x200
+[14:08:21.740]  entry 0x110023d5
+[14:08:21.740]  z_sys_init entry(0x1100a540) func:0x11000bb5
+[14:08:21.740]  z_sys_init dev(UART_0) func:0x1100265d
+[14:08:21.740]  z_sys_init entry(0x1100a550) func:0x11002535
+[14:08:21.740]  z_sys_init entry(0x1100a558) func:0x11000cfd
+[14:08:21.740]  WAKE_PD_SVCC = 0x100004
+[14:08:21.740]  z_sys_init dev(WIO) func:0x110027ed
+[14:08:21.740]  gpio irq init
+[14:08:21.740]  z_sys_init dev(GPIOC) func:0x110027ed
+[14:08:21.740]  z_sys_init dev(GPIOB) func:0x110027ed
+[14:08:21.740]  z_sys_init dev(GPIOA) func:0x110027ed
+[14:08:21.740]  z_sys_init entry(0x1100a580) func:0x11007e29
+[14:08:21.740]  z_sys_init dev(spi_flash) func:0x180006a5
+[14:08:21.740]  read spi nor chipid:0x1840ef
+[14:08:21.740]  spinor status: {0x02 0x02 0x60}
+[14:08:21.740]  nor is 4 line mode
+[14:08:21.740]  SPI0: set rate 96000000 Hz, real rate 96000000 Hz
+[14:08:21.780]  read again spi nor chipid:0x1840ef
+[14:08:21.780]  spinor status: {0x02 0x02 0x60}
+[14:08:21.780]  z_sys_init dev(WDT_0) func:0x1100a039
+[14:08:21.780]  z_sys_init entry(0x1100a598) func:0x1100192d
+[14:08:21.780]  ** Showing partition infomation **
+[14:08:21.780]  id  name      offset    type  file_id  mirror_id  flag
+[14:08:21.780]  0   fw0_boot  0x0       1     1        0          0     
+[14:08:21.780]  1   fw0_para  0x1000    6     2        0          0     
+[14:08:21.780]  2   fw1_boot  0x2000    1     1        1          0     
+[14:08:21.780]  3   fw1_para  0x3000    6     2        1          0     
+[14:08:21.780]  4   fw0_rec   0x4000    3     3        0          0     
+[14:08:21.780]  5   fw0_sys   0x24000   2     4        0          0     
+[14:08:21.780]  6   user_rw   0x190000  4     9        0          0     
+[14:08:21.780]  7   fw0_sdfs  0x1a2000  4     5        0          0     
+[14:08:21.780]  8   nvram_fa  0x1b3000  4     7        15         0     
+[14:08:21.780]  9   nvram_us  0x1b5000  4     8        15         0     
+[14:08:21.780]  10  logbuf    0x1b7000  4     251      0          0     
+[14:08:21.780]  11  evtbuf    0x1bb000  4     252      0          0     
+[14:08:21.780]  12  coredump  0x1bd000  4     253      0          0     
+[14:08:21.780]  13  res_a     0x1c7000  4     10       0          0     
+[14:08:21.780]  14  font      0x1e7000  4     12       0          0     
+[14:08:21.780]  15  res_b     0x207000  4     11       0          0     
+[14:08:21.780]  16  sdfs_k    0x20b000  4     20       0          0     
+[14:08:21.780]  17  fw0_temp  0x28b000  5     254      0          0     
+[14:08:21.780]  18  runtimel  0x48b000  4     250      0          0     
+[14:08:21.780]  z_sys_init entry(0x1100a5a0) func:0x110017e5
+[14:08:21.780]  sdfs: init mapping to 0x13000000, koff=0x1100f610
+[14:08:21.780]  z_sys_init dev(sys_clock) func:0x11001d3d
+[14:08:21.780]  z_sys_init dev(DMA_0) func:0x110028b9
+[14:08:21.780]  pchan=10; vchan=10, pnum=6,start=4
+[14:08:21.780]  z_sys_init entry(0x1100a5b8) func:0x1100254d
+[14:08:21.780]  board_later_init 287: 
+[14:08:21.780]  z_sys_init entry(0x1100a5c0) func:0x11001545
+[14:08:21.780]  z_sys_init entry(0x1100a5c8) func:0x1100169d
+[14:08:21.780]  sd_disk_init,size=0, off=0 secotr
+[14:08:21.780]  z_sys_init entry(0x1100a5d0) func:0x110039d5
+[14:08:21.780]  E: nvram fac partition NOT find
+[14:08:21.780]  init nvram storage
+[14:08:21.780]  E: region Factory Config: init err
+[14:08:21.780]  
+[14:08:21.780]  z_sys_init dev(PWM) func:0x11003d6d
+[14:08:21.780]  z_sys_init entry(0x1100a5e0) func:0x11001c71
+[14:08:21.780]  z_sys_init entry(0x1100a5e8) func:0x11001c41
+[14:08:21.780]  ***  Current Firmware Version  ***
+[14:08:21.780]   Firmware Version: 0x00010000
+[14:08:21.780]   res Version: 0x00010000
+[14:08:21.780]     System Version: 0x00000000
+[14:08:21.780]       Version Name: 1.00_2411181407
+[14:08:21.780]         Board Name: ats3085l_core_joystick_evb_kc
+[14:08:21.780]  z_sys_init entry(0x1100a5f0) func:0x11000d65
+[14:08:21.780]  I: pmu wakeup pending:0x100004
+[14:08:21.780]  reboot_type0x0, reason=0x0
+[14:08:21.780]  c\00E: invalid param storage 0x1100a670, offset 0x10, len 0x8
+[14:08:21.850]  libboot: version 1.0.3 ,release time: Sep 21 2023:08:53:16
+[14:08:21.850]  boot main=0 
+[14:08:21.850]  app offset=0x24000 ,crc=0
+[14:08:21.850]  0x00000000
+[14:08:21.850]  0x01001F40
+[14:08:21.850]  0x10009E0D
+[14:08:21.850]  z_sys_init(0) entry(0x10029300) func:0x10001719, grp_end=0x10029398
+[14:08:21.850]  wd cnt=0, WD_CTL=0x1c
+[14:08:21.850]  z_sys_init(0) entry(0x10029308) func:0x1000b661, grp_end=0x10029398, dev(UART_0) 
+[14:08:21.850]  z_sys_init(0) entry(0x10029310) func:0x1000a2a1, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029318) func:0x1000a44d, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029320) func:0x100017f9, grp_end=0x10029398
+[14:08:21.850]  WAKE_PD_SVCC=0x100004,wdt=1, b_err=0
+[14:08:21.850]  z_sys_init(0) entry(0x10029328) func:0x100023c5, grp_end=0x10029398
+[14:08:21.850]  [000][I][pmu0][305*]:pmu wakeup pending:0x100004
+[14:08:21.850]  [001][I][pmu0][751*]:cal freq=32771, ctl=0x2c
+[14:08:21.850]  
+[14:08:21.850]  [002][I][pmu0][766*]:cur freq=32771
+[14:08:21.850]  
+[14:08:21.850]  [003][I][pmu0][796*]:calibrate freq=32771, mul=976, ctl=0x2c
+[14:08:21.850]  
+[14:08:21.850]  z_sys_init(0) entry(0x10029330) func:0x1000c5d5, grp_end=0x10029398, dev(WIO) 
+[14:08:21.850]  gpio irq init
+[14:08:21.850]  z_sys_init(0) entry(0x10029338) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOC) 
+[14:08:21.850]  z_sys_init(0) entry(0x10029340) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOB) 
+[14:08:21.850]  z_sys_init(0) entry(0x10029348) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOA) 
+[14:08:21.850]  z_sys_init(0) entry(0x10029350) func:0x1000cfcd, grp_end=0x10029398
+[14:08:21.850]  xip_nor_offset=0x24000-0x10000000
+[14:08:21.850]  z_sys_init(0) entry(0x10029358) func:0x10021195, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029360) func:0x1002125d, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029368) func:0x1002180d, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029370) func:0x18000127, grp_end=0x10029398, dev(spi_flash) 
+[14:08:21.850]  read spi nor chipid:0x1840ef
+[14:08:21.850]  spinor status: {0x00 0x02 0x60}
+[14:08:21.850]  nor is 4 line mode
+[14:08:21.850]  SPI0: set rate 96000000 Hz, real rate 96000000 Hz,CMU_SPICLK=0x101
+[14:08:21.850]  read again spi nor chipid:0x1840ef
+[14:08:21.850]  spinor status: {0x00 0x02 0x60}
+[14:08:21.850]  z_sys_init(0) entry(0x10029378) func:0x10006f5d, grp_end=0x10029398
+[14:08:21.850]  ** Showing partition infomation **
+[14:08:21.850]  id  name      offset    type  file_id  mirror_id  flag
+[14:08:21.850]  0   fw0_boot  0x0       1     1        0          0     
+[14:08:21.850]  1   fw0_para  0x1000    6     2        0          0     
+[14:08:21.850]  2   fw1_boot  0x2000    1     1        1          0     
+[14:08:21.850]  3   fw1_para  0x3000    6     2        1          0     
+[14:08:21.850]  4   fw0_rec   0x4000    3     3        0          0     
+[14:08:21.850]  5   fw0_sys   0x24000   2     4        0          0     
+[14:08:21.850]  6   user_rw   0x190000  4     9        0          0     
+[14:08:21.850]  7   fw0_sdfs  0x1a2000  4     5        0          0     
+[14:08:21.850]  8   nvram_fa  0x1b3000  4     7        15         0     
+[14:08:21.850]  9   nvram_us  0x1b5000  4     8        15         0     
+[14:08:21.850]  10  logbuf    0x1b7000  4     251      0          0     
+[14:08:21.850]  11  evtbuf    0x1bb000  4     252      0          0     
+[14:08:21.850]  12  coredump  0x1bd000  4     253      0          0     
+[14:08:21.850]  13  res_a     0x1c7000  4     10       0          0     
+[14:08:21.850]  14  font      0x1e7000  4     12       0          0     
+[14:08:21.850]  15  res_b     0x207000  4     11       0          0     
+[14:08:21.850]  16  sdfs_k    0x20b000  4     20       0          0     
+[14:08:21.850]  17  fw0_temp  0x28b000  5     254      0          0     
+[14:08:21.850]  18  runtimel  0x48b000  4     250      0          0     
+[14:08:21.850]  z_sys_init(0) entry(0x10029380) func:0x10007269, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029388) func:0x10002865, grp_end=0x10029398
+[14:08:21.850]  z_sys_init(0) entry(0x10029390) func:0x1000655d, grp_end=0x10029398
+[14:08:21.850]  sdfs: init mapping to 0x13000000, koff=0x10037588
+[14:08:21.850]  xip sdfs check:xip off=0x1017e000
+[14:08:21.850]  dir:num=4, size=32896, ck=0x4,0x706e127a
+[14:08:21.850]  1 check  start: off=0xc0, size=0xa, ck=0x6c6a6866
+[14:08:21.850]  2 check  start: off=0x100, size=0xa60, ck=0xcf2c4935
+[14:08:21.850]  3 check  start: off=0xb80, size=0x681c, ck=0x6f73a687
+[14:08:21.850]  4 check  start: off=0x73c0, size=0xc82, ck=0xc5634eb7
+[14:08:21.850]  sdfs check ok, 3 ms 
+[14:08:21.850]  z_sys_init(1) entry(0x10029398) func:0x100086e9, grp_end=0x100293c0, dev(sys_clock) 
+[14:08:21.850]  z_sys_init(1) entry(0x100293a0) func:0x10008b35, grp_end=0x100293c0, dev(hrtimer) 
+[14:08:21.850]  z_sys_init(1) entry(0x100293a8) func:0x10015019, grp_end=0x100293c0, dev(batadc) 
+[14:08:21.850]  [004][I][bat_ctl][36*]:boot open charger!
+[14:08:21.902]  [005][I][bat_ctl][30*]:bak_PMU_CHG_CTL:0x149c49
+[14:08:21.902]  [006][I][bat_drv][2289*]:bat drv get config!
+[14:08:21.902]  [007][I][bat_drv][1068*]:Bat Config Start:
+[14:08:21.902]  [008][I][bat_drv][1069*]:Charge Mode: back
+[14:08:21.902]  [009][I][bat_drv][1070*]:CC: 240ma, CV: 4200mv
+[14:08:21.902]  [010][I][bat_drv][1073*]:Stop: 2, 4160mv, 20
+[14:08:21.902]  [011][I][bat_drv][1076*]:Init Charge: 1, 30ma, 3000mv, 70ma, 3200mv, 100ma, 3400mv
+[14:08:21.902]  [012][I][bat_drv][1084*]:Pre-charge: 1, 3300mv, 1, 9
+[14:08:21.902]  [013][I][bat_drv][1088*]:Fast Charge: 0, 240ma, 5
+[14:08:21.902]  [014][I][bat_drv][1092*]:Re-charge: 1, 4110mv, 4110mv, 3900mv
+[14:08:21.902]  [015][I][bat_drv][1097*]:OVP: 1, 4260mv, 4260mv, 4100mv
+[14:08:21.902]  [016][I][bat_drv][1102*]:Total_Time_Limit: 240min
+[14:08:21.902]  [017][I][bat_drv][1103*]:Check_Period: 60s
+[14:08:21.902]  [018][I][bat_drv][1104*]:Charge_Check_Period: 300s
+[14:08:21.902]  [019][I][bat_drv][1105*]:Full_Continue: 420s
+[14:08:21.902]  [020][I][bat_drv][1106*]:Poff_Wait: 10s
+[14:08:21.902]  [021][I][bat_drv][1107*]:DC5V_Dbs: 300ms
+[14:08:21.902]  [022][I][bat_drv][1108*]:Bat_Rdrop: 500m
+[14:08:21.902]  [023][I][bat_drv][1110*]:Bat Config End!
+[14:08:21.902]  [024][I][bat_drv][1142*]:get batadc cal=0x1e
+[14:08:21.902]  
+[14:08:21.902]  [025][I][bat_drv][1149*]:get batadc off=-32
+[14:08:21.902]  
+[14:08:21.902]  [026][I][bat_drv][1163*]:LRADCCLK:0x00000050
+[14:08:21.902]  [027][I][bat_drv][1165*]:hosc_ctl:0x64646330
+[14:08:21.902]  [028][I][bat_drv][1306*]:PMUADC_CTL:0x78880002
+[14:08:21.902]  [029][I][bat_drv][1322*]:PMUADC_DIGCTL:0x00000108
+[14:08:21.902]  [030][I][bat_drv][1375*]:bat_adc: 0x3825, adjust: 0x3805
+[14:08:21.902]  [031][I][bat_drv][1445*]:wait batadc ok: 4201mv
+[14:08:21.902]  [032][I][bat_drv][2359*]:power on, with dc5v!
+[14:08:21.902]  [033][I][bat_drv][2362*]:init charge start!
+[14:08:21.902]  [034][I][bat_drv][510*]:init charge current: 30ma, 70ma
+[14:08:21.902]  [035][I][bat_drv][1375*]:bat_adc: 0x3812, adjust: 0x37f2
+[14:08:21.902]  [036][I][bat_drv][1971*]:bat_adc: 0x37f2, bat_mv: 4195mv
+[14:08:21.902]  [037][I][bat_drv][1375*]:bat_adc: 0x3821, adjust: 0x3801
+[14:08:21.902]  [038][I][bat_drv][1375*]:bat_adc: 0x3819, adjust: 0x37f9
+[14:08:21.902]  [039][I][bat_drv][2007*]:Need exit init charge: 4197mv, 3400mv
+[14:08:21.902]  [040][I][bat_drv][2385*]:exit init charge!
+[14:08:21.902]  [041][I][bat_drv][2452*]:bat driver init ok,so enable peripheral_power!
+[14:08:21.902]  
+[14:08:21.902]  z_sys_init(1) entry(0x100293b0) func:0x10013a3d, grp_end=0x100293c0, dev(PMUDAC_0) 
+[14:08:21.902]  z_sys_init(1) entry(0x100293b8) func:0x1000cf81, grp_end=0x100293c0, dev(sim_flash) 
+[14:08:21.902]  panic=0, flash data checksum f710eacf
+[14:08:21.902]  flash init data checksum fffff000
+[14:08:21.902]  z_sys_init(2) entry(0x100293c0) func:0x10004719, grp_end=0x10029478
+[14:08:21.902]  z_sys_init(2) entry(0x100293c8) func:0x1000cc05, grp_end=0x10029478, dev(DMA_0) 
+[14:08:21.902]  dma-num=10
+[14:08:21.902]  z_sys_init(2) entry(0x100293d0) func:0x1000a431, grp_end=0x10029478
+[14:08:21.902]  board_later_init 280: 
+[14:08:21.902]  z_sys_init(2) entry(0x100293d8) func:0x1000ac45, grp_end=0x10029478
+[14:08:21.902]  [042][I][coredump][143*]:init coredump config
+[14:08:21.902]  [043][I][coredump][149*]:coredump:0x1bd000,0xa000
+[14:08:21.902]  
+[14:08:21.902]  init coredump storage
+[14:08:21.902]  z_sys_init(2) entry(0x100293e0) func:0x1000bc6d, grp_end=0x10029478, dev(I2C_1) 
+[14:08:21.902]  i2c1:clk=100000,cmd=0,dma=0
+[14:08:21.902]  z_sys_init(2) entry(0x100293e8) func:0x1002552f, grp_end=0x10029478, dev(I2CMT_1) 
+[14:08:21.902]  z_sys_init(2) entry(0x100293f0) func:0x1002552f, grp_end=0x10029478, dev(I2CMT_0) 
+[14:08:21.902]  z_sys_init(2) entry(0x100293f8) func:0x1001055d, grp_end=0x10029478, dev(DAC_0) 
+[14:08:21.902]  DAC init successfully
+[14:08:21.902]  z_sys_init(2) entry(0x10029400) func:0x10012241, grp_end=0x10029478, dev(ADC_0) 
+[14:08:21.902]  ADC init successfully
+[14:08:21.902]  z_sys_init(2) entry(0x10029408) func:0x10005b25, grp_end=0x10029478
+[14:08:21.902]  z_sys_init(2) entry(0x10029410) func:0x1000aeb1, grp_end=0x10029478
+[14:08:21.902]  z_sys_init(2) entry(0x10029418) func:0x1000e769, grp_end=0x10029478, dev(audio_out) 
+[14:08:21.902]  [044][I][dac0][1937*]:DAC wait for capacitor charge full
+[14:08:21.902]  
+[14:08:21.902]  
+[14:08:21.902]  uart:~$ [045][I][dac0][1481*]:DAC SDM function enable
+[14:08:21.955]  [046][I][dac0][2077*]:set volume {db:[0, 0] level:[bf, bf]}
+[14:08:21.955]  [047][I][aout][1061*]:channel@0 sess:0x18005980 type:1 fifo:0 sr:48 opened
+[14:08:21.955]  [048][I][aout][1240*]:session#0@0x18005980 closed
+[14:08:21.955]  [049][I][aout][384*]:Open PA successfully
+[14:08:21.955]  ACTS-AUDIO OUT initialized
+[14:08:21.955]  z_sys_init(2) entry(0x10029420) func:0x10022aed, grp_end=0x10029478
+[14:08:21.955]  z_sys_init(2) entry(0x10029428) func:0x1000ded1, grp_end=0x10029478
+[14:08:21.955]  [050][E][nvram_cfg][1411*]:nvram fac partition NOT find
+[14:08:21.955]  init nvram storage
+[14:08:21.955]  [051][E][nvram_cfg][1256*]:region Factory Config: init err
+[14:08:21.955]  
+[14:08:21.955]  z_sys_init(2) entry(0x10029430) func:0x10007665, grp_end=0x10029478
+[14:08:21.955]  z_sys_init(2) entry(0x10029438) func:0x1000f88d, grp_end=0x10029478, dev(audio_in) 
+[14:08:21.955]  ACTS-AUDIO IN initialized
+[14:08:21.955]  z_sys_init(2) entry(0x10029440) func:0x10013b49, grp_end=0x10029478, dev(onoffkey) 
+[14:08:21.955]  z_sys_init(2) entry(0x10029448) func:0x100178a1, grp_end=0x10029478, dev(RTC_0) 
+[14:08:21.955]  [052][I][pmu0][751*]:cal freq=32769, ctl=0x2c
+[14:08:21.955]  
+[14:08:21.955]  cur rc32k_freq=32769
+[14:08:21.955]  [053][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:08:21.955]  rtc initialized
+[14:08:21.955]  z_sys_init(2) entry(0x10029450) func:0x10017ddd, grp_end=0x10029478, dev(ALARM8HZ_0) 
+[14:08:21.955]  alarm8hz initialized
+[14:08:21.955]  z_sys_init(2) entry(0x10029458) func:0x10017f35, grp_end=0x10029478, dev(PWM) 
+[14:08:21.955]  z_sys_init(2) entry(0x10029460) func:0x10013d45, grp_end=0x10029478, dev(keygpio) 
+[14:08:21.955]  z_sys_init(2) entry(0x10029468) func:0x10013fbd, grp_end=0x10029478, dev(tpkey) 
+[14:08:21.955]  z_sys_init(2) entry(0x10029470) func:0x100060e9, grp_end=0x10029478
+[14:08:21.955]  sdfs fs_register=0
+[14:08:21.955]  *** Booting Zephyr OS build 29fddd6e9a20  ***
+[14:08:21.955]  z_sys_init(3) entry(0x10029478) func:0x1000676d, grp_end=0x100294a8
+[14:08:21.955]  printk_dma_init
+[14:08:21.955]  uart use txdma chan=2
+[14:08:21.955]  z_sys_init(3) entry(0x10029480) func:0x10007239, grp_end=0x100294a8
+[14:08:21.955]  ***  Current Firmware Version  ***
+[14:08:21.955]   Firmware Version: 0x00010000
+[14:08:21.955]   res Version: 0x00010000
+[14:08:21.955]     System Version: 0x00000000
+[14:08:21.955]       Version Name: 1.00_2411181407
+[14:08:21.955]         Board Name: ats3085l_core_joystick_evb_kc
+[14:08:21.955]  z_sys_init(3) entry(0x10029488) func:0x1001840d, grp_end=0x100294a8
+[14:08:21.955]  mpu 6: 0x0-0x10000, set=0x0-0x10000,attr=RO
+[14:08:21.955]  [054][I][mpu_acts][206*]:mpu init
+[14:08:21.955]  
+[14:08:21.955]  [055][I][mpu_acts][216*]:mpu init end
+[14:08:21.955]  
+[14:08:21.955]  z_sys_init(3) entry(0x10029490) func:0x1000b121, grp_end=0x100294a8
+[14:08:21.955]  z_sys_init(3) entry(0x10029498) func:0x100017d5, grp_end=0x100294a8
+[14:08:21.955]  z_sys_init(3) entry(0x100294a0) func:0x10001d59, grp_end=0x100294a8
+[14:08:21.955]  [056][I][pmuadc0][483*]:Enable PMU ADC channel@2
+[14:08:21.955]  power_gpio_cfg.gpion 19 
+[14:08:21.955]  ch2: adc=3220, mv=4718
+[14:08:21.955]  [057][I][pmuadc0][483*]:Enable PMU ADC channel@1
+[14:08:21.955]  ch1: adc=11426, mv=3347
+[14:08:21.955]  [058][I][os][25*]:OTA UPGRADE SUCCESSFULLY :3
+[14:08:21.955]  [059][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:08:21.955]  [060][I][os][86*]:save bp: state 16
+[14:08:21.955]  
+[14:08:21.955]  [061][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:08:21.955]  [062][I][os][90*]:cannot found OTA_BP
+[14:08:21.955]  [063][I][os][41*]:main, init ota app
+[14:08:21.955]  [064][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:08:21.955]  [065][I][os][106*]:cannot found OTA_BP
+[14:08:21.955]  [066][I][os][1640*]:init
+[14:08:21.955]  [067][I][os][1647*]:enable no version control
+[14:08:21.955]  [068][I][os][463*]:init storage spi_flash
+[14:08:21.955]  
+[14:08:21.955]  [069][I][os][242*]:init bp 0x1800ca98
+[14:08:21.955]  
+[14:08:21.955]  [070][I][os][86*]:save bp: state 0
+[14:08:21.955]  
+[14:08:21.955]  [071][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:08:21.955]  [072][I][os][90*]:cannot found OTA_BP
+[14:08:21.955]  [073][I][os][246*]:no bp in nvram, use default bp
+[14:08:21.955]  [074][I][os][48*]:save bp: state 0
+[14:08:21.955]  
+[14:08:21.955]  [075][I][os][226*]:bp->state 0
+[14:08:21.955]  [076][I][os][267*]:part[0]: file_id 1 not ota temp partition, skip erase
+[14:08:21.955]  [077][I][os][267*]:part[1]: file_id 2 not ota temp partition, skip erase
+[14:08:21.955]  [078][I][os][267*]:part[2]: file_id 1 not ota temp partition, skip erase
+[14:08:21.955]  [079][I][os][267*]:part[3]: file_id 2 not ota temp partition, skip erase
+[14:08:21.955]  [080][I][os][267*]:part[4]: file_id 3 not ota temp partition, skip erase
+[14:08:21.955]  [081][I][os][267*]:part[5]: file_id 4 not ota temp partition, skip erase
+[14:08:21.955]  [082][I][os][267*]:part[6]: file_id 9 not ota temp partition, skip erase
+[14:08:21.977]  [083][I][os][267*]:part[7]: file_id 5 not ota temp partition, skip erase
+[14:08:21.977]  [084][I][os][267*]:part[8]: file_id 7 not ota temp partition, skip erase
+[14:08:21.977]  [085][I][os][267*]:part[9]: file_id 8 not ota temp partition, skip erase
+[14:08:21.977]  [086][I][os][267*]:part[10]: file_id 251 not ota temp partition, skip erase
+[14:08:21.977]  [087][I][os][267*]:part[11]: file_id 252 not ota temp partition, skip erase
+[14:08:21.977]  [088][I][os][267*]:part[12]: file_id 253 not ota temp partition, skip erase
+[14:08:21.977]  [089][I][os][267*]:part[13]: file_id 10 not ota temp partition, skip erase
+[14:08:21.977]  [090][I][os][267*]:part[14]: file_id 12 not ota temp partition, skip erase
+[14:08:21.977]  [091][I][os][267*]:part[15]: file_id 11 not ota temp partition, skip erase
+[14:08:21.977]  [092][I][os][267*]:part[16]: file_id 20 not ota temp partition, skip erase
+[14:08:21.977]  [093][I][os][198*]:erase part fw0_temp\05\FE: offset 0x28b000 size 0x200000, start_offset 0x0
+[14:08:21.977]  
+[14:08:21.977]  [094][I][os][204*]:erase aligned offset 0x28b000, size 0x200000
+[14:08:21.977]  
+[14:08:21.977]  [095][I][os][437*]:offs 0x28b000, size 2097152
+[14:08:21.977]  nor_e:off=0x28b000,len=0x5000
+[14:08:22.058]  nor_e:off=0x28b000,len=0x1000, tran=115 us, wait=89545
+[14:08:22.154]  nor_e:off=0x28c000,len=0x1000, tran=110 us, wait=88552
+[14:08:22.181]  isr_gpio_cfg.gpion 26 
+[14:08:22.181]  [096][E][i2c_acts_i2c][468*]:no ACK from device
+[14:08:22.181]  [097][E][i2c_acts_i2c][313*]:wait i2c tx fifo:0x2007 empty timeout
+[14:08:22.181]  [098][E][i2c_acts_i2c][734*]:addr 0x15: transfer error
+[14:08:22.181]  [099][I][i2c_acts_i2c][199*]:I2C base 0x4004c000:
+[14:08:22.181]    ctl:      0  clkdiv: 14  stat:    0
+[14:08:22.181]    addr:     0  cmd:    f03  fifoctl: 0
+[14:08:22.181]    fifostat: 15  datcnt: 2  rcnt:    2
+[14:08:22.181]  
+[14:08:22.181]  [100][I][i2c_acts_i2c][199*]:I2C base 0x4004c000:
+[14:08:22.181]    ctl:      0  clkdiv: 14  stat:    0
+[14:08:22.181]    addr:     0  cmd:    f03  fifoctl: 0
+[14:08:22.181]    fifostat: 15  datcnt: 2  rcnt:    2
+[14:08:22.181]  
+[14:08:22.230]  nor_e:off=0x28d000,len=0x1000, tran=110 us, wait=89436
+[14:08:22.325]  nor_e:off=0x28e000,len=0x1000, tran=110 us, wait=89500
+[14:08:22.424]  nor_e:off=0x28f000,len=0x1000, tran=110 us, wait=89500
+[14:08:22.424]  nor_e:off=0x290000,len=0x10000
+[14:08:22.899]  nor_e:off=0x290000,len=0x10000, tran=111 us, wait=474664
+[14:08:22.899]  nor_e:off=0x2a0000,len=0x10000
+[14:08:23.422]  nor_e:off=0x2a0000,len=0x10000, tran=111 us, wait=522155
+[14:08:23.422]  nor_e:off=0x2b0000,len=0x10000
+[14:08:23.896]  nor_e:off=0x2b0000,len=0x10000, tran=111 us, wait=472837
+[14:08:23.896]  nor_e:off=0x2c0000,len=0x10000
+[14:08:24.340]  nor_e:off=0x2c0000,len=0x10000, tran=111 us, wait=443296
+[14:08:24.340]  nor_e:off=0x2d0000,len=0x10000
+[14:08:24.790]  nor_e:off=0x2d0000,len=0x10000, tran=111 us, wait=448116
+[14:08:24.790]  nor_e:off=0x2e0000,len=0x10000
+[14:08:25.235]  nor_e:off=0x2e0000,len=0x10000, tran=111 us, wait=444965
+[14:08:25.235]  nor_e:off=0x2f0000,len=0x10000
+[14:08:25.704]  nor_e:off=0x2f0000,len=0x10000, tran=111 us, wait=467233
+[14:08:25.704]  nor_e:off=0x300000,len=0x10000
+[14:08:26.173]  nor_e:off=0x300000,len=0x10000, tran=111 us, wait=468019
+[14:08:26.173]  nor_e:off=0x310000,len=0x10000
+[14:08:26.647]  nor_e:off=0x310000,len=0x10000, tran=111 us, wait=472840
+[14:08:26.647]  nor_e:off=0x320000,len=0x10000
+[14:08:27.133]  nor_e:off=0x320000,len=0x10000, tran=111 us, wait=485100
+[14:08:27.133]  nor_e:off=0x330000,len=0x10000
+[14:08:27.589]  nor_e:off=0x330000,len=0x10000, tran=111 us, wait=454835
+[14:08:27.589]  nor_e:off=0x340000,len=0x10000
+[14:08:28.051]  nor_e:off=0x340000,len=0x10000, tran=111 us, wait=461362
+[14:08:28.051]  nor_e:off=0x350000,len=0x10000
+[14:08:28.511]  nor_e:off=0x350000,len=0x10000, tran=111 us, wait=460247
+[14:08:28.511]  nor_e:off=0x360000,len=0x10000
+[14:08:28.980]  nor_e:off=0x360000,len=0x10000, tran=111 us, wait=467032
+[14:08:28.980]  nor_e:off=0x370000,len=0x10000
+[14:08:29.422]  nor_e:off=0x370000,len=0x10000, tran=111 us, wait=443095
+[14:08:29.422]  nor_e:off=0x380000,len=0x10000
+[14:08:29.909]  nor_e:off=0x380000,len=0x10000, tran=111 us, wait=485098
+[14:08:29.909]  nor_e:off=0x390000,len=0x10000
+[14:08:30.384]  nor_e:off=0x390000,len=0x10000, tran=111 us, wait=473623
+[14:08:30.384]  nor_e:off=0x3a0000,len=0x10000
+[14:08:30.841]  nor_e:off=0x3a0000,len=0x10000, tran=110 us, wait=456110
+[14:08:30.841]  nor_e:off=0x3b0000,len=0x10000
+[14:08:31.274]  nor_e:off=0x3b0000,len=0x10000, tran=111 us, wait=432414
+[14:08:31.274]  nor_e:off=0x3c0000,len=0x10000
+[14:08:31.778]  nor_e:off=0x3c0000,len=0x10000, tran=111 us, wait=502704
+[14:08:31.778]  nor_e:off=0x3d0000,len=0x10000
+[14:08:32.224]  nor_e:off=0x3d0000,len=0x10000, tran=111 us, wait=444304
+[14:08:32.224]  nor_e:off=0x3e0000,len=0x10000
+[14:08:32.662]  nor_e:off=0x3e0000,len=0x10000, tran=110 us, wait=438083
+[14:08:32.662]  nor_e:off=0x3f0000,len=0x10000
+[14:08:33.160]  nor_e:off=0x3f0000,len=0x10000, tran=111 us, wait=497488
+[14:08:33.160]  nor_e:off=0x400000,len=0x10000
+[14:08:33.657]  nor_e:off=0x400000,len=0x10000, tran=111 us, wait=497231
+[14:08:33.657]  nor_e:off=0x410000,len=0x10000
+[14:08:34.145]  nor_e:off=0x410000,len=0x10000, tran=111 us, wait=486248
+[14:08:34.145]  nor_e:off=0x420000,len=0x10000
+[14:08:34.634]  nor_e:off=0x420000,len=0x10000, tran=110 us, wait=487169
+[14:08:34.634]  nor_e:off=0x430000,len=0x10000
+[14:08:35.085]  nor_e:off=0x430000,len=0x10000, tran=110 us, wait=450643
+[14:08:35.085]  nor_e:off=0x440000,len=0x10000
+[14:08:35.555]  nor_e:off=0x440000,len=0x10000, tran=110 us, wait=469630
+[14:08:35.555]  nor_e:off=0x450000,len=0x10000
+[14:08:36.036]  nor_e:off=0x450000,len=0x10000, tran=111 us, wait=478909
+[14:08:36.036]  nor_e:off=0x460000,len=0x10000
+[14:08:36.518]  nor_e:off=0x460000,len=0x10000, tran=111 us, wait=480965
+[14:08:36.518]  nor_e:off=0x470000,len=0x10000
+[14:08:36.998]  nor_e:off=0x470000,len=0x10000, tran=111 us, wait=479565
+[14:08:36.998]  nor_e:off=0x480000,len=0xb000
+[14:08:37.078]  nor_e:off=0x480000,len=0x1000, tran=110 us, wait=89706
+[14:08:37.174]  nor_e:off=0x481000,len=0x1000, tran=110 us, wait=89992
+[14:08:37.269]  nor_e:off=0x482000,len=0x1000, tran=110 us, wait=93970
+[14:08:37.350]  nor_e:off=0x483000,len=0x1000, tran=110 us, wait=91435
+[14:08:37.463]  nor_e:off=0x484000,len=0x1000, tran=110 us, wait=96492
+[14:08:37.541]  nor_e:off=0x485000,len=0x1000, tran=110 us, wait=90452
+[14:08:37.638]  nor_e:off=0x486000,len=0x1000, tran=110 us, wait=90493
+[14:08:37.734]  nor_e:off=0x487000,len=0x1000, tran=110 us, wait=89505
+[14:08:37.814]  nor_e:off=0x488000,len=0x1000, tran=110 us, wait=83765
+[14:08:37.894]  nor_e:off=0x489000,len=0x1000, tran=110 us, wait=83441
+[14:08:37.997]  nor_e:off=0x48a000,len=0x1000, tran=110 us, wait=89927
+[14:08:37.997]  [101][I][os][267*]:part[18]: file_id 250 not ota temp partition, skip erase
+[14:08:37.997]  [102][I][os][332*]:bp state is clean
+[14:08:37.997]  [103][I][os][48*]:save bp: state 1
+[14:08:37.997]  
+[14:08:37.997]  [104][I][os][531*]:init
+[14:08:37.997]  [105][I][os][176*]:upadte ota state:  0
+[14:08:37.997]  
+[14:08:37.997]  [106][I][os][74*]:ota_app_notify, ota state: 0->0
+[14:08:37.997]  [107][I][os][203*]:name:ota plug in
+[14:08:37.997]  [108][I][os][24*]:default_app: ota
+[14:08:37.997]  
+[14:08:37.997]  [109][I][os][171*]:name:ota
+[14:08:37.997]  [110][I][os][177*]:---usbhid service enter---
+[14:08:37.997]  [111][I][os][216*]:ota_app_main, Enter loop
+[14:08:37.997]  [112][I][os][219*]:ota_app_main, 219
+[14:09:44.455]  [113][I][os][234*]:ota input event
+[14:09:44.455]  [114][I][os][187*]:start_usbhid_upgrade, Enter update
+[14:09:44.455]  [115][I][os][1593*]:attach backend type 4
+[14:09:44.455]  [116][I][os][490*]:bind backend 4
+[14:09:44.455]  [117][I][os][1436*]:handle upgrade
+[14:09:44.455]  [118][I][os][414*]:open type 4
+[14:09:44.455]  [119][I][os][422*]:read image header
+[14:09:44.455]  [120][I][os][213*]:ota_backend_usbhid_read, offset=0, buf=0x18005ecc, size=1024
+[14:09:44.455]  [121][I][os][195*]:ota_cmd_require_image_data, offset 0x0, len 1024, buf 0x400
+[14:09:44.455]  [122][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.455]  [123][I][os][196*]:usbhid_app_main exit
+[14:09:44.505]  [124][I][os][437*]:image header:
+[14:09:44.505]  [125][I][os][370*]:checking image
+[14:09:44.505]  [126][I][os][342*]:image head check pass
+[14:09:44.505]  [127][I][os][404*]:image check pass
+[14:09:44.505]  [128][I][os][109*]:find file ota.xml
+[14:09:44.505]  [129][I][os][118*]:found file ota.xml at [0]
+[14:09:44.505]  [130][I][os][373*]:manifest file ota.xml length 551
+[14:09:44.505]  [131][I][os][109*]:find file ota.xml
+[14:09:44.505]  [132][I][os][118*]:found file ota.xml at [0]
+[14:09:44.505]  [133][I][os][213*]:ota_backend_usbhid_read, offset=400, buf=0x18005ecc, size=551
+[14:09:44.505]  [134][I][os][195*]:ota_cmd_require_image_data, offset 0x400, len 551, buf 0x227
+[14:09:44.505]  [135][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.505]  [136][I][os][109*]:find file ota.xml
+[14:09:44.505]  [137][I][os][118*]:found file ota.xml at [0]
+[14:09:44.505]  [138][I][os][282*]:file ota.xml checksum pass
+[14:09:44.505]  [139][I][os][303*]:OTA new fw version:
+[14:09:44.505]  ***  Current Firmware Version  ***
+[14:09:44.505]   Firmware Version: 0x00010000
+[14:09:44.505]   res Version: 0x00010000
+[14:09:44.505]     System Version: 0x00000000
+[14:09:44.505]       Version Name: 1.00_2411181405
+[14:09:44.505]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:44.505]  [140][I][os][190*]:part_num: 1
+[14:09:44.505]  
+[14:09:44.505]  [141][E][os][40*]:cant find tag start orig_size
+[14:09:44.505]  
+[14:09:44.505]  [142][I][os][257*]:part file TEMP.bin: type 5, file_id 254, checksum 0xce32131a
+[14:09:44.505]  [143][I][os][109*]:find file TEMP.bin
+[14:09:44.505]  [144][I][os][118*]:found file TEMP.bin at [1]
+[14:09:44.505]  [145][I][os][1266*]:ota fw version:
+[14:09:44.505]  ***  Current Firmware Version  ***
+[14:09:44.505]   Firmware Version: 0x00010000
+[14:09:44.505]   res Version: 0x00010000
+[14:09:44.505]     System Version: 0x00000000
+[14:09:44.505]       Version Name: 1.00_2411181405
+[14:09:44.505]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:44.505]  [146][I][os][1269*]:current fw version:
+[14:09:44.505]  ***  Current Firmware Version  ***
+[14:09:44.505]   Firmware Version: 0x00010000
+[14:09:44.505]   res Version: 0x00010000
+[14:09:44.505]     System Version: 0x00000000
+[14:09:44.505]       Version Name: 1.00_2411181407
+[14:09:44.505]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:44.505]  [147][I][os][1486*]:burn firmware image
+[14:09:44.505]  [148][I][os][1358*]:cannt found mirror part entry for file_id 254
+[14:09:44.505]  [149][I][os][1369*]:found part entry for file_id 254, cur_file_id 4
+[14:09:44.505]  [150][I][os][1395*]:ota file[254]TEMP.bin: total size 262656, bp offset 0x0
+[14:09:44.505]  [151][I][os][177*]:OTA image progress total size 262656
+[14:09:44.505]  [152][I][os][178*]:OTA upgrade progress ==> 0%
+[14:09:44.505]  [153][I][os][176*]:upadte ota state:  1
+[14:09:44.505]  
+[14:09:44.505]  [154][I][os][74*]:ota_app_notify, ota state: 0->1
+[14:09:44.505]  [155][I][os][166*]:update breakpoint state 2
+[14:09:44.505]  [156][I][os][48*]:save bp: state 2
+[14:09:44.505]  
+[14:09:44.505]  [157][I][os][1142*]:ota file_cnt 1
+[14:09:44.505]  [158][I][os][1150*]:cannt found mirror part entry for file_id 254
+[14:09:44.505]  [159][I][os][1161*]:found part entry for file_id 254, cur_file_id 4
+[14:09:44.505]  [160][I][os][1175*]:[0]: file TEMP.bin, file_id 254 write to nor addr 0x28b000
+[14:09:44.505]  [161][I][os][873*]:file TEMP.bin: file_id 254, bp file state 1
+[14:09:44.505]  [162][I][os][886*]:file TEMP.bin: file_id 254, part is clean
+[14:09:44.505]  
+[14:09:44.505]  [163][I][os][677*]:write file TEMP.bin size 0x40200(0x40200) to offset 0x28b000 start_offset 0x0(0x0)
+[14:09:44.505]  [164][I][os][109*]:find file TEMP.bin
+[14:09:44.505]  [165][I][os][118*]:found file TEMP.bin at [1]
+[14:09:44.505]  [166][I][os][140*]:cmd 0x10003: param 402663992
+[14:09:44.505]  
+[14:09:44.505]  [167][I][os][500*]:ota_rx thread started
+[14:09:44.505]  [168][I][os][140*]:cmd 0x10004: param 402683044
+[14:09:44.505]  
+[14:09:44.505]  [169][E][os][157*]:unknow cmd 0x10004
+[14:09:44.505]  [170][I][os][213*]:ota_backend_usbhid_read, offset=800, buf=0x18005ecc, size=4096
+[14:09:44.505]  [171][I][os][195*]:ota_cmd_require_image_data, offset 0x800, len 4096, buf 0x1000
+[14:09:44.505]  [172][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.505]  [173][I][os][219*]:---usbhid service exit---
+[14:09:44.553]  [174][I][os][140*]:cmd 0x10002: param 1
+[14:09:44.580]  
+[14:09:44.580]  [175][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 1%
+[14:09:44.580]  [176][I][os][225*]:OTA upgrade progress ==> 1%
+[14:09:44.580]  [177][I][os][213*]:ota_backend_usbhid_read, offset=1800, buf=0x18005ecc, size=4096
+[14:09:44.580]  [178][I][os][195*]:ota_cmd_require_image_data, offset 0x1800, len 4096, buf 0x1000
+[14:09:44.580]  [179][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.580]  [180][I][os][48*]:save bp: state 2
+[14:09:44.580]  
+[14:09:44.580]  write 0x0 -> 0x0(0x1000) (8 ms)
+[14:09:44.648]  [181][I][os][140*]:cmd 0x10002: param 3
+[14:09:44.648]  
+[14:09:44.648]  [182][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 3%
+[14:09:44.648]  [183][I][os][225*]:OTA upgrade progress ==> 3%
+[14:09:44.648]  [184][I][os][213*]:ota_backend_usbhid_read, offset=2800, buf=0x18005ecc, size=4096
+[14:09:44.648]  [185][I][os][195*]:ota_cmd_require_image_data, offset 0x2800, len 4096, buf 0x1000
+[14:09:44.648]  [186][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.648]  write 0x1000 -> 0x1000(0x1000) (6 ms)
+[14:09:44.717]  [187][I][os][140*]:cmd 0x10002: param 4
+[14:09:44.717]  
+[14:09:44.717]  [188][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 4%
+[14:09:44.717]  [189][I][os][225*]:OTA upgrade progress ==> 4%
+[14:09:44.717]  [190][I][os][213*]:ota_backend_usbhid_read, offset=3800, buf=0x18005ecc, size=4096
+[14:09:44.717]  [191][I][os][195*]:ota_cmd_require_image_data, offset 0x3800, len 4096, buf 0x1000
+[14:09:44.717]  [192][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.717]  write 0x2000 -> 0x2000(0x1000) (8 ms)
+[14:09:44.787]  [193][I][os][140*]:cmd 0x10002: param 6
+[14:09:44.787]  
+[14:09:44.787]  [194][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 6%
+[14:09:44.787]  [195][I][os][225*]:OTA upgrade progress ==> 6%
+[14:09:44.787]  [196][I][os][213*]:ota_backend_usbhid_read, offset=4800, buf=0x18005ecc, size=4096
+[14:09:44.787]  [197][I][os][195*]:ota_cmd_require_image_data, offset 0x4800, len 4096, buf 0x1000
+[14:09:44.787]  [198][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.787]  write 0x3000 -> 0x3000(0x1000) (8 ms)
+[14:09:44.856]  [199][I][os][140*]:cmd 0x10002: param 7
+[14:09:44.856]  
+[14:09:44.856]  [200][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 7%
+[14:09:44.856]  [201][I][os][225*]:OTA upgrade progress ==> 7%
+[14:09:44.856]  [202][I][os][213*]:ota_backend_usbhid_read, offset=5800, buf=0x18005ecc, size=4096
+[14:09:44.856]  [203][I][os][195*]:ota_cmd_require_image_data, offset 0x5800, len 4096, buf 0x1000
+[14:09:44.856]  [204][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.856]  write 0x4000 -> 0x4000(0x1000) (8 ms)
+[14:09:44.925]  [205][I][os][140*]:cmd 0x10002: param 9
+[14:09:44.925]  
+[14:09:44.925]  [206][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 9%
+[14:09:44.925]  [207][I][os][225*]:OTA upgrade progress ==> 9%
+[14:09:44.925]  [208][I][os][213*]:ota_backend_usbhid_read, offset=6800, buf=0x18005ecc, size=4096
+[14:09:44.925]  [209][I][os][195*]:ota_cmd_require_image_data, offset 0x6800, len 4096, buf 0x1000
+[14:09:44.925]  [210][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.925]  write 0x5000 -> 0x5000(0x1000) (8 ms)
+[14:09:44.996]  [211][I][os][140*]:cmd 0x10002: param 10
+[14:09:44.996]  
+[14:09:44.996]  [212][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 10%
+[14:09:44.996]  [213][I][os][225*]:OTA upgrade progress ==> 10%
+[14:09:44.996]  [214][I][os][213*]:ota_backend_usbhid_read, offset=7800, buf=0x18005ecc, size=4096
+[14:09:44.996]  [215][I][os][195*]:ota_cmd_require_image_data, offset 0x7800, len 4096, buf 0x1000
+[14:09:44.996]  [216][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:44.996]  write 0x6000 -> 0x6000(0x1000) (8 ms)
+[14:09:45.066]  [217][I][os][140*]:cmd 0x10002: param 12
+[14:09:45.066]  
+[14:09:45.066]  [218][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 12%
+[14:09:45.066]  [219][I][os][225*]:OTA upgrade progress ==> 12%
+[14:09:45.066]  [220][I][os][213*]:ota_backend_usbhid_read, offset=8800, buf=0x18005ecc, size=4096
+[14:09:45.066]  [221][I][os][195*]:ota_cmd_require_image_data, offset 0x8800, len 4096, buf 0x1000
+[14:09:45.066]  [222][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.066]  write 0x7000 -> 0x7000(0x1000) (8 ms)
+[14:09:45.136]  [223][I][os][140*]:cmd 0x10002: param 14
+[14:09:45.136]  
+[14:09:45.136]  [224][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 14%
+[14:09:45.136]  [225][I][os][225*]:OTA upgrade progress ==> 14%
+[14:09:45.136]  [226][I][os][213*]:ota_backend_usbhid_read, offset=9800, buf=0x18005ecc, size=4096
+[14:09:45.136]  [227][I][os][195*]:ota_cmd_require_image_data, offset 0x9800, len 4096, buf 0x1000
+[14:09:45.136]  [228][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.136]  write 0x8000 -> 0x8000(0x1000) (8 ms)
+[14:09:45.206]  [229][I][os][140*]:cmd 0x10002: param 15
+[14:09:45.206]  
+[14:09:45.206]  [230][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 15%
+[14:09:45.206]  [231][I][os][225*]:OTA upgrade progress ==> 15%
+[14:09:45.206]  [232][I][os][213*]:ota_backend_usbhid_read, offset=a800, buf=0x18005ecc, size=4096
+[14:09:45.206]  [233][I][os][195*]:ota_cmd_require_image_data, offset 0xa800, len 4096, buf 0x1000
+[14:09:45.206]  [234][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.206]  write 0x9000 -> 0x9000(0x1000) (8 ms)
+[14:09:45.277]  [235][I][os][140*]:cmd 0x10002: param 17
+[14:09:45.277]  
+[14:09:45.277]  [236][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 17%
+[14:09:45.277]  [237][I][os][225*]:OTA upgrade progress ==> 17%
+[14:09:45.277]  [238][I][os][213*]:ota_backend_usbhid_read, offset=b800, buf=0x18005ecc, size=4096
+[14:09:45.277]  [239][I][os][195*]:ota_cmd_require_image_data, offset 0xb800, len 4096, buf 0x1000
+[14:09:45.277]  [240][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.277]  write 0xa000 -> 0xa000(0x1000) (8 ms)
+[14:09:45.348]  [241][I][os][140*]:cmd 0x10002: param 18
+[14:09:45.348]  
+[14:09:45.348]  [242][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 18%
+[14:09:45.348]  [243][I][os][225*]:OTA upgrade progress ==> 18%
+[14:09:45.348]  [244][I][os][213*]:ota_backend_usbhid_read, offset=c800, buf=0x18005ecc, size=4096
+[14:09:45.348]  [245][I][os][195*]:ota_cmd_require_image_data, offset 0xc800, len 4096, buf 0x1000
+[14:09:45.348]  [246][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.348]  write 0xb000 -> 0xb000(0x1000) (8 ms)
+[14:09:45.416]  [247][I][os][140*]:cmd 0x10002: param 20
+[14:09:45.416]  
+[14:09:45.416]  [248][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 20%
+[14:09:45.416]  [249][I][os][225*]:OTA upgrade progress ==> 20%
+[14:09:45.416]  [250][I][os][213*]:ota_backend_usbhid_read, offset=d800, buf=0x18005ecc, size=4096
+[14:09:45.416]  [251][I][os][195*]:ota_cmd_require_image_data, offset 0xd800, len 4096, buf 0x1000
+[14:09:45.416]  [252][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.416]  write 0xc000 -> 0xc000(0x1000) (8 ms)
+[14:09:45.488]  [253][I][os][140*]:cmd 0x10002: param 21
+[14:09:45.488]  
+[14:09:45.488]  [254][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 21%
+[14:09:45.488]  [255][I][os][225*]:OTA upgrade progress ==> 21%
+[14:09:45.488]  [000][I][os][213*]:ota_backend_usbhid_read, offset=e800, buf=0x18005ecc, size=4096
+[14:09:45.488]  [001][I][os][195*]:ota_cmd_require_image_data, offset 0xe800, len 4096, buf 0x1000
+[14:09:45.488]  [002][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.488]  write 0xd000 -> 0xd000(0x1000) (6 ms)
+[14:09:45.557]  [003][I][os][140*]:cmd 0x10002: param 23
+[14:09:45.557]  
+[14:09:45.557]  [004][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 23%
+[14:09:45.557]  [005][I][os][225*]:OTA upgrade progress ==> 23%
+[14:09:45.557]  [006][I][os][213*]:ota_backend_usbhid_read, offset=f800, buf=0x18005ecc, size=4096
+[14:09:45.557]  [007][I][os][195*]:ota_cmd_require_image_data, offset 0xf800, len 4096, buf 0x1000
+[14:09:45.557]  [008][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.557]  write 0xe000 -> 0xe000(0x1000) (6 ms)
+[14:09:45.628]  [009][I][os][140*]:cmd 0x10002: param 24
+[14:09:45.628]  
+[14:09:45.628]  [010][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 24%
+[14:09:45.628]  [011][I][os][225*]:OTA upgrade progress ==> 24%
+[14:09:45.628]  [012][I][os][213*]:ota_backend_usbhid_read, offset=10800, buf=0x18005ecc, size=4096
+[14:09:45.628]  [013][I][os][195*]:ota_cmd_require_image_data, offset 0x10800, len 4096, buf 0x1000
+[14:09:45.628]  [014][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.628]  write 0xf000 -> 0xf000(0x1000) (8 ms)
+[14:09:45.697]  [015][I][os][140*]:cmd 0x10002: param 26
+[14:09:45.697]  
+[14:09:45.697]  [016][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 26%
+[14:09:45.697]  [017][I][os][225*]:OTA upgrade progress ==> 26%
+[14:09:45.697]  [018][I][os][213*]:ota_backend_usbhid_read, offset=11800, buf=0x18005ecc, size=4096
+[14:09:45.697]  [019][I][os][195*]:ota_cmd_require_image_data, offset 0x11800, len 4096, buf 0x1000
+[14:09:45.697]  [020][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.697]  write 0x10000 -> 0x10000(0x1000) (8 ms)
+[14:09:45.768]  [021][I][os][140*]:cmd 0x10002: param 28
+[14:09:45.768]  
+[14:09:45.768]  [022][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 28%
+[14:09:45.768]  [023][I][os][225*]:OTA upgrade progress ==> 28%
+[14:09:45.768]  [024][I][os][213*]:ota_backend_usbhid_read, offset=12800, buf=0x18005ecc, size=4096
+[14:09:45.768]  [025][I][os][195*]:ota_cmd_require_image_data, offset 0x12800, len 4096, buf 0x1000
+[14:09:45.768]  [026][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.768]  write 0x11000 -> 0x11000(0x1000) (8 ms)
+[14:09:45.837]  [027][I][os][140*]:cmd 0x10002: param 29
+[14:09:45.837]  
+[14:09:45.837]  [028][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 29%
+[14:09:45.837]  [029][I][os][225*]:OTA upgrade progress ==> 29%
+[14:09:45.837]  [030][I][os][213*]:ota_backend_usbhid_read, offset=13800, buf=0x18005ecc, size=4096
+[14:09:45.837]  [031][I][os][195*]:ota_cmd_require_image_data, offset 0x13800, len 4096, buf 0x1000
+[14:09:45.837]  [032][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.837]  write 0x12000 -> 0x12000(0x1000) (8 ms)
+[14:09:45.908]  [033][I][os][140*]:cmd 0x10002: param 31
+[14:09:45.908]  
+[14:09:45.908]  [034][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 31%
+[14:09:45.908]  [035][I][os][225*]:OTA upgrade progress ==> 31%
+[14:09:45.908]  [036][I][os][213*]:ota_backend_usbhid_read, offset=14800, buf=0x18005ecc, size=4096
+[14:09:45.908]  [037][I][os][195*]:ota_cmd_require_image_data, offset 0x14800, len 4096, buf 0x1000
+[14:09:45.908]  [038][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.908]  write 0x13000 -> 0x13000(0x1000) (8 ms)
+[14:09:45.978]  [039][I][os][140*]:cmd 0x10002: param 32
+[14:09:45.978]  
+[14:09:45.978]  [040][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 32%
+[14:09:45.978]  [041][I][os][225*]:OTA upgrade progress ==> 32%
+[14:09:45.978]  [042][I][os][213*]:ota_backend_usbhid_read, offset=15800, buf=0x18005ecc, size=4096
+[14:09:45.978]  [043][I][os][195*]:ota_cmd_require_image_data, offset 0x15800, len 4096, buf 0x1000
+[14:09:45.978]  [044][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:45.978]  write 0x14000 -> 0x14000(0x1000) (8 ms)
+[14:09:46.048]  [045][I][os][140*]:cmd 0x10002: param 34
+[14:09:46.048]  
+[14:09:46.048]  [046][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 34%
+[14:09:46.048]  [047][I][os][225*]:OTA upgrade progress ==> 34%
+[14:09:46.048]  [048][I][os][213*]:ota_backend_usbhid_read, offset=16800, buf=0x18005ecc, size=4096
+[14:09:46.048]  [049][I][os][195*]:ota_cmd_require_image_data, offset 0x16800, len 4096, buf 0x1000
+[14:09:46.048]  [050][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.048]  write 0x15000 -> 0x15000(0x1000) (8 ms)
+[14:09:46.118]  [051][I][os][140*]:cmd 0x10002: param 35
+[14:09:46.118]  
+[14:09:46.118]  [052][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 35%
+[14:09:46.118]  [053][I][os][225*]:OTA upgrade progress ==> 35%
+[14:09:46.118]  [054][I][os][213*]:ota_backend_usbhid_read, offset=17800, buf=0x18005ecc, size=4096
+[14:09:46.118]  [055][I][os][195*]:ota_cmd_require_image_data, offset 0x17800, len 4096, buf 0x1000
+[14:09:46.118]  [056][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.118]  write 0x16000 -> 0x16000(0x1000) (6 ms)
+[14:09:46.190]  [057][I][os][140*]:cmd 0x10002: param 37
+[14:09:46.190]  
+[14:09:46.190]  [058][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 37%
+[14:09:46.190]  [059][I][os][225*]:OTA upgrade progress ==> 37%
+[14:09:46.190]  [060][I][os][213*]:ota_backend_usbhid_read, offset=18800, buf=0x18005ecc, size=4096
+[14:09:46.190]  [061][I][os][195*]:ota_cmd_require_image_data, offset 0x18800, len 4096, buf 0x1000
+[14:09:46.190]  [062][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.190]  write 0x17000 -> 0x17000(0x1000) (6 ms)
+[14:09:46.261]  [063][I][os][140*]:cmd 0x10002: param 38
+[14:09:46.261]  
+[14:09:46.261]  [064][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 38%
+[14:09:46.261]  [065][I][os][225*]:OTA upgrade progress ==> 38%
+[14:09:46.261]  [066][I][os][213*]:ota_backend_usbhid_read, offset=19800, buf=0x18005ecc, size=4096
+[14:09:46.261]  [067][I][os][195*]:ota_cmd_require_image_data, offset 0x19800, len 4096, buf 0x1000
+[14:09:46.261]  [068][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.261]  write 0x18000 -> 0x18000(0x1000) (8 ms)
+[14:09:46.331]  [069][I][os][140*]:cmd 0x10002: param 40
+[14:09:46.331]  
+[14:09:46.331]  [070][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 40%
+[14:09:46.331]  [071][I][os][225*]:OTA upgrade progress ==> 40%
+[14:09:46.331]  [072][I][os][213*]:ota_backend_usbhid_read, offset=1a800, buf=0x18005ecc, size=4096
+[14:09:46.331]  [073][I][os][195*]:ota_cmd_require_image_data, offset 0x1a800, len 4096, buf 0x1000
+[14:09:46.331]  [074][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.331]  write 0x19000 -> 0x19000(0x1000) (8 ms)
+[14:09:46.402]  [075][I][os][140*]:cmd 0x10002: param 42
+[14:09:46.402]  
+[14:09:46.402]  [076][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 42%
+[14:09:46.402]  [077][I][os][225*]:OTA upgrade progress ==> 42%
+[14:09:46.402]  [078][I][os][213*]:ota_backend_usbhid_read, offset=1b800, buf=0x18005ecc, size=4096
+[14:09:46.402]  [079][I][os][195*]:ota_cmd_require_image_data, offset 0x1b800, len 4096, buf 0x1000
+[14:09:46.402]  [080][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.402]  write 0x1a000 -> 0x1a000(0x1000) (8 ms)
+[14:09:46.474]  [081][I][os][140*]:cmd 0x10002: param 43
+[14:09:46.474]  
+[14:09:46.474]  [082][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 43%
+[14:09:46.474]  [083][I][os][225*]:OTA upgrade progress ==> 43%
+[14:09:46.474]  [084][I][os][213*]:ota_backend_usbhid_read, offset=1c800, buf=0x18005ecc, size=4096
+[14:09:46.474]  [085][I][os][195*]:ota_cmd_require_image_data, offset 0x1c800, len 4096, buf 0x1000
+[14:09:46.474]  [086][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.474]  write 0x1b000 -> 0x1b000(0x1000) (8 ms)
+[14:09:46.542]  [087][I][os][140*]:cmd 0x10002: param 45
+[14:09:46.542]  
+[14:09:46.542]  [088][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 45%
+[14:09:46.542]  [089][I][os][225*]:OTA upgrade progress ==> 45%
+[14:09:46.542]  [090][I][os][213*]:ota_backend_usbhid_read, offset=1d800, buf=0x18005ecc, size=4096
+[14:09:46.542]  [091][I][os][195*]:ota_cmd_require_image_data, offset 0x1d800, len 4096, buf 0x1000
+[14:09:46.542]  [092][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.542]  write 0x1c000 -> 0x1c000(0x1000) (8 ms)
+[14:09:46.613]  [093][I][os][140*]:cmd 0x10002: param 46
+[14:09:46.613]  
+[14:09:46.613]  [094][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 46%
+[14:09:46.613]  [095][I][os][225*]:OTA upgrade progress ==> 46%
+[14:09:46.613]  [096][I][os][213*]:ota_backend_usbhid_read, offset=1e800, buf=0x18005ecc, size=4096
+[14:09:46.613]  [097][I][os][195*]:ota_cmd_require_image_data, offset 0x1e800, len 4096, buf 0x1000
+[14:09:46.613]  [098][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.613]  write 0x1d000 -> 0x1d000(0x1000) (8 ms)
+[14:09:46.682]  [099][I][os][140*]:cmd 0x10002: param 48
+[14:09:46.682]  
+[14:09:46.682]  [100][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 48%
+[14:09:46.682]  [101][I][os][225*]:OTA upgrade progress ==> 48%
+[14:09:46.682]  [102][I][os][213*]:ota_backend_usbhid_read, offset=1f800, buf=0x18005ecc, size=4096
+[14:09:46.682]  [103][I][os][195*]:ota_cmd_require_image_data, offset 0x1f800, len 4096, buf 0x1000
+[14:09:46.682]  [104][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.682]  write 0x1e000 -> 0x1e000(0x1000) (8 ms)
+[14:09:46.752]  [105][I][os][140*]:cmd 0x10002: param 49
+[14:09:46.752]  
+[14:09:46.752]  [106][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 49%
+[14:09:46.752]  [107][I][os][225*]:OTA upgrade progress ==> 49%
+[14:09:46.752]  [108][I][os][213*]:ota_backend_usbhid_read, offset=20800, buf=0x18005ecc, size=4096
+[14:09:46.752]  [109][I][os][195*]:ota_cmd_require_image_data, offset 0x20800, len 4096, buf 0x1000
+[14:09:46.752]  [110][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.752]  write 0x1f000 -> 0x1f000(0x1000) (8 ms)
+[14:09:46.824]  [111][I][os][140*]:cmd 0x10002: param 51
+[14:09:46.824]  
+[14:09:46.824]  [112][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 51%
+[14:09:46.824]  [113][I][os][225*]:OTA upgrade progress ==> 51%
+[14:09:46.824]  [114][I][os][213*]:ota_backend_usbhid_read, offset=21800, buf=0x18005ecc, size=4096
+[14:09:46.824]  [115][I][os][195*]:ota_cmd_require_image_data, offset 0x21800, len 4096, buf 0x1000
+[14:09:46.824]  [116][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.824]  write 0x20000 -> 0x20000(0x1000) (8 ms)
+[14:09:46.895]  [117][I][os][140*]:cmd 0x10002: param 53
+[14:09:46.895]  
+[14:09:46.895]  [118][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 53%
+[14:09:46.895]  [119][I][os][225*]:OTA upgrade progress ==> 53%
+[14:09:46.895]  [120][I][os][213*]:ota_backend_usbhid_read, offset=22800, buf=0x18005ecc, size=4096
+[14:09:46.895]  [121][I][os][195*]:ota_cmd_require_image_data, offset 0x22800, len 4096, buf 0x1000
+[14:09:46.895]  [122][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.895]  write 0x21000 -> 0x21000(0x1000) (8 ms)
+[14:09:46.965]  [123][I][os][140*]:cmd 0x10002: param 54
+[14:09:46.965]  
+[14:09:46.965]  [124][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 54%
+[14:09:46.965]  [125][I][os][225*]:OTA upgrade progress ==> 54%
+[14:09:46.965]  [126][I][os][213*]:ota_backend_usbhid_read, offset=23800, buf=0x18005ecc, size=4096
+[14:09:46.965]  [127][I][os][195*]:ota_cmd_require_image_data, offset 0x23800, len 4096, buf 0x1000
+[14:09:46.965]  [128][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:46.965]  write 0x22000 -> 0x22000(0x1000) (8 ms)
+[14:09:47.040]  [129][I][os][140*]:cmd 0x10002: param 56
+[14:09:47.040]  
+[14:09:47.040]  [130][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 56%
+[14:09:47.040]  [131][I][os][225*]:OTA upgrade progress ==> 56%
+[14:09:47.040]  [132][I][os][213*]:ota_backend_usbhid_read, offset=24800, buf=0x18005ecc, size=4096
+[14:09:47.040]  [133][I][os][195*]:ota_cmd_require_image_data, offset 0x24800, len 4096, buf 0x1000
+[14:09:47.040]  [134][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.040]  write 0x23000 -> 0x23000(0x1000) (6 ms)
+[14:09:47.110]  [135][I][os][140*]:cmd 0x10002: param 57
+[14:09:47.110]  
+[14:09:47.110]  [136][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 57%
+[14:09:47.110]  [137][I][os][225*]:OTA upgrade progress ==> 57%
+[14:09:47.110]  [138][I][os][213*]:ota_backend_usbhid_read, offset=25800, buf=0x18005ecc, size=4096
+[14:09:47.110]  [139][I][os][195*]:ota_cmd_require_image_data, offset 0x25800, len 4096, buf 0x1000
+[14:09:47.110]  [140][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.110]  write 0x24000 -> 0x24000(0x1000) (8 ms)
+[14:09:47.185]  [141][I][os][140*]:cmd 0x10002: param 59
+[14:09:47.185]  
+[14:09:47.185]  [142][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 59%
+[14:09:47.185]  [143][I][os][225*]:OTA upgrade progress ==> 59%
+[14:09:47.185]  [144][I][os][213*]:ota_backend_usbhid_read, offset=26800, buf=0x18005ecc, size=4096
+[14:09:47.185]  [145][I][os][195*]:ota_cmd_require_image_data, offset 0x26800, len 4096, buf 0x1000
+[14:09:47.185]  [146][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.185]  write 0x25000 -> 0x25000(0x1000) (8 ms)
+[14:09:47.256]  [147][I][os][140*]:cmd 0x10002: param 60
+[14:09:47.256]  
+[14:09:47.256]  [148][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 60%
+[14:09:47.256]  [149][I][os][225*]:OTA upgrade progress ==> 60%
+[14:09:47.256]  [150][I][os][213*]:ota_backend_usbhid_read, offset=27800, buf=0x18005ecc, size=4096
+[14:09:47.256]  [151][I][os][195*]:ota_cmd_require_image_data, offset 0x27800, len 4096, buf 0x1000
+[14:09:47.256]  [152][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.256]  write 0x26000 -> 0x26000(0x1000) (8 ms)
+[14:09:47.326]  [153][I][os][140*]:cmd 0x10002: param 62
+[14:09:47.326]  
+[14:09:47.326]  [154][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 62%
+[14:09:47.326]  [155][I][os][225*]:OTA upgrade progress ==> 62%
+[14:09:47.326]  [156][I][os][213*]:ota_backend_usbhid_read, offset=28800, buf=0x18005ecc, size=4096
+[14:09:47.326]  [157][I][os][195*]:ota_cmd_require_image_data, offset 0x28800, len 4096, buf 0x1000
+[14:09:47.326]  [158][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.326]  write 0x27000 -> 0x27000(0x1000) (6 ms)
+[14:09:47.395]  [159][I][os][140*]:cmd 0x10002: param 63
+[14:09:47.395]  
+[14:09:47.395]  [160][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 63%
+[14:09:47.395]  [161][I][os][225*]:OTA upgrade progress ==> 63%
+[14:09:47.395]  [162][I][os][213*]:ota_backend_usbhid_read, offset=29800, buf=0x18005ecc, size=4096
+[14:09:47.395]  [163][I][os][195*]:ota_cmd_require_image_data, offset 0x29800, len 4096, buf 0x1000
+[14:09:47.395]  [164][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.395]  write 0x28000 -> 0x28000(0x1000) (8 ms)
+[14:09:47.467]  [165][I][os][140*]:cmd 0x10002: param 65
+[14:09:47.467]  
+[14:09:47.467]  [166][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 65%
+[14:09:47.467]  [167][I][os][225*]:OTA upgrade progress ==> 65%
+[14:09:47.467]  [168][I][os][213*]:ota_backend_usbhid_read, offset=2a800, buf=0x18005ecc, size=4096
+[14:09:47.467]  [169][I][os][195*]:ota_cmd_require_image_data, offset 0x2a800, len 4096, buf 0x1000
+[14:09:47.467]  [170][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.467]  write 0x29000 -> 0x29000(0x1000) (8 ms)
+[14:09:47.516]  [171][I][os][140*]:cmd 0x10002: param 67
+[14:09:47.516]  
+[14:09:47.516]  [172][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 67%
+[14:09:47.541]  [173][I][os][225*]:OTA upgrade progress ==> 67%
+[14:09:47.541]  [174][I][os][213*]:ota_backend_usbhid_read, offset=2b800, buf=0x18005ecc, size=4096
+[14:09:47.541]  [175][I][os][195*]:ota_cmd_require_image_data, offset 0x2b800, len 4096, buf 0x1000
+[14:09:47.541]  [176][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.541]  write 0x2a000 -> 0x2a000(0x1000) (8 ms)
+[14:09:47.617]  [177][I][os][140*]:cmd 0x10002: param 68
+[14:09:47.617]  
+[14:09:47.617]  [178][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 68%
+[14:09:47.617]  [179][I][os][225*]:OTA upgrade progress ==> 68%
+[14:09:47.617]  [180][I][os][213*]:ota_backend_usbhid_read, offset=2c800, buf=0x18005ecc, size=4096
+[14:09:47.617]  [181][I][os][195*]:ota_cmd_require_image_data, offset 0x2c800, len 4096, buf 0x1000
+[14:09:47.617]  [182][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.617]  write 0x2b000 -> 0x2b000(0x1000) (8 ms)
+[14:09:47.664]  [183][I][os][140*]:cmd 0x10002: param 70
+[14:09:47.664]  
+[14:09:47.664]  [184][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 70%
+[14:09:47.690]  [185][I][os][225*]:OTA upgrade progress ==> 70%
+[14:09:47.690]  [186][I][os][213*]:ota_backend_usbhid_read, offset=2d800, buf=0x18005ecc, size=4096
+[14:09:47.690]  [187][I][os][195*]:ota_cmd_require_image_data, offset 0x2d800, len 4096, buf 0x1000
+[14:09:47.690]  [188][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.690]  write 0x2c000 -> 0x2c000(0x1000) (8 ms)
+[14:09:47.765]  [189][I][os][140*]:cmd 0x10002: param 71
+[14:09:47.765]  
+[14:09:47.765]  [190][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 71%
+[14:09:47.765]  [191][I][os][225*]:OTA upgrade progress ==> 71%
+[14:09:47.765]  [192][I][os][213*]:ota_backend_usbhid_read, offset=2e800, buf=0x18005ecc, size=4096
+[14:09:47.765]  [193][I][os][195*]:ota_cmd_require_image_data, offset 0x2e800, len 4096, buf 0x1000
+[14:09:47.765]  [194][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.765]  write 0x2d000 -> 0x2d000(0x1000) (8 ms)
+[14:09:47.834]  [195][I][os][140*]:cmd 0x10002: param 73
+[14:09:47.834]  
+[14:09:47.834]  [196][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 73%
+[14:09:47.834]  [197][I][os][225*]:OTA upgrade progress ==> 73%
+[14:09:47.834]  [198][I][os][213*]:ota_backend_usbhid_read, offset=2f800, buf=0x18005ecc, size=4096
+[14:09:47.834]  [199][I][os][195*]:ota_cmd_require_image_data, offset 0x2f800, len 4096, buf 0x1000
+[14:09:47.834]  [200][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.834]  write 0x2e000 -> 0x2e000(0x1000) (8 ms)
+[14:09:47.903]  [201][I][os][140*]:cmd 0x10002: param 74
+[14:09:47.903]  
+[14:09:47.903]  [202][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 74%
+[14:09:47.903]  [203][I][os][225*]:OTA upgrade progress ==> 74%
+[14:09:47.903]  [204][I][os][213*]:ota_backend_usbhid_read, offset=30800, buf=0x18005ecc, size=4096
+[14:09:47.903]  [205][I][os][195*]:ota_cmd_require_image_data, offset 0x30800, len 4096, buf 0x1000
+[14:09:47.903]  [206][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.903]  write 0x2f000 -> 0x2f000(0x1000) (8 ms)
+[14:09:47.951]  [207][I][os][140*]:cmd 0x10002: param 76
+[14:09:47.951]  
+[14:09:47.977]  [208][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 76%
+[14:09:47.977]  [209][I][os][225*]:OTA upgrade progress ==> 76%
+[14:09:47.977]  [210][I][os][213*]:ota_backend_usbhid_read, offset=31800, buf=0x18005ecc, size=4096
+[14:09:47.977]  [211][I][os][195*]:ota_cmd_require_image_data, offset 0x31800, len 4096, buf 0x1000
+[14:09:47.977]  [212][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:47.977]  write 0x30000 -> 0x30000(0x1000) (8 ms)
+[14:09:48.050]  [213][I][os][140*]:cmd 0x10002: param 77
+[14:09:48.050]  
+[14:09:48.050]  [214][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 77%
+[14:09:48.050]  [215][I][os][225*]:OTA upgrade progress ==> 77%
+[14:09:48.050]  [216][I][os][213*]:ota_backend_usbhid_read, offset=32800, buf=0x18005ecc, size=4096
+[14:09:48.050]  [217][I][os][195*]:ota_cmd_require_image_data, offset 0x32800, len 4096, buf 0x1000
+[14:09:48.050]  [218][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.050]  write 0x31000 -> 0x31000(0x1000) (8 ms)
+[14:09:48.120]  [219][I][os][140*]:cmd 0x10002: param 79
+[14:09:48.120]  
+[14:09:48.120]  [220][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 79%
+[14:09:48.120]  [221][I][os][225*]:OTA upgrade progress ==> 79%
+[14:09:48.120]  [222][I][os][213*]:ota_backend_usbhid_read, offset=33800, buf=0x18005ecc, size=4096
+[14:09:48.120]  [223][I][os][195*]:ota_cmd_require_image_data, offset 0x33800, len 4096, buf 0x1000
+[14:09:48.120]  [224][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.120]  write 0x32000 -> 0x32000(0x1000) (8 ms)
+[14:09:48.191]  [225][I][os][140*]:cmd 0x10002: param 81
+[14:09:48.191]  
+[14:09:48.191]  [226][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 81%
+[14:09:48.191]  [227][I][os][225*]:OTA upgrade progress ==> 81%
+[14:09:48.191]  [228][I][os][213*]:ota_backend_usbhid_read, offset=34800, buf=0x18005ecc, size=4096
+[14:09:48.191]  [229][I][os][195*]:ota_cmd_require_image_data, offset 0x34800, len 4096, buf 0x1000
+[14:09:48.191]  [230][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.191]  write 0x33000 -> 0x33000(0x1000) (8 ms)
+[14:09:48.261]  [231][I][os][140*]:cmd 0x10002: param 82
+[14:09:48.261]  
+[14:09:48.261]  [232][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 82%
+[14:09:48.261]  [233][I][os][225*]:OTA upgrade progress ==> 82%
+[14:09:48.261]  [234][I][os][213*]:ota_backend_usbhid_read, offset=35800, buf=0x18005ecc, size=4096
+[14:09:48.261]  [235][I][os][195*]:ota_cmd_require_image_data, offset 0x35800, len 4096, buf 0x1000
+[14:09:48.261]  [236][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.261]  write 0x34000 -> 0x34000(0x1000) (8 ms)
+[14:09:48.330]  [237][I][os][140*]:cmd 0x10002: param 84
+[14:09:48.330]  
+[14:09:48.330]  [238][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 84%
+[14:09:48.330]  [239][I][os][225*]:OTA upgrade progress ==> 84%
+[14:09:48.330]  [240][I][os][213*]:ota_backend_usbhid_read, offset=36800, buf=0x18005ecc, size=4096
+[14:09:48.330]  [241][I][os][195*]:ota_cmd_require_image_data, offset 0x36800, len 4096, buf 0x1000
+[14:09:48.330]  [242][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.330]  write 0x35000 -> 0x35000(0x1000) (8 ms)
+[14:09:48.401]  [243][I][os][140*]:cmd 0x10002: param 85
+[14:09:48.401]  
+[14:09:48.401]  [244][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 85%
+[14:09:48.401]  [245][I][os][225*]:OTA upgrade progress ==> 85%
+[14:09:48.401]  [246][I][os][213*]:ota_backend_usbhid_read, offset=37800, buf=0x18005ecc, size=4096
+[14:09:48.401]  [247][I][os][195*]:ota_cmd_require_image_data, offset 0x37800, len 4096, buf 0x1000
+[14:09:48.401]  [248][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.401]  write 0x36000 -> 0x36000(0x1000) (8 ms)
+[14:09:48.472]  [249][I][os][140*]:cmd 0x10002: param 87
+[14:09:48.472]  
+[14:09:48.472]  [250][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 87%
+[14:09:48.472]  [251][I][os][225*]:OTA upgrade progress ==> 87%
+[14:09:48.472]  [252][I][os][213*]:ota_backend_usbhid_read, offset=38800, buf=0x18005ecc, size=4096
+[14:09:48.472]  [253][I][os][195*]:ota_cmd_require_image_data, offset 0x38800, len 4096, buf 0x1000
+[14:09:48.472]  [254][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.472]  write 0x37000 -> 0x37000(0x1000) (8 ms)
+[14:09:48.542]  [255][I][os][140*]:cmd 0x10002: param 88
+[14:09:48.542]  
+[14:09:48.542]  [000][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 88%
+[14:09:48.542]  [001][I][os][225*]:OTA upgrade progress ==> 88%
+[14:09:48.542]  [002][I][os][213*]:ota_backend_usbhid_read, offset=39800, buf=0x18005ecc, size=4096
+[14:09:48.542]  [003][I][os][195*]:ota_cmd_require_image_data, offset 0x39800, len 4096, buf 0x1000
+[14:09:48.542]  [004][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.542]  write 0x38000 -> 0x38000(0x1000) (6 ms)
+[14:09:48.612]  [005][I][os][140*]:cmd 0x10002: param 90
+[14:09:48.612]  
+[14:09:48.612]  [006][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 90%
+[14:09:48.612]  [007][I][os][225*]:OTA upgrade progress ==> 90%
+[14:09:48.612]  [008][I][os][213*]:ota_backend_usbhid_read, offset=3a800, buf=0x18005ecc, size=4096
+[14:09:48.612]  [009][I][os][195*]:ota_cmd_require_image_data, offset 0x3a800, len 4096, buf 0x1000
+[14:09:48.612]  [010][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.612]  write 0x39000 -> 0x39000(0x1000) (6 ms)
+[14:09:48.682]  [011][I][os][140*]:cmd 0x10002: param 92
+[14:09:48.682]  
+[14:09:48.682]  [012][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 92%
+[14:09:48.682]  [013][I][os][225*]:OTA upgrade progress ==> 92%
+[14:09:48.682]  [014][I][os][213*]:ota_backend_usbhid_read, offset=3b800, buf=0x18005ecc, size=4096
+[14:09:48.682]  [015][I][os][195*]:ota_cmd_require_image_data, offset 0x3b800, len 4096, buf 0x1000
+[14:09:48.682]  [016][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.682]  write 0x3a000 -> 0x3a000(0x1000) (8 ms)
+[14:09:48.753]  [017][I][os][140*]:cmd 0x10002: param 93
+[14:09:48.753]  
+[14:09:48.753]  [018][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 93%
+[14:09:48.753]  [019][I][os][225*]:OTA upgrade progress ==> 93%
+[14:09:48.753]  [020][I][os][213*]:ota_backend_usbhid_read, offset=3c800, buf=0x18005ecc, size=4096
+[14:09:48.753]  [021][I][os][195*]:ota_cmd_require_image_data, offset 0x3c800, len 4096, buf 0x1000
+[14:09:48.753]  [022][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.753]  write 0x3b000 -> 0x3b000(0x1000) (8 ms)
+[14:09:48.826]  [023][I][os][140*]:cmd 0x10002: param 95
+[14:09:48.826]  
+[14:09:48.826]  [024][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 95%
+[14:09:48.826]  [025][I][os][225*]:OTA upgrade progress ==> 95%
+[14:09:48.826]  [026][I][os][213*]:ota_backend_usbhid_read, offset=3d800, buf=0x18005ecc, size=4096
+[14:09:48.826]  [027][I][os][195*]:ota_cmd_require_image_data, offset 0x3d800, len 4096, buf 0x1000
+[14:09:48.826]  [028][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.826]  write 0x3c000 -> 0x3c000(0x1000) (8 ms)
+[14:09:48.896]  [029][I][os][140*]:cmd 0x10002: param 96
+[14:09:48.896]  
+[14:09:48.896]  [030][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 96%
+[14:09:48.896]  [031][I][os][225*]:OTA upgrade progress ==> 96%
+[14:09:48.896]  [032][I][os][213*]:ota_backend_usbhid_read, offset=3e800, buf=0x18005ecc, size=4096
+[14:09:48.896]  [033][I][os][195*]:ota_cmd_require_image_data, offset 0x3e800, len 4096, buf 0x1000
+[14:09:48.896]  [034][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.896]  write 0x3d000 -> 0x3d000(0x1000) (8 ms)
+[14:09:48.968]  [035][I][os][140*]:cmd 0x10002: param 98
+[14:09:48.968]  
+[14:09:48.968]  [036][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 98%
+[14:09:48.968]  [037][I][os][225*]:OTA upgrade progress ==> 98%
+[14:09:48.968]  [038][I][os][213*]:ota_backend_usbhid_read, offset=3f800, buf=0x18005ecc, size=4096
+[14:09:48.968]  [039][I][os][195*]:ota_cmd_require_image_data, offset 0x3f800, len 4096, buf 0x1000
+[14:09:48.968]  [040][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:48.968]  write 0x3e000 -> 0x3e000(0x1000) (8 ms)
+[14:09:49.046]  [041][I][os][140*]:cmd 0x10002: param 99
+[14:09:49.046]  
+[14:09:49.046]  [042][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 99%
+[14:09:49.046]  [043][I][os][225*]:OTA upgrade progress ==> 99%
+[14:09:49.046]  [044][I][os][213*]:ota_backend_usbhid_read, offset=40800, buf=0x18005ecc, size=512
+[14:09:49.046]  [045][I][os][195*]:ota_cmd_require_image_data, offset 0x40800, len 512, buf 0x200
+[14:09:49.046]  [046][I][os][101*]:ota_usbhid_send_cmd, cmd=3, buf=0x18005e3c, size=19
+[14:09:49.046]  write 0x3f000 -> 0x3f000(0x1000) (6 ms)
+[14:09:49.046]  [047][I][os][140*]:cmd 0x10002: param 99
+[14:09:49.046]  
+[14:09:49.046]  [048][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 99%
+[14:09:49.046]  [049][I][os][222*]:OTA upgrade progress ==> 99%
+[14:09:49.046]  [050][I][os][562*]:ota_rx thread exited
+[14:09:49.046]  write 0x40000 -> 0x40000(0x200) (2 ms)
+[14:09:49.046]  [051][I][os][840*]:write file TEMP.bin: length 256 KB, consume 4551 ms, 57 KB/s
+[14:09:49.046]  
+[14:09:49.046]  [052][I][os][48*]:save bp: state 2
+[14:09:49.046]  
+[14:09:49.046]  [053][I][os][1008*]:cannt found mirror part entry for file_id 254
+[14:09:49.046]  [054][I][os][1019*]:found part entry for file_id 254, cur_file_id 4
+[14:09:49.046]  [055][I][os][353*]:check file TEMP.bin: addr 0x28b000, size 0x40200
+[14:09:49.094]  [056][I][os][382*]:check file TEMP.bin: crc_orig 0xce32131a, crc_calc 0xce32131a
+[14:09:49.118]  [057][I][os][1041*]:file TEMP.bin, verify pass
+[14:09:49.118]  [058][I][os][48*]:save bp: state 2
+[14:09:49.118]  
+[14:09:49.118]  [059][I][os][166*]:update breakpoint state 3
+[14:09:49.118]  [060][I][os][150*]:clear all file state
+[14:09:49.118]  [061][I][os][48*]:save bp: state 3
+[14:09:49.118]  
+[14:09:49.118]  [062][I][os][1545*]:upgrade successfully!
+[14:09:49.118]  [063][I][os][140*]:cmd 0x10002: param 100
+[14:09:49.118]  
+[14:09:49.118]  [064][I][os][55*]:ota_backend_notify_callback, Upgrade Progress: 100%
+[14:09:49.118]  [065][I][os][140*]:cmd 0x10001: param 1
+[14:09:49.118]  
+[14:09:49.118]  [066][I][os][101*]:ota_usbhid_send_cmd, cmd=6, buf=0x18005e3c, size=9
+[14:09:49.118]  [067][I][os][176*]:upadte ota state:  2
+[14:09:49.118]  
+[14:09:49.118]  [068][I][os][74*]:ota_app_notify, ota state: 1->2
+[14:09:49.118]  [069][I][os][467*]:close
+[14:09:49.118]  [070][I][os][1419*]:exit
+[14:09:49.118]  [071][I][os][543*]:exit
+[14:09:49.118]  [072][I][os][517*]:exit
+[14:09:49.118]  [073][I][os][199*]:start_usbhid_upgrade, ota_upgrade_check successful. Time spent: 4664
+[14:09:49.118]  printk use cpu
+[14:09:49.118]  system reboot, type 0x2!
+[14:09:49.118]  dev power off
+[14:09:49.118]  dev power end
+[14:09:49.182]  
+[14:09:49.182]  Ver1.1-mbrec (build Nov  8 2022 14:00:49)
+[14:09:49.182]  dvfs= 0xa
+[14:09:49.241]  NO=0x8a1551b3,0xa70a09e6
+[14:09:49.241]  WK_PD=0x100000
+[14:09:49.241]  nor: 0x00000000, 1
+[14:09:49.241]  rdm en 0
+[14:09:49.241]  para=0x1000,r=1, i=0, crc=0
+[14:09:49.241]  blen=0xf610,of=0x200
+[14:09:49.241]  entry 0x110023d5
+[14:09:49.241]  z_sys_init entry(0x1100a540) func:0x11000bb5
+[14:09:49.241]  z_sys_init dev(UART_0) func:0x1100265d
+[14:09:49.241]  z_sys_init entry(0x1100a550) func:0x11002535
+[14:09:49.241]  z_sys_init entry(0x1100a558) func:0x11000cfd
+[14:09:49.241]  WAKE_PD_SVCC = 0x100000
+[14:09:49.241]  z_sys_init dev(WIO) func:0x110027ed
+[14:09:49.241]  gpio irq init
+[14:09:49.241]  z_sys_init dev(GPIOC) func:0x110027ed
+[14:09:49.241]  z_sys_init dev(GPIOB) func:0x110027ed
+[14:09:49.241]  z_sys_init dev(GPIOA) func:0x110027ed
+[14:09:49.241]  z_sys_init entry(0x1100a580) func:0x11007e29
+[14:09:49.241]  z_sys_init dev(spi_flash) func:0x180006a5
+[14:09:49.241]  read spi nor chipid:0x1840ef
+[14:09:49.241]  spinor status: {0x02 0x02 0x60}
+[14:09:49.241]  nor is 4 line mode
+[14:09:49.241]  SPI0: set rate 96000000 Hz, real rate 96000000 Hz
+[14:09:49.284]  read again spi nor chipid:0x1840ef
+[14:09:49.284]  spinor status: {0x02 0x02 0x60}
+[14:09:49.284]  z_sys_init dev(WDT_0) func:0x1100a039
+[14:09:49.284]  z_sys_init entry(0x1100a598) func:0x1100192d
+[14:09:49.284]  ** Showing partition infomation **
+[14:09:49.284]  id  name      offset    type  file_id  mirror_id  flag
+[14:09:49.284]  0   fw0_boot  0x0       1     1        0          0     
+[14:09:49.284]  1   fw0_para  0x1000    6     2        0          0     
+[14:09:49.284]  2   fw1_boot  0x2000    1     1        1          0     
+[14:09:49.284]  3   fw1_para  0x3000    6     2        1          0     
+[14:09:49.284]  4   fw0_rec   0x4000    3     3        0          0     
+[14:09:49.284]  5   fw0_sys   0x24000   2     4        0          0     
+[14:09:49.284]  6   user_rw   0x190000  4     9        0          0     
+[14:09:49.284]  7   fw0_sdfs  0x1a2000  4     5        0          0     
+[14:09:49.284]  8   nvram_fa  0x1b3000  4     7        15         0     
+[14:09:49.284]  9   nvram_us  0x1b5000  4     8        15         0     
+[14:09:49.284]  10  logbuf    0x1b7000  4     251      0          0     
+[14:09:49.284]  11  evtbuf    0x1bb000  4     252      0          0     
+[14:09:49.284]  12  coredump  0x1bd000  4     253      0          0     
+[14:09:49.284]  13  res_a     0x1c7000  4     10       0          0     
+[14:09:49.284]  14  font      0x1e7000  4     12       0          0     
+[14:09:49.284]  15  res_b     0x207000  4     11       0          0     
+[14:09:49.284]  16  sdfs_k    0x20b000  4     20       0          0     
+[14:09:49.284]  17  fw0_temp  0x28b000  5     254      0          0     
+[14:09:49.284]  18  runtimel  0x48b000  4     250      0          0     
+[14:09:49.284]  z_sys_init entry(0x1100a5a0) func:0x110017e5
+[14:09:49.284]  sdfs: init mapping to 0x13000000, koff=0x1100f610
+[14:09:49.284]  z_sys_init dev(sys_clock) func:0x11001d3d
+[14:09:49.284]  z_sys_init dev(DMA_0) func:0x110028b9
+[14:09:49.284]  pchan=10; vchan=10, pnum=6,start=4
+[14:09:49.284]  z_sys_init entry(0x1100a5b8) func:0x1100254d
+[14:09:49.284]  board_later_init 287: 
+[14:09:49.284]  z_sys_init entry(0x1100a5c0) func:0x11001545
+[14:09:49.284]  z_sys_init entry(0x1100a5c8) func:0x1100169d
+[14:09:49.284]  sd_disk_init,size=0, off=0 secotr
+[14:09:49.284]  z_sys_init entry(0x1100a5d0) func:0x110039d5
+[14:09:49.284]  E: nvram fac partition NOT find
+[14:09:49.284]  init nvram storage
+[14:09:49.284]  E: region Factory Config: init err
+[14:09:49.284]  
+[14:09:49.284]  z_sys_init dev(PWM) func:0x11003d6d
+[14:09:49.284]  z_sys_init entry(0x1100a5e0) func:0x11001c71
+[14:09:49.284]  z_sys_init entry(0x1100a5e8) func:0x11001c41
+[14:09:49.284]  ***  Current Firmware Version  ***
+[14:09:49.284]   Firmware Version: 0x00010000
+[14:09:49.284]   res Version: 0x00010000
+[14:09:49.284]     System Version: 0x00000000
+[14:09:49.284]       Version Name: 1.00_2411181407
+[14:09:49.284]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:49.284]  z_sys_init entry(0x1100a5f0) func:0x11000d65
+[14:09:49.284]  I: pmu wakeup pending:0x100000
+[14:09:49.284]  reboot_type0x0, reason=0x2
+[14:09:49.284]  c\00I: pstore_flag:1
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  app offset=0x28b000 ,crc=0
+[14:09:49.304]  0x00000010
+[14:09:49.304]  boot fail ret=-10
+[14:09:49.304]  boot fail
+[14:09:49.304]  I: ota recovery main
+[14:09:49.304]  
+[14:09:49.304]  I: ota app init
+[14:09:49.304]  
+[14:09:49.304]  I: init
+[14:09:49.304]  
+[14:09:49.304]  I: enable no version control
+[14:09:49.304]  
+[14:09:49.304]  I: init storage spi_flash
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: init bp 0x18006f48
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: save bp: state 0
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: bp->state 3
+[14:09:49.304]  
+[14:09:49.304]  I: upgrade pending, skip erase parts
+[14:09:49.304]  
+[14:09:49.304]  I: init
+[14:09:49.304]  
+[14:09:49.304]  I: upadte ota state:  0
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: ota state: 0->0
+[14:09:49.304]  
+[14:09:49.304]  I: init backend spi_flash
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: temp partition offset 0x28b000, size 0x200000
+[14:09:49.304]  
+[14:09:49.304]  
+[14:09:49.304]  I: backend 0x18001c7c state 1
+[14:09:49.304]  
+[14:09:49.304]  I: attach backend type 3
+[14:09:49.304]  
+[14:09:49.304]  I: bind backend 3
+[14:09:49.304]  
+[14:09:49.304]  I: ota app start
+[14:09:49.304]  
+[14:09:49.304]  I: do ota recovery
+[14:09:49.304]  
+[14:09:49.304]  I: handle upgrade
+[14:09:49.304]  
+[14:09:49.304]  I: open type 3
+[14:09:49.304]  
+[14:09:49.304]  I: dev spi_flash: open: type 3
+[14:09:49.304]  
+[14:09:49.304]  I: read image header
+[14:09:49.304]  
+[14:09:49.304]  I: image header:
+[14:09:49.304]  
+[14:09:49.304]  I: checking image
+[14:09:49.304]  
+[14:09:49.304]  I: image head check pass
+[14:09:49.304]  
+[14:09:49.304]  I: image check pass
+[14:09:49.304]  
+[14:09:49.304]  I: caculate image crc offset 0x400 size 0x3fe00
+[14:09:49.304]  
+[14:09:49.385]  I: image data check pass
+[14:09:49.385]  
+[14:09:49.385]  I: find file ota.xml
+[14:09:49.385]  
+[14:09:49.385]  I: found file ota.xml at [0]
+[14:09:49.385]  
+[14:09:49.385]  I: manifest file ota.xml length 756
+[14:09:49.385]  
+[14:09:49.385]  I: find file ota.xml
+[14:09:49.385]  
+[14:09:49.385]  I: found file ota.xml at [0]
+[14:09:49.385]  
+[14:09:49.385]  I: find file ota.xml
+[14:09:49.385]  
+[14:09:49.385]  I: found file ota.xml at [0]
+[14:09:49.385]  
+[14:09:49.385]  I: file ota.xml checksum pass
+[14:09:49.385]  
+[14:09:49.385]  I: OTA new fw version:
+[14:09:49.385]  
+[14:09:49.385]  ***  Current Firmware Version  ***
+[14:09:49.385]   Firmware Version: 0x00010000
+[14:09:49.385]   res Version: 0x00010000
+[14:09:49.385]     System Version: 0x00000000
+[14:09:49.385]       Version Name: 1.00_2411181405
+[14:09:49.385]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:49.385]  I: part_num: 2
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  E: cant find tag start orig_size
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: part file app.bin: type 3, file_id 4, checksum 0xdce9abbd
+[14:09:49.385]  
+[14:09:49.385]  E: cant find tag start orig_size
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: part file sdfs.bin: type 4, file_id 5, checksum 0x1c7680da
+[14:09:49.385]  
+[14:09:49.385]  I: find file app.bin
+[14:09:49.385]  
+[14:09:49.385]  I: found file app.bin at [1]
+[14:09:49.385]  
+[14:09:49.385]  I: find file sdfs.bin
+[14:09:49.385]  
+[14:09:49.385]  I: found file sdfs.bin at [2]
+[14:09:49.385]  
+[14:09:49.385]  I: ota fw version:
+[14:09:49.385]  
+[14:09:49.385]  ***  Current Firmware Version  ***
+[14:09:49.385]   Firmware Version: 0x00010000
+[14:09:49.385]   res Version: 0x00010000
+[14:09:49.385]     System Version: 0x00000000
+[14:09:49.385]       Version Name: 1.00_2411181405
+[14:09:49.385]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:49.385]  I: current fw version:
+[14:09:49.385]  
+[14:09:49.385]  ***  Current Firmware Version  ***
+[14:09:49.385]   Firmware Version: 0x00010000
+[14:09:49.385]   res Version: 0x00010000
+[14:09:49.385]     System Version: 0x00000000
+[14:09:49.385]       Version Name: 1.00_2411181407
+[14:09:49.385]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:49.385]  I: has new version fw, need erase old firmware
+[14:09:49.385]  
+[14:09:49.385]  I: bp pending
+[14:09:49.385]  
+[14:09:49.385]  I: update breakpoint state 3
+[14:09:49.385]  
+[14:09:49.385]  I: clear all file state
+[14:09:49.385]  
+[14:09:49.385]  I: save bp: state 3
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: upadte ota state:  3
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota state: 0->3
+[14:09:49.385]  
+[14:09:49.385]  I: bp->state 3
+[14:09:49.385]  
+[14:09:49.385]  I: upgrade pending, skip erase parts
+[14:09:49.385]  
+[14:09:49.385]  I: upadte ota state:  0
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota state: 3->0
+[14:09:49.385]  
+[14:09:49.385]  I: burn firmware image
+[14:09:49.385]  
+[14:09:49.385]  I: cannt found mirror part entry for file_id 4
+[14:09:49.385]  
+[14:09:49.385]  I: found part entry for file_id 4, cur_file_id 254
+[14:09:49.385]  
+[14:09:49.385]  I: cannot found state slot of file_id 4
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota file[4]app.bin: total size 226944, bp offset 0x0
+[14:09:49.385]  
+[14:09:49.385]  I: cannt found mirror part entry for file_id 5
+[14:09:49.385]  
+[14:09:49.385]  I: found part entry for file_id 5, cur_file_id 254
+[14:09:49.385]  
+[14:09:49.385]  I: cannot found state slot of file_id 5
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota file[5]sdfs.bin: total size 32896, bp offset 0x0
+[14:09:49.385]  
+[14:09:49.385]  I: OTA image progress total size 259840
+[14:09:49.385]  
+[14:09:49.385]  I: OTA upgrade progress ==> 0%
+[14:09:49.385]  
+[14:09:49.385]  I: upadte ota state:  1
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota state: 0->1
+[14:09:49.385]  
+[14:09:49.385]  I: update breakpoint state 4
+[14:09:49.385]  
+[14:09:49.385]  I: save bp: state 4
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: ota file_cnt 2
+[14:09:49.385]  
+[14:09:49.385]  I: cannt found mirror part entry for file_id 4
+[14:09:49.385]  
+[14:09:49.385]  I: found part entry for file_id 4, cur_file_id 254
+[14:09:49.385]  
+[14:09:49.385]  I: [0]: file app.bin, file_id 4 write to nor addr 0x24000
+[14:09:49.385]  
+[14:09:49.385]  I: cannot found state slot of file_id 4
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: file app.bin: file_id 4, bp file state -1
+[14:09:49.385]  
+[14:09:49.385]  I: file app.bin: file_id 4, write offset 0 by default
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: erase part fw0_sys: offset 0x24000 size 0x16c000, start_offset 0x0
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: erase aligned offset 0x24000, size 0x16c000
+[14:09:49.385]  
+[14:09:49.385]  
+[14:09:49.385]  I: offs 0x24000, size 1490944
+[14:09:49.385]  
+[14:09:49.385]  nor_e:off=0x24000,len=0xdc000 
+[14:09:49.417]  nor_e:off=0x24000,len=0x1000, tran=44903 us, wait=1
+[14:09:49.465]  nor_e:off=0x25000,len=0x1000, tran=43462 us, wait=0
+[14:09:49.513]  nor_e:off=0x26000,len=0x1000, tran=44977 us, wait=1
+[14:09:49.562]  nor_e:off=0x27000,len=0x1000, tran=43443 us, wait=1
+[14:09:49.594]  nor_e:off=0x28000,len=0x1000, tran=44192 us, wait=1
+[14:09:49.641]  nor_e:off=0x29000,len=0x1000, tran=45557 us, wait=1
+[14:09:49.689]  nor_e:off=0x2a000,len=0x1000, tran=48812 us, wait=1
+[14:09:49.738]  nor_e:off=0x2b000,len=0x1000, tran=48775 us, wait=1
+[14:09:49.785]  nor_e:off=0x2c000,len=0x1000, tran=44884 us, wait=1
+[14:09:49.840]  nor_e:off=0x2d000,len=0x1000, tran=44996 us, wait=1
+[14:09:49.881]  nor_e:off=0x2e000,len=0x1000, tran=44921 us, wait=1
+[14:09:49.928]  nor_e:off=0x2f000,len=0x1000, tran=43481 us, wait=0
+[14:09:50.137]  nor_e:off=0x30000,len=0x10000, tran=214512 us, wait=1
+[14:09:50.345]  nor_e:off=0x40000,len=0x10000, tran=204634 us, wait=1
+[14:09:50.538]  nor_e:off=0x50000,len=0x10000, tran=200125 us, wait=1
+[14:09:50.777]  nor_e:off=0x60000,len=0x10000, tran=224596 us, wait=1
+[14:09:50.985]  nor_e:off=0x70000,len=0x10000, tran=212024 us, wait=1
+[14:09:51.208]  nor_e:off=0x80000,len=0x10000, tran=223717 us, wait=1
+[14:09:51.432]  nor_e:off=0x90000,len=0x10000, tran=222632 us, wait=1
+[14:09:51.640]  nor_e:off=0xa0000,len=0x10000, tran=211295 us, wait=1
+[14:09:51.864]  nor_e:off=0xb0000,len=0x10000, tran=218086 us, wait=1
+[14:09:52.073]  nor_e:off=0xc0000,len=0x10000, tran=212454 us, wait=1
+[14:09:52.280]  nor_e:off=0xd0000,len=0x10000, tran=206617 us, wait=1
+[14:09:52.505]  nor_e:off=0xe0000,len=0x10000, tran=222725 us, wait=1
+[14:09:52.729]  nor_e:off=0xf0000,len=0x10000, tran=218553 us, wait=1
+[14:09:52.729]  ----erse end---
+[14:09:52.729]  nor_e:off=0x100000,len=0x90000 
+[14:09:52.921]  nor_e:off=0x100000,len=0x10000, tran=206861 us, wait=1
+[14:09:53.145]  nor_e:off=0x110000,len=0x10000, tran=210097 us, wait=1
+[14:09:53.386]  nor_e:off=0x120000,len=0x10000, tran=248468 us, wait=1
+[14:09:53.610]  nor_e:off=0x130000,len=0x10000, tran=227328 us, wait=1
+[14:09:53.833]  nor_e:off=0x140000,len=0x10000, tran=219639 us, wait=1
+[14:09:54.042]  nor_e:off=0x150000,len=0x10000, tran=209124 us, wait=1
+[14:09:54.266]  nor_e:off=0x160000,len=0x10000, tran=217730 us, wait=1
+[14:09:54.472]  nor_e:off=0x170000,len=0x10000, tran=214999 us, wait=1
+[14:09:55.058]  nor_e:off=0x180000,len=0x10000, tran=204784 us, wait=1
+[14:09:55.058]  ----erse end---
+[14:09:55.058]  I: update file_id 4 write_offset from 0x0 to 0x0
+[14:09:55.058]  
+[14:09:55.058]  
+[14:09:55.058]  I: write file app.bin size 0x37680(0x37680) to offset 0x24000 start_offset 0x0(0x0)
+[14:09:55.058]  
+[14:09:55.058]  I: find file app.bin
+[14:09:55.058]  
+[14:09:55.058]  I: found file app.bin at [1]
+[14:09:55.058]  
+[14:09:55.058]  I: ota_rx thread started
+[14:09:55.058]  
+[14:09:55.058]  I: OTA upgrade progress ==> 1%
+[14:09:55.058]  
+[14:09:55.058]  I: save bp: state 4
+[14:09:55.058]  
+[14:09:55.058]  
+[14:09:55.058]  write 0x0 -> 0x0(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 3%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1000 -> 0x1000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 4%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2000 -> 0x2000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 6%
+[14:09:55.058]  
+[14:09:55.058]  write 0x3000 -> 0x3000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 7%
+[14:09:55.058]  
+[14:09:55.058]  write 0x4000 -> 0x4000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 9%
+[14:09:55.058]  
+[14:09:55.058]  write 0x5000 -> 0x5000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 11%
+[14:09:55.058]  
+[14:09:55.058]  write 0x6000 -> 0x6000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 12%
+[14:09:55.058]  
+[14:09:55.058]  write 0x7000 -> 0x7000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 14%
+[14:09:55.058]  
+[14:09:55.058]  write 0x8000 -> 0x8000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 15%
+[14:09:55.058]  
+[14:09:55.058]  write 0x9000 -> 0x9000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 17%
+[14:09:55.058]  
+[14:09:55.058]  write 0xa000 -> 0xa000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 18%
+[14:09:55.058]  
+[14:09:55.058]  write 0xb000 -> 0xb000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 20%
+[14:09:55.058]  
+[14:09:55.058]  write 0xc000 -> 0xc000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 22%
+[14:09:55.058]  
+[14:09:55.058]  write 0xd000 -> 0xd000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 23%
+[14:09:55.058]  
+[14:09:55.058]  write 0xe000 -> 0xe000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 25%
+[14:09:55.058]  
+[14:09:55.058]  write 0xf000 -> 0xf000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 26%
+[14:09:55.058]  
+[14:09:55.058]  write 0x10000 -> 0x10000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 28%
+[14:09:55.058]  
+[14:09:55.058]  write 0x11000 -> 0x11000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 29%
+[14:09:55.058]  
+[14:09:55.058]  write 0x12000 -> 0x12000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 31%
+[14:09:55.058]  
+[14:09:55.058]  write 0x13000 -> 0x13000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 33%
+[14:09:55.058]  
+[14:09:55.058]  write 0x14000 -> 0x14000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 34%
+[14:09:55.058]  
+[14:09:55.058]  write 0x15000 -> 0x15000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 36%
+[14:09:55.058]  
+[14:09:55.058]  write 0x16000 -> 0x16000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 37%
+[14:09:55.058]  
+[14:09:55.058]  write 0x17000 -> 0x17000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 39%
+[14:09:55.058]  
+[14:09:55.058]  write 0x18000 -> 0x18000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 40%
+[14:09:55.058]  
+[14:09:55.058]  write 0x19000 -> 0x19000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 42%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1a000 -> 0x1a000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 44%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1b000 -> 0x1b000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 45%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1c000 -> 0x1c000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 47%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1d000 -> 0x1d000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 48%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1e000 -> 0x1e000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 50%
+[14:09:55.058]  
+[14:09:55.058]  write 0x1f000 -> 0x1f000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 52%
+[14:09:55.058]  
+[14:09:55.058]  write 0x20000 -> 0x20000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 53%
+[14:09:55.058]  
+[14:09:55.058]  write 0x21000 -> 0x21000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 55%
+[14:09:55.058]  
+[14:09:55.058]  write 0x22000 -> 0x22000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 56%
+[14:09:55.058]  
+[14:09:55.058]  write 0x23000 -> 0x23000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 58%
+[14:09:55.058]  
+[14:09:55.058]  write 0x24000 -> 0x24000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 59%
+[14:09:55.058]  
+[14:09:55.058]  write 0x25000 -> 0x25000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 61%
+[14:09:55.058]  
+[14:09:55.058]  write 0x26000 -> 0x26000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 63%
+[14:09:55.058]  
+[14:09:55.058]  write 0x27000 -> 0x27000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 64%
+[14:09:55.058]  
+[14:09:55.058]  write 0x28000 -> 0x28000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 66%
+[14:09:55.058]  
+[14:09:55.058]  write 0x29000 -> 0x29000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 67%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2a000 -> 0x2a000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 69%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2b000 -> 0x2b000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 70%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2c000 -> 0x2c000(0x1000) (6 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 72%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2d000 -> 0x2d000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 74%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2e000 -> 0x2e000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 75%
+[14:09:55.058]  
+[14:09:55.058]  write 0x2f000 -> 0x2f000(0x1000) (8 ms)
+[14:09:55.058]  I: OTA upgrade progress ==> 77%
+[14:09:55.058]  
+[14:09:55.058]  write 0x30000 -> 0x30000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 78%
+[14:09:55.129]  
+[14:09:55.129]  write 0x31000 -> 0x31000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 80%
+[14:09:55.129]  
+[14:09:55.129]  write 0x32000 -> 0x32000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 81%
+[14:09:55.129]  
+[14:09:55.129]  write 0x33000 -> 0x33000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 83%
+[14:09:55.129]  
+[14:09:55.129]  write 0x34000 -> 0x34000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 85%
+[14:09:55.129]  
+[14:09:55.129]  write 0x35000 -> 0x35000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 86%
+[14:09:55.129]  
+[14:09:55.129]  write 0x36000 -> 0x36000(0x1000) (8 ms)
+[14:09:55.129]  I: OTA upgrade progress ==> 87%
+[14:09:55.129]  
+[14:09:55.129]  write 0x37000 -> 0x37000(0x680) (2 ms)
+[14:09:55.129]  I: write file app.bin: length 221 KB, consume 433 ms, 524 KB/s
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: ota_rx thread exited
+[14:09:55.129]  
+[14:09:55.129]  I: save bp: state 4
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: cannt found mirror part entry for file_id 5
+[14:09:55.129]  
+[14:09:55.129]  I: found part entry for file_id 5, cur_file_id 254
+[14:09:55.129]  
+[14:09:55.129]  I: [1]: file sdfs.bin, file_id 5 write to nor addr 0x1a2000
+[14:09:55.129]  
+[14:09:55.129]  I: cannot found state slot of file_id 5
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: file sdfs.bin: file_id 5, bp file state -1
+[14:09:55.129]  
+[14:09:55.129]  I: file sdfs.bin: file_id 5, write offset 0 by default
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: erase part fw0_sdfs\04\05: offset 0x1a2000 size 0x10000, start_offset 0x0
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: erase aligned offset 0x1a2000, size 0x10000
+[14:09:55.129]  
+[14:09:55.129]  
+[14:09:55.129]  I: offs 0x1a2000, size 65536
+[14:09:55.129]  
+[14:09:55.129]  nor_e:off=0x1a2000,len=0x10000 
+[14:09:55.161]  nor_e:off=0x1a2000,len=0x1000, tran=43949 us, wait=1
+[14:09:55.209]  nor_e:off=0x1a3000,len=0x1000, tran=45931 us, wait=1
+[14:09:55.256]  nor_e:off=0x1a4000,len=0x1000, tran=43705 us, wait=0
+[14:09:55.304]  nor_e:off=0x1a5000,len=0x1000, tran=41741 us, wait=1
+[14:09:55.337]  nor_e:off=0x1a6000,len=0x1000, tran=40263 us, wait=1
+[14:09:55.386]  nor_e:off=0x1a7000,len=0x1000, tran=44809 us, wait=0
+[14:09:55.432]  nor_e:off=0x1a8000,len=0x1000, tran=41198 us, wait=1
+[14:09:55.464]  nor_e:off=0x1a9000,len=0x1000, tran=42414 us, wait=1
+[14:09:55.512]  nor_e:off=0x1aa000,len=0x1000, tran=45950 us, wait=1
+[14:09:55.560]  nor_e:off=0x1ab000,len=0x1000, tran=42340 us, wait=1
+[14:09:55.594]  nor_e:off=0x1ac000,len=0x1000, tran=41161 us, wait=1
+[14:09:55.641]  nor_e:off=0x1ad000,len=0x1000, tran=41217 us, wait=1
+[14:09:55.689]  nor_e:off=0x1ae000,len=0x1000, tran=45052 us, wait=1
+[14:09:55.736]  nor_e:off=0x1af000,len=0x1000, tran=45220 us, wait=1
+[14:09:55.769]  nor_e:off=0x1b0000,len=0x1000, tran=42321 us, wait=1
+[14:09:55.894]  nor_e:off=0x1b1000,len=0x1000, tran=44117 us, wait=1
+[14:09:55.894]  ----erse end---
+[14:09:55.894]  I: update file_id 5 write_offset from 0x0 to 0x0
+[14:09:55.894]  
+[14:09:55.894]  
+[14:09:55.894]  I: write file sdfs.bin size 0x8080(0x8080) to offset 0x1a2000 start_offset 0x0(0x0)
+[14:09:55.894]  
+[14:09:55.894]  I: find file sdfs.bin
+[14:09:55.894]  
+[14:09:55.894]  I: found file sdfs.bin at [2]
+[14:09:55.894]  
+[14:09:55.894]  I: ota_rx thread started
+[14:09:55.894]  
+[14:09:55.894]  I: OTA upgrade progress ==> 88%
+[14:09:55.894]  
+[14:09:55.894]  I: save bp: state 4
+[14:09:55.894]  
+[14:09:55.894]  
+[14:09:55.894]  write 0x0 -> 0x0(0x1000) (8 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 90%
+[14:09:55.894]  
+[14:09:55.894]  write 0x1000 -> 0x1000(0x1000) (8 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 92%
+[14:09:55.894]  
+[14:09:55.894]  write 0x2000 -> 0x2000(0x1000) (8 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 93%
+[14:09:55.894]  
+[14:09:55.894]  write 0x3000 -> 0x3000(0x1000) (6 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 95%
+[14:09:55.894]  
+[14:09:55.894]  write 0x4000 -> 0x4000(0x1000) (6 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 96%
+[14:09:55.894]  
+[14:09:55.894]  write 0x5000 -> 0x5000(0x1000) (6 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 98%
+[14:09:55.894]  
+[14:09:55.894]  write 0x6000 -> 0x6000(0x1000) (8 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 99%
+[14:09:55.894]  
+[14:09:55.894]  write 0x7000 -> 0x7000(0x1000) (8 ms)
+[14:09:55.894]  I: OTA upgrade progress ==> 99%
+[14:09:55.894]  
+[14:09:55.894]  write 0x8000 -> 0x8000(0x80) (0 ms)
+[14:09:55.894]  I: write file sdfs.bin: length 32 KB, consume 65 ms, 506 KB/s
+[14:09:55.894]  
+[14:09:55.894]  
+[14:09:55.894]  I: ota_rx thread exited
+[14:09:55.894]  
+[14:09:55.894]  I: save bp: state 4
+[14:09:55.894]  
+[14:09:55.894]  
+[14:09:55.894]  I: cannt found mirror part entry for file_id 4
+[14:09:55.894]  
+[14:09:55.894]  I: found part entry for file_id 4, cur_file_id 254
+[14:09:55.894]  
+[14:09:55.894]  I: check file app.bin: addr 0x24000, size 0x37680
+[14:09:55.894]  
+[14:09:56.009]  I: check file app.bin: crc_orig 0xdce9abbd, crc_calc 0xdce9abbd
+[14:09:56.009]  
+[14:09:56.009]  I: file app.bin, verify pass
+[14:09:56.009]  
+[14:09:56.009]  I: save bp: state 4
+[14:09:56.009]  
+[14:09:56.009]  
+[14:09:56.009]  I: cannt found mirror part entry for file_id 5
+[14:09:56.009]  
+[14:09:56.009]  I: found part entry for file_id 5, cur_file_id 254
+[14:09:56.009]  
+[14:09:56.009]  I: check file sdfs.bin: addr 0x1a2000, size 0x8080
+[14:09:56.009]  
+[14:09:56.009]  I: check file sdfs.bin: crc_orig 0x1c7680da, crc_calc 0x1c7680da
+[14:09:56.009]  
+[14:09:56.009]  I: file sdfs.bin, verify pass
+[14:09:56.009]  
+[14:09:56.009]  I: save bp: state 4
+[14:09:56.009]  
+[14:09:56.009]  
+[14:09:56.009]  I: update breakpoint state 10
+[14:09:56.009]  
+[14:09:56.009]  I: clear all file state
+[14:09:56.009]  
+[14:09:56.009]  I: save bp: state 10
+[14:09:56.009]  
+[14:09:56.009]  
+[14:09:56.009]  I: upgrade successfully!
+[14:09:56.009]  
+[14:09:56.009]  I: upadte ota state:  2
+[14:09:56.009]  
+[14:09:56.009]  
+[14:09:56.009]  I: ota state: 1->2
+[14:09:56.009]  
+[14:09:56.009]  I: close
+[14:09:56.009]  
+[14:09:56.009]  I: dev spi_flash: close: type 3
+[14:09:56.009]  
+[14:09:56.009]  I: exit
+[14:09:56.009]  
+[14:09:56.009]  I: exit
+[14:09:56.009]  
+[14:09:56.009]  I: exit
+[14:09:56.009]  
+[14:09:56.009]  libboot: version 1.0.3 ,release time: Sep 21 2023:08:53:16
+[14:09:56.009]  boot main=0 
+[14:09:56.009]  app offset=0x24000 ,crc=0
+[14:09:56.009]  0x00000000
+[14:09:56.009]  0x01001F40
+[14:09:56.009]  0x10009E0D
+[14:09:56.009]  z_sys_init(0) entry(0x10029300) func:0x10001719, grp_end=0x10029398
+[14:09:56.009]  wd cnt=0, WD_CTL=0x1c
+[14:09:56.009]  z_sys_init(0) entry(0x10029308) func:0x1000b661, grp_end=0x10029398, dev(UART_0) 
+[14:09:56.009]  z_sys_init(0) entry(0x10029310) func:0x1000a2a1, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029318) func:0x1000a44d, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029320) func:0x100017f9, grp_end=0x10029398
+[14:09:56.009]  WAKE_PD_SVCC=0x100000,wdt=1, b_err=0
+[14:09:56.009]  z_sys_init(0) entry(0x10029328) func:0x100023c5, grp_end=0x10029398
+[14:09:56.009]  [000][I][pmu0][305*]:pmu wakeup pending:0x100000
+[14:09:56.009]  [001][I][pmu0][751*]:cal freq=32772, ctl=0x2c
+[14:09:56.009]  
+[14:09:56.009]  [002][I][pmu0][766*]:cur freq=32772
+[14:09:56.009]  
+[14:09:56.009]  [003][I][pmu0][796*]:calibrate freq=32772, mul=976, ctl=0x2c
+[14:09:56.009]  
+[14:09:56.009]  z_sys_init(0) entry(0x10029330) func:0x1000c5d5, grp_end=0x10029398, dev(WIO) 
+[14:09:56.009]  gpio irq init
+[14:09:56.009]  z_sys_init(0) entry(0x10029338) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOC) 
+[14:09:56.009]  z_sys_init(0) entry(0x10029340) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOB) 
+[14:09:56.009]  z_sys_init(0) entry(0x10029348) func:0x1000c5d5, grp_end=0x10029398, dev(GPIOA) 
+[14:09:56.009]  z_sys_init(0) entry(0x10029350) func:0x1000cfcd, grp_end=0x10029398
+[14:09:56.009]  xip_nor_offset=0x24000-0x10000000
+[14:09:56.009]  z_sys_init(0) entry(0x10029358) func:0x10021195, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029360) func:0x1002125d, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029368) func:0x1002180d, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029370) func:0x18000127, grp_end=0x10029398, dev(spi_flash) 
+[14:09:56.009]  read spi nor chipid:0x1840ef
+[14:09:56.009]  spinor status: {0x00 0x02 0x60}
+[14:09:56.009]  nor is 4 line mode
+[14:09:56.009]  SPI0: set rate 96000000 Hz, real rate 96000000 Hz,CMU_SPICLK=0x101
+[14:09:56.009]  read again spi nor chipid:0x1840ef
+[14:09:56.009]  spinor status: {0x00 0x02 0x60}
+[14:09:56.009]  z_sys_init(0) entry(0x10029378) func:0x10006f5d, grp_end=0x10029398
+[14:09:56.009]  ** Showing partition infomation **
+[14:09:56.009]  id  name      offset    type  file_id  mirror_id  flag
+[14:09:56.009]  0   fw0_boot  0x0       1     1        0          0     
+[14:09:56.009]  1   fw0_para  0x1000    6     2        0          0     
+[14:09:56.009]  2   fw1_boot  0x2000    1     1        1          0     
+[14:09:56.009]  3   fw1_para  0x3000    6     2        1          0     
+[14:09:56.009]  4   fw0_rec   0x4000    3     3        0          0     
+[14:09:56.009]  5   fw0_sys   0x24000   2     4        0          0     
+[14:09:56.009]  6   user_rw   0x190000  4     9        0          0     
+[14:09:56.009]  7   fw0_sdfs  0x1a2000  4     5        0          0     
+[14:09:56.009]  8   nvram_fa  0x1b3000  4     7        15         0     
+[14:09:56.009]  9   nvram_us  0x1b5000  4     8        15         0     
+[14:09:56.009]  10  logbuf    0x1b7000  4     251      0          0     
+[14:09:56.009]  11  evtbuf    0x1bb000  4     252      0          0     
+[14:09:56.009]  12  coredump  0x1bd000  4     253      0          0     
+[14:09:56.009]  13  res_a     0x1c7000  4     10       0          0     
+[14:09:56.009]  14  font      0x1e7000  4     12       0          0     
+[14:09:56.009]  15  res_b     0x207000  4     11       0          0     
+[14:09:56.009]  16  sdfs_k    0x20b000  4     20       0          0     
+[14:09:56.009]  17  fw0_temp  0x28b000  5     254      0          0     
+[14:09:56.009]  18  runtimel  0x48b000  4     250      0          0     
+[14:09:56.009]  z_sys_init(0) entry(0x10029380) func:0x10007269, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029388) func:0x10002865, grp_end=0x10029398
+[14:09:56.009]  z_sys_init(0) entry(0x10029390) func:0x1000655d, grp_end=0x10029398
+[14:09:56.009]  sdfs: init mapping to 0x13000000, koff=0x10037588
+[14:09:56.009]  xip sdfs check:xip off=0x1017e000
+[14:09:56.051]  dir:num=4, size=32896, ck=0x4,0x706e127a
+[14:09:56.051]  1 check  start: off=0xc0, size=0xa, ck=0x6c6a6866
+[14:09:56.051]  2 check  start: off=0x100, size=0xa60, ck=0xcf2c4935
+[14:09:56.051]  3 check  start: off=0xb80, size=0x681c, ck=0x6f73a687
+[14:09:56.051]  4 check  start: off=0x73c0, size=0xc82, ck=0xc5634eb7
+[14:09:56.051]  sdfs check ok, 3 ms 
+[14:09:56.051]  z_sys_init(1) entry(0x10029398) func:0x100086e9, grp_end=0x100293c0, dev(sys_clock) 
+[14:09:56.051]  z_sys_init(1) entry(0x100293a0) func:0x10008b35, grp_end=0x100293c0, dev(hrtimer) 
+[14:09:56.051]  z_sys_init(1) entry(0x100293a8) func:0x10015019, grp_end=0x100293c0, dev(batadc) 
+[14:09:56.051]  [004][I][bat_ctl][36*]:boot open charger!
+[14:09:56.051]  [005][I][bat_ctl][30*]:bak_PMU_CHG_CTL:0x149c49
+[14:09:56.051]  [006][I][bat_drv][2289*]:bat drv get config!
+[14:09:56.051]  [007][I][bat_drv][1068*]:Bat Config Start:
+[14:09:56.051]  [008][I][bat_drv][1069*]:Charge Mode: back
+[14:09:56.051]  [009][I][bat_drv][1070*]:CC: 240ma, CV: 4200mv
+[14:09:56.051]  [010][I][bat_drv][1073*]:Stop: 2, 4160mv, 20
+[14:09:56.051]  [011][I][bat_drv][1076*]:Init Charge: 1, 30ma, 3000mv, 70ma, 3200mv, 100ma, 3400mv
+[14:09:56.051]  [012][I][bat_drv][1084*]:Pre-charge: 1, 3300mv, 1, 9
+[14:09:56.051]  [013][I][bat_drv][1088*]:Fast Charge: 0, 240ma, 5
+[14:09:56.051]  [014][I][bat_drv][1092*]:Re-charge: 1, 4110mv, 4110mv, 3900mv
+[14:09:56.051]  [015][I][bat_drv][1097*]:OVP: 1, 4260mv, 4260mv, 4100mv
+[14:09:56.051]  [016][I][bat_drv][1102*]:Total_Time_Limit: 240min
+[14:09:56.051]  [017][I][bat_drv][1103*]:Check_Period: 60s
+[14:09:56.051]  [018][I][bat_drv][1104*]:Charge_Check_Period: 300s
+[14:09:56.051]  [019][I][bat_drv][1105*]:Full_Continue: 420s
+[14:09:56.051]  [020][I][bat_drv][1106*]:Poff_Wait: 10s
+[14:09:56.051]  [021][I][bat_drv][1107*]:DC5V_Dbs: 300ms
+[14:09:56.051]  [022][I][bat_drv][1108*]:Bat_Rdrop: 500m
+[14:09:56.051]  [023][I][bat_drv][1110*]:Bat Config End!
+[14:09:56.051]  [024][I][bat_drv][1142*]:get batadc cal=0x1e
+[14:09:56.051]  
+[14:09:56.051]  [025][I][bat_drv][1149*]:get batadc off=-32
+[14:09:56.051]  
+[14:09:56.051]  [026][I][bat_drv][1163*]:LRADCCLK:0x00000050
+[14:09:56.051]  [027][I][bat_drv][1165*]:hosc_ctl:0x64646330
+[14:09:56.051]  [028][I][bat_drv][1306*]:PMUADC_CTL:0x78880002
+[14:09:56.051]  [029][I][bat_drv][1322*]:PMUADC_DIGCTL:0x00000108
+[14:09:56.051]  [030][I][bat_drv][1375*]:bat_adc: 0x3811, adjust: 0x37f1
+[14:09:56.051]  [031][I][bat_drv][1445*]:wait batadc ok: 4195mv
+[14:09:56.051]  [032][I][bat_drv][2359*]:power on, with dc5v!
+[14:09:56.051]  [033][I][bat_drv][2362*]:init charge start!
+[14:09:56.051]  [034][I][bat_drv][510*]:init charge current: 30ma, 70ma
+[14:09:56.051]  [035][I][bat_drv][1375*]:bat_adc: 0x3814, adjust: 0x37f4
+[14:09:56.051]  [036][I][bat_drv][1971*]:bat_adc: 0x37f4, bat_mv: 4196mv
+[14:09:56.051]  [037][I][bat_drv][1375*]:bat_adc: 0x3811, adjust: 0x37f1
+[14:09:56.051]  [038][I][bat_drv][1375*]:bat_adc: 0x3822, adjust: 0x3802
+[14:09:56.051]  [039][I][bat_drv][2007*]:Need exit init charge: 4200mv, 3400mv
+[14:09:56.051]  [040][I][bat_drv][2385*]:exit init charge!
+[14:09:56.051]  [041][I][bat_drv][2452*]:bat driver init ok,so enable peripheral_power!
+[14:09:56.051]  
+[14:09:56.051]  z_sys_init(1) entry(0x100293b0) func:0x10013a3d, grp_end=0x100293c0, dev(PMUDAC_0) 
+[14:09:56.051]  z_sys_init(1) entry(0x100293b8) func:0x1000cf81, grp_end=0x100293c0, dev(sim_flash) 
+[14:09:56.051]  panic=0, flash data checksum 9edf4e67
+[14:09:56.051]  flash init data checksum fffff000
+[14:09:56.051]  z_sys_init(2) entry(0x100293c0) func:0x10004719, grp_end=0x10029478
+[14:09:56.051]  z_sys_init(2) entry(0x100293c8) func:0x1000cc05, grp_end=0x10029478, dev(DMA_0) 
+[14:09:56.051]  dma-num=10
+[14:09:56.051]  z_sys_init(2) entry(0x100293d0) func:0x1000a431, grp_end=0x10029478
+[14:09:56.051]  board_later_init 280: 
+[14:09:56.051]  z_sys_init(2) entry(0x100293d8) func:0x1000ac45, grp_end=0x10029478
+[14:09:56.051]  [042][I][coredump][143*]:init coredump config
+[14:09:56.051]  [043][I][coredump][149*]:coredump:0x1bd000,0xa000
+[14:09:56.051]  
+[14:09:56.051]  init coredump storage
+[14:09:56.051]  z_sys_init(2) entry(0x100293e0) func:0x1000bc6d, grp_end=0x10029478, dev(I2C_1) 
+[14:09:56.051]  i2c1:clk=100000,cmd=0,dma=0
+[14:09:56.051]  z_sys_init(2) entry(0x100293e8) func:0x1002552f, grp_end=0x10029478, dev(I2CMT_1) 
+[14:09:56.051]  z_sys_init(2) entry(0x100293f0) func:0x1002552f, grp_end=0x10029478, dev(I2CMT_0) 
+[14:09:56.051]  z_sys_init(2) entry(0x100293f8) func:0x1001055d, grp_end=0x10029478, dev(DAC_0) 
+[14:09:56.051]  DAC init successfully
+[14:09:56.051]  z_sys_init(2) entry(0x10029400) func:0x10012241, grp_end=0x10029478, dev(ADC_0) 
+[14:09:56.051]  ADC init successfully
+[14:09:56.051]  z_sys_init(2) entry(0x10029408) func:0x10005b25, grp_end=0x10029478
+[14:09:56.051]  z_sys_init(2) entry(0x10029410) func:0x1000aeb1, grp_end=0x10029478
+[14:09:56.051]  z_sys_init(2) entry(0x10029418) func:0x1000e769, grp_end=0x10029478, dev(audio_out) 
+[14:09:56.051]  [044][I][dac0][1937*]:DAC wait for capacitor charge full
+[14:09:56.067]  
+[14:09:56.067]  
+[14:09:56.067]  uart:~$ [045][I][dac0][1481*]:DAC SDM function enable
+[14:09:56.111]  [046][I][dac0][2077*]:set volume {db:[0, 0] level:[bf, bf]}
+[14:09:56.111]  [047][I][aout][1061*]:channel@0 sess:0x18005980 type:1 fifo:0 sr:48 opened
+[14:09:56.111]  [048][I][aout][1240*]:session#0@0x18005980 closed
+[14:09:56.111]  [049][I][aout][384*]:Open PA successfully
+[14:09:56.111]  ACTS-AUDIO OUT initialized
+[14:09:56.111]  z_sys_init(2) entry(0x10029420) func:0x10022aed, grp_end=0x10029478
+[14:09:56.111]  z_sys_init(2) entry(0x10029428) func:0x1000ded1, grp_end=0x10029478
+[14:09:56.111]  [050][E][nvram_cfg][1411*]:nvram fac partition NOT find
+[14:09:56.111]  init nvram storage
+[14:09:56.111]  [051][E][nvram_cfg][1256*]:region Factory Config: init err
+[14:09:56.111]  
+[14:09:56.111]  z_sys_init(2) entry(0x10029430) func:0x10007665, grp_end=0x10029478
+[14:09:56.111]  z_sys_init(2) entry(0x10029438) func:0x1000f88d, grp_end=0x10029478, dev(audio_in) 
+[14:09:56.111]  ACTS-AUDIO IN initialized
+[14:09:56.111]  z_sys_init(2) entry(0x10029440) func:0x10013b49, grp_end=0x10029478, dev(onoffkey) 
+[14:09:56.111]  z_sys_init(2) entry(0x10029448) func:0x100178a1, grp_end=0x10029478, dev(RTC_0) 
+[14:09:56.111]  [052][I][pmu0][751*]:cal freq=32772, ctl=0x2c
+[14:09:56.111]  
+[14:09:56.111]  cur rc32k_freq=32772
+[14:09:56.111]  [053][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:09:56.111]  rtc initialized
+[14:09:56.111]  z_sys_init(2) entry(0x10029450) func:0x10017ddd, grp_end=0x10029478, dev(ALARM8HZ_0) 
+[14:09:56.111]  alarm8hz initialized
+[14:09:56.111]  z_sys_init(2) entry(0x10029458) func:0x10017f35, grp_end=0x10029478, dev(PWM) 
+[14:09:56.111]  z_sys_init(2) entry(0x10029460) func:0x10013d45, grp_end=0x10029478, dev(keygpio) 
+[14:09:56.111]  z_sys_init(2) entry(0x10029468) func:0x10013fbd, grp_end=0x10029478, dev(tpkey) 
+[14:09:56.111]  z_sys_init(2) entry(0x10029470) func:0x100060e9, grp_end=0x10029478
+[14:09:56.111]  sdfs fs_register=0
+[14:09:56.111]  *** Booting Zephyr OS build 29fddd6e9a20  ***
+[14:09:56.111]  z_sys_init(3) entry(0x10029478) func:0x1000676d, grp_end=0x100294a8
+[14:09:56.111]  printk_dma_init
+[14:09:56.111]  uart use txdma chan=2
+[14:09:56.111]  z_sys_init(3) entry(0x10029480) func:0x10007239, grp_end=0x100294a8
+[14:09:56.111]  ***  Current Firmware Version  ***
+[14:09:56.111]   Firmware Version: 0x00010000
+[14:09:56.111]   res Version: 0x00010000
+[14:09:56.111]     System Version: 0x00000000
+[14:09:56.111]       Version Name: 1.00_2411181407
+[14:09:56.111]         Board Name: ats3085l_core_joystick_evb_kc
+[14:09:56.111]  z_sys_init(3) entry(0x10029488) func:0x1001840d, grp_end=0x100294a8
+[14:09:56.111]  mpu 6: 0x0-0x10000, set=0x0-0x10000,attr=RO
+[14:09:56.111]  [054][I][mpu_acts][206*]:mpu init
+[14:09:56.111]  
+[14:09:56.111]  [055][I][mpu_acts][216*]:mpu init end
+[14:09:56.111]  
+[14:09:56.111]  z_sys_init(3) entry(0x10029490) func:0x1000b121, grp_end=0x100294a8
+[14:09:56.111]  z_sys_init(3) entry(0x10029498) func:0x100017d5, grp_end=0x100294a8
+[14:09:56.111]  z_sys_init(3) entry(0x100294a0) func:0x10001d59, grp_end=0x100294a8
+[14:09:56.111]  [056][I][os][25*]:OTA UPGRADE SUCCESSFULLY :3
+[14:09:56.111]  [057][E][nvram_cfg][218*]:invalid param storage 0x10029548, offset 0x10, len 0x8
+[14:09:56.111]  [058][I][os][86*]:save bp: state 120
+[14:09:56.111]  
+[14:09:56.111]  [059][I][os][41*]:main, init ota app
+[14:09:56.111]  [060][I][os][1640*]:init
+[14:09:56.111]  [061][I][os][1647*]:enable no version control
+[14:09:56.111]  [062][I][os][463*]:init storage spi_flash
+[14:09:56.111]  
+[14:09:56.111]  [063][I][os][242*]:init bp 0x1800ca98
+[14:09:56.111]  
+[14:09:56.111]  [064][I][os][86*]:save bp: state 0
+[14:09:56.111]  
+[14:09:56.111]  [065][I][os][226*]:bp->state 0
+[14:09:56.111]  [066][I][os][267*]:part[0]: file_id 1 not ota temp partition, skip erase
+[14:09:56.111]  [067][I][os][267*]:part[1]: file_id 2 not ota temp partition, skip erase
+[14:09:56.111]  [068][I][os][267*]:part[2]: file_id 1 not ota temp partition, skip erase
+[14:09:56.111]  [069][I][os][267*]:part[3]: file_id 2 not ota temp partition, skip erase
+[14:09:56.111]  [070][I][os][267*]:part[4]: file_id 3 not ota temp partition, skip erase
+[14:09:56.111]  [071][I][os][267*]:part[5]: file_id 4 not ota temp partition, skip erase
+[14:09:56.111]  [072][I][os][267*]:part[6]: file_id 9 not ota temp partition, skip erase
+[14:09:56.111]  [073][I][os][267*]:part[7]: file_id 5 not ota temp partition, skip erase
+[14:09:56.111]  [074][I][os][267*]:part[8]: file_id 7 not ota temp partition, skip erase
+[14:09:56.111]  [075][I][os][267*]:part[9]: file_id 8 not ota temp partition, skip erase
+[14:09:56.111]  [076][I][os][267*]:part[10]: file_id 251 not ota temp partition, skip erase
+[14:09:56.111]  [077][I][os][267*]:part[11]: file_id 252 not ota temp partition, skip erase
+[14:09:56.111]  [078][I][os][267*]:part[12]: file_id 253 not ota temp partition, skip erase
+[14:09:56.111]  [079][I][os][267*]:part[13]: file_id 10 not ota temp partition, skip erase
+[14:09:56.111]  [080][I][os][267*]:part[14]: file_id 12 not ota temp partition, skip erase
+[14:09:56.111]  [081][I][os][267*]:part[15]: file_id 11 not ota temp partition, skip erase
+[14:09:56.128]  [082][I][os][267*]:part[16]: file_id 20 not ota temp partition, skip erase
+[14:09:56.128]  [083][I][os][198*]:erase part fw0_temp\05\FE: offset 0x28b000 size 0x200000, start_offset 0x0
+[14:09:56.128]  
+[14:09:56.128]  [084][I][os][204*]:erase aligned offset 0x28b000, size 0x200000
+[14:09:56.128]  
+[14:09:56.128]  [085][I][os][437*]:offs 0x28b000, size 2097152
+[14:09:56.128]  nor_e:off=0x28b000,len=0x5000
+[14:09:56.128]  power_gpio_cfg.gpion 19 
+[14:09:56.208]  nor_e:off=0x28b000,len=0x1000, tran=115 us, wait=89935
+[14:09:56.304]  nor_e:off=0x28c000,len=0x1000, tran=110 us, wait=88621
+[14:09:56.336]  isr_gpio_cfg.gpion 26 
+[14:09:56.336]  [086][E][i2c_acts_i2c][468*]:no ACK from device
+[14:09:56.358]  [087][E][i2c_acts_i2c][313*]:wait i2c tx fifo:0x2007 empty timeout
+[14:09:56.358]  [088][E][i2c_acts_i2c][734*]:addr 0x15: transfer error
+[14:09:56.358]  [089][I][i2c_acts_i2c][199*]:I2C base 0x4004c000:
+[14:09:56.358]    ctl:      0  clkdiv: 14  stat:    0
+[14:09:56.358]    addr:     0  cmd:    f03  fifoctl: 0
+[14:09:56.358]    fifostat: 15  datcnt: 2  rcnt:    2
+[14:09:56.358]  
+[14:09:56.358]  [090][I][i2c_acts_i2c][199*]:I2C base 0x4004c000:
+[14:09:56.358]    ctl:      0  clkdiv: 14  stat:    0
+[14:09:56.358]    addr:     0  cmd:    f03  fifoctl: 0
+[14:09:56.358]    fifostat: 15  datcnt: 2  rcnt:    2
+[14:09:56.358]  
+[14:09:56.389]  nor_e:off=0x28d000,len=0x1000, tran=110 us, wait=90091
+[14:09:56.486]  nor_e:off=0x28e000,len=0x1000, tran=110 us, wait=88846
+[14:09:56.582]  nor_e:off=0x28f000,len=0x1000, tran=110 us, wait=95108
+[14:09:56.582]  nor_e:off=0x290000,len=0x10000
+[14:09:57.056]  nor_e:off=0x290000,len=0x10000, tran=110 us, wait=473464
+[14:09:57.056]  nor_e:off=0x2a0000,len=0x10000
+[14:09:57.578]  nor_e:off=0x2a0000,len=0x10000, tran=111 us, wait=521098
+[14:09:57.578]  nor_e:off=0x2b0000,len=0x10000
+[14:09:58.046]  nor_e:off=0x2b0000,len=0x10000, tran=111 us, wait=466838
+[14:09:58.046]  nor_e:off=0x2c0000,len=0x10000
+[14:09:58.485]  nor_e:off=0x2c0000,len=0x10000, tran=111 us, wait=438700
+[14:09:58.485]  nor_e:off=0x2d0000,len=0x10000
+[14:09:58.937]  nor_e:off=0x2d0000,len=0x10000, tran=111 us, wait=451033
+[14:09:58.937]  nor_e:off=0x2e0000,len=0x10000
+[14:09:59.365]  nor_e:off=0x2e0000,len=0x10000, tran=111 us, wait=426479
+[14:09:59.365]  nor_e:off=0x2f0000,len=0x10000
+[14:09:59.796]  nor_e:off=0x2f0000,len=0x10000, tran=111 us, wait=430049
+[14:09:59.796]  nor_e:off=0x300000,len=0x10000
+[14:10:00.276]  nor_e:off=0x300000,len=0x10000, tran=111 us, wait=480140
+[14:10:00.276]  nor_e:off=0x310000,len=0x10000
+[14:10:00.768]  nor_e:off=0x310000,len=0x10000, tran=111 us, wait=490974
+[14:10:00.768]  nor_e:off=0x320000,len=0x10000
+[14:10:01.237]  nor_e:off=0x320000,len=0x10000, tran=110 us, wait=467850
+[14:10:01.237]  nor_e:off=0x330000,len=0x10000
+[14:10:01.665]  nor_e:off=0x330000,len=0x10000, tran=111 us, wait=426681
+[14:10:01.665]  nor_e:off=0x340000,len=0x10000
+[14:10:02.102]  nor_e:off=0x340000,len=0x10000, tran=111 us, wait=436445
+[14:10:02.102]  nor_e:off=0x350000,len=0x10000
+[14:10:02.572]  nor_e:off=0x350000,len=0x10000, tran=111 us, wait=467562
+[14:10:02.572]  nor_e:off=0x360000,len=0x10000
+[14:10:03.026]  nor_e:off=0x360000,len=0x10000, tran=111 us, wait=455165
+[14:10:03.026]  nor_e:off=0x370000,len=0x10000
+[14:10:03.442]  nor_e:off=0x370000,len=0x10000, tran=110 us, wait=431033
+[14:10:03.458]  nor_e:off=0x380000,len=0x10000
+[14:10:03.922]  nor_e:off=0x380000,len=0x10000, tran=110 us, wait=461913
+[14:10:03.922]  nor_e:off=0x390000,len=0x10000
+[14:10:04.404]  nor_e:off=0x390000,len=0x10000, tran=111 us, wait=480839
+[14:10:04.404]  nor_e:off=0x3a0000,len=0x10000
+[14:10:04.853]  nor_e:off=0x3a0000,len=0x10000, tran=110 us, wait=449629
+[14:10:04.853]  nor_e:off=0x3b0000,len=0x10000
+[14:10:05.322]  nor_e:off=0x3b0000,len=0x10000, tran=111 us, wait=467297
+[14:10:05.322]  nor_e:off=0x3c0000,len=0x10000
+[14:10:05.804]  nor_e:off=0x3c0000,len=0x10000, tran=111 us, wait=481488
+[14:10:05.804]  nor_e:off=0x3d0000,len=0x10000
+[14:10:06.261]  nor_e:off=0x3d0000,len=0x10000, tran=110 us, wait=455367
+[14:10:06.261]  nor_e:off=0x3e0000,len=0x10000
+[14:10:06.708]  nor_e:off=0x3e0000,len=0x10000, tran=111 us, wait=462239
+[14:10:06.724]  nor_e:off=0x3f0000,len=0x10000
+[14:10:07.186]  nor_e:off=0x3f0000,len=0x10000, tran=111 us, wait=461756
+[14:10:07.186]  nor_e:off=0x400000,len=0x10000
+[14:10:07.690]  nor_e:off=0x400000,len=0x10000, tran=110 us, wait=502445
+[14:10:07.690]  nor_e:off=0x410000,len=0x10000
+[14:10:08.171]  nor_e:off=0x410000,len=0x10000, tran=110 us, wait=479240
+[14:10:08.171]  nor_e:off=0x420000,len=0x10000
+[14:10:08.650]  nor_e:off=0x420000,len=0x10000, tran=111 us, wait=479235
+[14:10:08.650]  nor_e:off=0x430000,len=0x10000
+[14:10:09.063]  nor_e:off=0x430000,len=0x10000, tran=110 us, wait=412972
+[14:10:09.063]  nor_e:off=0x440000,len=0x10000
+[14:10:09.533]  nor_e:off=0x440000,len=0x10000, tran=110 us, wait=468643
+[14:10:09.533]  nor_e:off=0x450000,len=0x10000
+[14:10:09.985]  nor_e:off=0x450000,len=0x10000, tran=111 us, wait=450029
+[14:10:09.985]  nor_e:off=0x460000,len=0x10000
+[14:10:10.466]  nor_e:off=0x460000,len=0x10000, tran=111 us, wait=479983
+[14:10:10.466]  nor_e:off=0x470000,len=0x10000
+[14:10:10.970]  nor_e:off=0x470000,len=0x10000, tran=111 us, wait=503497
+[14:10:10.970]  nor_e:off=0x480000,len=0xb000
+[14:10:11.065]  nor_e:off=0x480000,len=0x1000, tran=110 us, wait=95183
+[14:10:11.161]  nor_e:off=0x481000,len=0x1000, tran=110 us, wait=96093
+[14:10:11.241]  nor_e:off=0x482000,len=0x1000, tran=110 us, wait=91437
+[14:10:11.338]  nor_e:off=0x483000,len=0x1000, tran=110 us, wait=95640
+[14:10:11.434]  nor_e:off=0x484000,len=0x1000, tran=110 us, wait=91499
+[14:10:11.529]  nor_e:off=0x485000,len=0x1000, tran=110 us, wait=90389
+[14:10:11.608]  nor_e:off=0x486000,len=0x1000, tran=110 us, wait=89149
+[14:10:11.704]  nor_e:off=0x487000,len=0x1000, tran=110 us, wait=88848
+[14:10:11.802]  nor_e:off=0x488000,len=0x1000, tran=110 us, wait=89570
+[14:10:11.880]  nor_e:off=0x489000,len=0x1000, tran=110 us, wait=90029
+[14:10:11.991]  nor_e:off=0x48a000,len=0x1000, tran=110 us, wait=94390
+[14:10:11.991]  [091][I][os][267*]:part[18]: file_id 250 not ota temp partition, skip erase
+[14:10:11.991]  [092][I][os][332*]:bp state is clean
+[14:10:11.991]  [093][I][os][48*]:save bp: state 1
+[14:10:11.991]  
+[14:10:11.991]  [094][I][os][531*]:init
+[14:10:11.991]  [095][I][os][176*]:upadte ota state:  0
+[14:10:11.991]  
+[14:10:11.991]  [096][I][os][74*]:ota_app_notify, ota state: 0->0
+[14:10:11.991]  [097][I][os][203*]:name:ota plug in
+[14:10:11.991]  [098][I][os][24*]:default_app: ota
+[14:10:11.991]  
+[14:10:11.991]  [099][I][os][171*]:name:ota
+[14:10:11.992]  [100][I][os][177*]:---usbhid service enter---
+[14:10:11.992]  [101][I][os][216*]:ota_app_main, Enter loop
+[14:10:11.992]  [102][I][os][219*]:ota_app_main, 219

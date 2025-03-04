@@ -1,0 +1,51 @@
+# Copyright (c) 2016 Linaro Limited.
+# SPDX-License-Identifier: Apache-2.0
+
+choice
+	prompt "LARK MCU Selection"
+	depends on SOC_SERIES_LARK
+
+config SOC_LARK
+	bool "LARK"
+
+endchoice
+
+if SOC_LARK
+
+config SOC_SPI0_USE_CK64M
+	bool
+	prompt "enable cpu spi0 to use CK64M clock source"
+	default y
+	help
+		enable cpu spi0 to use CK64M clock source
+
+config IRQ_VECTOR_IN_SRAM
+	bool
+	prompt "enable irq vector copy to sram"
+	default n
+	help
+		enable irq vector copy to sram
+
+config SLEEP_FUNC_IN_SRAM
+	bool
+	prompt "enable sleep func copy to sram"
+	default y
+	help
+		enable sleep func copy to sram
+
+config SOC_EP_MODE
+	bool
+	prompt "indicate ep mode"
+	default n
+	help
+		prompt indicate ep mode
+
+config SOC_SIGN_ENABLE
+	bool
+	prompt "signature verification eanble"
+	default n
+	help
+		signature verification eanble
+
+
+endif

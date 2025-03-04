@@ -1,0 +1,13 @@
+# SH8601Z0 display driver configuration options
+
+# Copyright (c) 2019 Marc Reilly <marc@cpdesign.com.au>
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig PANEL_SH8601Z0
+	bool "SH8601Z0 display driver"
+	help
+	  Enable driver for SH8601Z0 display driver.
+
+if PANEL_SH8601Z0
+
+endif # PANEL_SH8601Z0

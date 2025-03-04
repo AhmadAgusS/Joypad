@@ -1,0 +1,2833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lvgl" >
+      <UniqueIdentifier>{f6bc023f-7fe7-4b3e-8d54-07e75778db87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github" >
+      <UniqueIdentifier>{bc83c4f6-f235-43ab-98cf-8ee549318433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github\ISSUE_TEMPLATE" >
+      <UniqueIdentifier>{f0878f4b-dd5d-448b-be5e-9a4c0818b4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github\workflows" >
+      <UniqueIdentifier>{d75689ca-3cf4-4392-bf15-cf66a8a178a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs" >
+      <UniqueIdentifier>{3829922b-72df-441c-be70-3d31693aaf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\get-started" >
+      <UniqueIdentifier>{5dae6764-0234-431f-b300-93d36bcb074a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\intro" >
+      <UniqueIdentifier>{849b41df-b6ba-4450-8bb1-536087c94a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\layouts" >
+      <UniqueIdentifier>{01e06d88-7995-4fd2-aadc-afb628bd8b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\libs">
+      <UniqueIdentifier>{64d01a57-a0aa-47f4-98c4-418f2eb32aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\misc" >
+      <UniqueIdentifier>{9c834f4a-d9b8-4a85-b4b9-1d85b2456525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\others" >
+      <UniqueIdentifier>{cf942b68-91a1-4d1a-b0c0-427505fc656e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\overview" >
+      <UniqueIdentifier>{9418b64e-38c5-46e0-ac4a-cd5f932517f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\porting" >
+      <UniqueIdentifier>{9c83c1bc-252e-4a9b-9cb3-2643456123d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets" >
+      <UniqueIdentifier>{ecd39759-95f1-411d-bf15-6a64fd1f018d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets\core" >
+      <UniqueIdentifier>{f0bda285-23aa-4270-811f-de98e51be7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets\extra" >
+      <UniqueIdentifier>{5da8b801-dcf2-488b-86d3-d03c00b223d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_ext" >
+      <UniqueIdentifier>{06a2ee6f-85a2-4390-95b4-40291c7f2927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static" >
+      <UniqueIdentifier>{861b20b4-e977-4272-9f7e-2fb70aa5355e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static\css" >
+      <UniqueIdentifier>{57c9d49b-e901-42a6-a0d6-3fe4863f14fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static\img" >
+      <UniqueIdentifier>{2fafedaa-3ce5-4895-9110-3f936b66e020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_templates" >
+      <UniqueIdentifier>{367525dd-846f-4678-853f-f581eeeff49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples" >
+      <UniqueIdentifier>{9e72f8e4-f09b-4aca-989b-7a3d1bd83a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\anim" >
+      <UniqueIdentifier>{96e09a54-30b8-4da6-975d-6eb6ebc4a1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\arduino" >
+      <UniqueIdentifier>{d1977956-d255-4e07-a539-51f5f4ed9346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\arduino\LVGL_Arduino" >
+      <UniqueIdentifier>{d0b84c62-cc0b-4d57-9461-e4ad51b323b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\assets" >
+      <UniqueIdentifier>{88e24c6d-4d5d-443d-a7b8-07753b0181ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\assets\font" >
+      <UniqueIdentifier>{55f7c49b-aec7-4c0d-a505-f8d50d113fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\event" >
+      <UniqueIdentifier>{a6f53cfa-3c09-499f-9c38-94a48191d834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\get_started" >
+      <UniqueIdentifier>{a9f12c31-297c-4dd2-83fc-2373e82eeaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts" >
+      <UniqueIdentifier>{953e353f-4903-4aea-bfb0-96fe782a828c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts\flex" >
+      <UniqueIdentifier>{c4fc2c33-5b1f-420d-98c7-332ceb8ea2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts\grid" >
+      <UniqueIdentifier>{25a2176b-b29f-4715-9380-0e00013fcc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs">
+      <UniqueIdentifier>{3ce4a99a-d9d0-4fc2-98e5-1fe881671ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\bmp">
+      <UniqueIdentifier>{bcfaa4da-281d-420c-b960-ded363e1f6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\freetype">
+      <UniqueIdentifier>{e547b3ae-9c22-4a6d-a1e4-d5c87687c403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\gif">
+      <UniqueIdentifier>{0d30c8e0-9a8c-432c-962a-070010882614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\png">
+      <UniqueIdentifier>{832f0059-c309-4b7e-9b2a-a1be0cd4eded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\qrcode">
+      <UniqueIdentifier>{1ce4a3b9-9cc0-4c57-b45e-a7345b34f8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\rlottie">
+      <UniqueIdentifier>{976d4bc1-eb62-4169-8149-f0b6c66dcceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\libs\sjpg">
+      <UniqueIdentifier>{b871eb74-2cbb-463a-a3f8-3f57e8bee570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\others" >
+      <UniqueIdentifier>{cdf622ad-acaa-48c5-92a4-82fe2510149c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\others\snapshot" >
+      <UniqueIdentifier>{5f528b32-d097-4b5d-b9df-2f9e2ac58b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\porting" >
+      <UniqueIdentifier>{c72b6c77-48d2-4aca-aab0-0bbd79f65761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\scroll" >
+      <UniqueIdentifier>{0d06c986-f35c-4b65-8a19-48dc08026620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\styles" >
+      <UniqueIdentifier>{0232d6de-15a5-45e9-a844-2c3ebd37e084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets" >
+      <UniqueIdentifier>{81fbb488-dd4e-4f69-9507-3e47dd21bd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\animimg" >
+      <UniqueIdentifier>{1eccbbf3-276c-4bef-8402-346523c46e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\arc" >
+      <UniqueIdentifier>{e0718855-b3e5-437d-91eb-5fb0226629da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\bar" >
+      <UniqueIdentifier>{13f06078-63ec-4505-b1c1-a6a45159f704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\btn" >
+      <UniqueIdentifier>{48dbbc58-3f71-4974-81b5-a85668f4b5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\btnmatrix" >
+      <UniqueIdentifier>{c113dd01-e238-400a-813a-075716f700b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\calendar" >
+      <UniqueIdentifier>{113114fe-19ed-4ef2-8b25-b7f66a15d305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\canvas" >
+      <UniqueIdentifier>{737d9259-ea1f-4913-ac22-4c58652fcd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\chart" >
+      <UniqueIdentifier>{79639578-5cc0-4113-b840-0318452191b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\checkbox" >
+      <UniqueIdentifier>{f028a10f-20e1-4e6b-87a2-bf39124deb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\colorwheel" >
+      <UniqueIdentifier>{b55aa5d3-56d0-4df7-80b4-ed60b891fb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\dropdown" >
+      <UniqueIdentifier>{4efa45b7-df32-410e-8471-7991931a89ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\img" >
+      <UniqueIdentifier>{9357aa99-2724-4c37-9e1b-b2db5ec4fa4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\imgbtn" >
+      <UniqueIdentifier>{7420732f-0b49-4a30-859e-9f1c1a0635e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\keyboard" >
+      <UniqueIdentifier>{28f2be1c-900f-43d2-8307-5e5c24600825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\label" >
+      <UniqueIdentifier>{28259c20-11af-42ef-8a08-8f232fec7c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\led" >
+      <UniqueIdentifier>{687ebbc2-f5bc-4c0d-b4c6-40ab4cdeef07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\line" >
+      <UniqueIdentifier>{abe41d1e-459f-4d16-8759-cfb429d8c38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\list" >
+      <UniqueIdentifier>{7232363e-3596-4ff0-99d4-0dc207c58f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\meter" >
+      <UniqueIdentifier>{eda7c2f2-9aec-4fe4-bbf0-d6c2d1e2418e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\msgbox" >
+      <UniqueIdentifier>{f53b7ebd-1834-472c-a1b4-88a044869a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\obj" >
+      <UniqueIdentifier>{3ecc1b0c-533f-4e6a-a0e5-aca3f21975da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\roller" >
+      <UniqueIdentifier>{cb850e30-8c61-4085-868b-7dd93b5ace1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\slider" >
+      <UniqueIdentifier>{08116d49-387c-4ac4-b598-e5aec3679458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\span" >
+      <UniqueIdentifier>{8924e2db-3f05-4ce8-b5da-4bd3086d30d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\spinbox" >
+      <UniqueIdentifier>{c7d7171d-a7de-44ff-8905-0d1f5e989ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\spinner" >
+      <UniqueIdentifier>{e5d1a19e-330b-4ab6-b1c7-9aa742de4b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\switch" >
+      <UniqueIdentifier>{d2220adb-572d-46ba-9951-efa262857d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\table" >
+      <UniqueIdentifier>{6a8103db-f2fa-494c-92f5-eef94b95be2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\tabview" >
+      <UniqueIdentifier>{b0fdc471-25bf-417e-9336-927e06ff20ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\textarea" >
+      <UniqueIdentifier>{64f720f6-7587-4dc4-b25f-78b7097ec83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\tileview" >
+      <UniqueIdentifier>{3478a656-60e8-4f4e-9f72-c7d4522070a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\win" >
+      <UniqueIdentifier>{21ea2be3-6503-49cc-a155-e5185feb1a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\rt-thread">
+      <UniqueIdentifier>{ff98af55-55cc-420a-9851-df3b76b576ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts" >
+      <UniqueIdentifier>{321297b2-189f-44c1-adae-546f67034b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts\built_in_font" >
+      <UniqueIdentifier>{4146fbf9-11a3-43c6-afa5-e5261e9c3f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts\release" >
+      <UniqueIdentifier>{0b4328b1-02f3-43fc-85c8-4a59d3bf2cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src" >
+      <UniqueIdentifier>{a1991a32-f917-49af-bb48-f8c33a56eb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\core" >
+      <UniqueIdentifier>{d69e4672-9373-4d24-a33d-849317ee46db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\draw" >
+      <UniqueIdentifier>{005fe3c1-cafa-4460-bcef-8ab3b19d5c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra" >
+      <UniqueIdentifier>{93d29185-d727-45a6-96e1-2f7551d6ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts" >
+      <UniqueIdentifier>{1be4809d-c905-45d6-a6ab-2670926a3d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts\flex" >
+      <UniqueIdentifier>{d6415c4a-e2c8-4812-b33b-b79134b60980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts\grid" >
+      <UniqueIdentifier>{ae043621-646c-4508-b0da-3d0ee470ebe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs">
+      <UniqueIdentifier>{ee5aa114-a488-4a94-b4ff-35ed7a8d0bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\bmp">
+      <UniqueIdentifier>{7b8afaee-f679-4af2-8cd8-59121eda1a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\freetype">
+      <UniqueIdentifier>{0df618d5-5d0e-4035-8463-7ea9f5c8f4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\fsdrv">
+      <UniqueIdentifier>{63b55252-e534-4682-9791-c42183fd3e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\gif">
+      <UniqueIdentifier>{15299071-8399-49bd-8940-0b7360cdce64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\png">
+      <UniqueIdentifier>{12d4fe13-9e9e-465d-aa72-21271b65e5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\qrcode">
+      <UniqueIdentifier>{8d4c1a8c-7cdf-469c-97c4-87d8b08ffdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\rlottie">
+      <UniqueIdentifier>{179c037b-1bbe-4fb3-bf78-ef7bd6fa08b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\libs\sjpg">
+      <UniqueIdentifier>{cda8d382-4120-4b1e-9dca-aa48fa3808b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\others" >
+      <UniqueIdentifier>{419140e1-8e1c-434b-bdbe-cccb8a2c7167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\others\snapshot" >
+      <UniqueIdentifier>{a2977255-9826-4478-b8f5-c46ce0d289c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes" >
+      <UniqueIdentifier>{5c547f02-95ab-4e77-886e-d5c212b600e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\basic" >
+      <UniqueIdentifier>{f53246f4-2e7f-456d-93c9-f2a7efc7342d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\default" >
+      <UniqueIdentifier>{31401e4a-231c-4c1e-995a-9ec58aaa70d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\mono" >
+      <UniqueIdentifier>{b48c4125-df6c-46ab-9b63-b3d476d70d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets" >
+      <UniqueIdentifier>{fb0a1fd3-5688-47c9-93d6-04240d497d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\animimg" >
+      <UniqueIdentifier>{344587d2-d75b-4fa9-a6c0-b75cf091f7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\calendar" >
+      <UniqueIdentifier>{76aded0c-1b67-4aa5-8a31-d4ff50fba4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\chart" >
+      <UniqueIdentifier>{2fa3cedb-5d38-48b8-8d68-91f1a4e7b9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\colorwheel" >
+      <UniqueIdentifier>{7aa8a807-aa97-41a5-8802-45aa272ea072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\imgbtn" >
+      <UniqueIdentifier>{6f1a6caf-c359-44d6-89dc-ba702934e306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\keyboard" >
+      <UniqueIdentifier>{9b13aa8d-1629-48a4-80fe-9f0708e0a881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\led" >
+      <UniqueIdentifier>{287470f5-b80c-4d9b-a323-61f9e6d87796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\list" >
+      <UniqueIdentifier>{b1a92b5b-3a30-42fe-84eb-6e0d238b115a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\meter" >
+      <UniqueIdentifier>{92a10d09-a312-4850-b18f-a71d65a580b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\msgbox" >
+      <UniqueIdentifier>{91f6a4cb-3ce6-48bb-867c-f8b7d4d1c8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\span" >
+      <UniqueIdentifier>{f8bac997-dafe-427c-b776-a9bf734b8911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\spinbox" >
+      <UniqueIdentifier>{41ad2eab-8c00-460c-9f25-270c8130c6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\spinner" >
+      <UniqueIdentifier>{4f507bef-7690-42d8-bb9a-d1000d8197d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\tabview" >
+      <UniqueIdentifier>{2828b9ed-b46c-4ab7-b702-b6f16d849002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\tileview" >
+      <UniqueIdentifier>{ee08b85e-e7b5-4f65-aa19-3f9827f8d3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\win" >
+      <UniqueIdentifier>{223cc581-fd12-4621-8d7c-8f727e688d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\font" >
+      <UniqueIdentifier>{391332b2-351a-4d2e-bd95-9517a8ba470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\gpu" >
+      <UniqueIdentifier>{cfd5fbaf-fb95-436d-96bf-17f71b3a263d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\gpu\sdl" >
+      <UniqueIdentifier>{cc6daabb-849b-49ea-873d-36f6543722cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\hal" >
+      <UniqueIdentifier>{35b2dc63-2d40-4be8-88dc-ee62c41dc513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\misc" >
+      <UniqueIdentifier>{50b1b488-9041-45fd-8e0c-79e0b28c9ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\widgets" >
+      <UniqueIdentifier>{f80120e6-ce83-4eb9-9a56-7b935f9feb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests" >
+      <UniqueIdentifier>{710524ff-26f7-4dfb-841e-b1f781a60f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\ref_imgs" >
+      <UniqueIdentifier>{e23c9d7f-4853-42f1-a46d-2e554d72dbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\src" >
+      <UniqueIdentifier>{35c83a1c-b326-4537-9bb2-0b5851caef82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\src\test_cases" >
+      <UniqueIdentifier>{eed2f959-4fb0-4880-a1e7-51f0837cd443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\src\test_fonts" >
+      <UniqueIdentifier>{3399915a-74a5-4a96-8204-b589694496b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\unity" >
+      <UniqueIdentifier>{7afc75a6-c74d-4813-9920-3594ae60ef90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\zephyr" >
+      <UniqueIdentifier>{12da012b-c605-4063-856d-bbc9d2efb003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim.h" >
+      <Filter>lvgl\examples\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event.h" >
+      <Filter>lvgl\examples\event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started.h" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex.h" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid.h" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\lv_example_layout.h" >
+      <Filter>lvgl\examples\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\bmp\lv_example_bmp.h">
+      <Filter>lvgl\examples\libs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\freetype\lv_example_freetype.h">
+      <Filter>lvgl\examples\libs\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\gif\lv_example_gif.h">
+      <Filter>lvgl\examples\libs\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\png\lv_example_png.h">
+      <Filter>lvgl\examples\libs\png</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\qrcode\lv_example_qrcode.h">
+      <Filter>lvgl\examples\libs\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\rlottie\lv_example_rlottie.h">
+      <Filter>lvgl\examples\libs\rlottie</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\sjpg\lv_example_sjpg.h">
+      <Filter>lvgl\examples\libs\sjpg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\lv_example_libs.h">
+      <Filter>lvgl\examples\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\others\snapshot\lv_example_snapshot.h" >
+      <Filter>lvgl\examples\others\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\others\lv_example_others.h" >
+      <Filter>lvgl\examples\others</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_disp_template.h" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_fs_template.h" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_indev_template.h" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll.h" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style.h" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\lv_example_widgets.h" >
+      <Filter>lvgl\examples\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\lv_examples.h" >
+      <Filter>lvgl\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\rt-thread\lv_rt_thread_conf.h">
+      <Filter>lvgl\rt-thread</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_disp.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_event.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_group.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_indev.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_indev_scroll.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_class.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_draw.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_pos.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_scroll.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_style.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_style_gen.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_tree.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_refr.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_theme.h" >
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_arc.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_blend.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_img.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_label.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_line.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_mask.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_rect.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_triangle.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_buf.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_cache.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_decoder.h" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\layouts\flex\lv_flex.h" >
+      <Filter>lvgl\src\extra\layouts\flex</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\layouts\grid\lv_grid.h" >
+      <Filter>lvgl\src\extra\layouts\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\layouts\lv_layouts.h" >
+      <Filter>lvgl\src\extra\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h">
+      <Filter>lvgl\src\extra\libs\fsdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\gif\gifdec.h">
+      <Filter>lvgl\src\extra\libs\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\sjpg\tjpgdcnf.h">
+      <Filter>lvgl\src\extra\libs\sjpg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\lv_libs.h">
+      <Filter>lvgl\src\extra\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\others\lv_others.h" >
+      <Filter>lvgl\src\extra\others</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\basic\lv_theme_basic.h" >
+      <Filter>lvgl\src\extra\themes\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\default\lv_theme_default.h" >
+      <Filter>lvgl\src\extra\themes\default</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\mono\lv_theme_mono.h" >
+      <Filter>lvgl\src\extra\themes\mono</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\lv_themes.h" >
+      <Filter>lvgl\src\extra\themes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\animimg\lv_animimg.h" >
+      <Filter>lvgl\src\extra\widgets\animimg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar.h" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\chart\lv_chart.h" >
+      <Filter>lvgl\src\extra\widgets\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h" >
+      <Filter>lvgl\src\extra\widgets\colorwheel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h" >
+      <Filter>lvgl\src\extra\widgets\imgbtn</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\keyboard\lv_keyboard.h" >
+      <Filter>lvgl\src\extra\widgets\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\led\lv_led.h" >
+      <Filter>lvgl\src\extra\widgets\led</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\list\lv_list.h" >
+      <Filter>lvgl\src\extra\widgets\list</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\meter\lv_meter.h" >
+      <Filter>lvgl\src\extra\widgets\meter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\msgbox\lv_msgbox.h" >
+      <Filter>lvgl\src\extra\widgets\msgbox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\span\lv_span.h" >
+      <Filter>lvgl\src\extra\widgets\span</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\spinbox\lv_spinbox.h" >
+      <Filter>lvgl\src\extra\widgets\spinbox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\spinner\lv_spinner.h" >
+      <Filter>lvgl\src\extra\widgets\spinner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\tabview\lv_tabview.h" >
+      <Filter>lvgl\src\extra\widgets\tabview</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\tileview\lv_tileview.h" >
+      <Filter>lvgl\src\extra\widgets\tileview</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\win\lv_win.h" >
+      <Filter>lvgl\src\extra\widgets\win</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\lv_widgets.h" >
+      <Filter>lvgl\src\extra\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\lv_extra.h" >
+      <Filter>lvgl\src\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font.h" >
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_fmt_txt.h" >
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_loader.h" >
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_symbol_def.h" >
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl_lru.h" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl_mask.h" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl_stack_blur.h" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl_texture_cache.h" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl_utils.h" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_pxp.h" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_pxp_osa.h" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_vglite.h" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_sdl.h" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_stm32_dma2d.h" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal.h" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_disp.h" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_indev.h" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_tick.h" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_anim.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_area.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_assert.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_async.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_bidi.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_color.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_fs.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_gc.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_ll.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_log.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_math.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_mem.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_printf.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_strace.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_style.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_style_gen.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_templ.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_timer.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_tlsf.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_txt.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_txt_ap.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_types.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_utils.h" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_arc.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_bar.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_btn.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_btnmatrix.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_canvas.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_checkbox.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_dropdown.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_img.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_label.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_line.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_objx_templ.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_roller.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_slider.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_switch.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_table.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_textarea.h" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\lvgl.h" >
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\lv_api_map.h" >
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\lv_conf_internal.h" >
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\lv_conf_kconfig.h" >
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\src\lv_test_conf.h" >
+      <Filter>lvgl\tests\src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\unity\unity.h" >
+      <Filter>lvgl\tests\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\unity\unity_internals.h" >
+      <Filter>lvgl\tests\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\lvgl.h" >
+      <Filter>lvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\lv_conf_template.h" >
+      <Filter>lvgl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_1.c" >
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_2.c" >
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_3.c" >
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_timeline_1.c" >
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg001.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg002.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg003.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_left.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_mid.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_right.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_caret_down.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_alpha16.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_argb.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_chroma_keyed.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_indexed16.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_rgb.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_hand.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_skew_strip.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_star.c" >
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_1.c" >
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_2.c" >
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_3.c" >
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_1.c" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_2.c" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_3.c" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_1.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_2.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_3.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_4.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_5.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_6.c" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_1.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_2.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_3.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_4.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_5.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_6.c" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_disp_template.c" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_fs_template.c" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\porting\lv_port_indev_template.c" >
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_1.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_2.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_3.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_4.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_5.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_6.c" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_1.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_10.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_11.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_12.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_13.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_14.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_2.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_3.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_4.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_5.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_6.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_7.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_8.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_9.c" >
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\animimg\lv_example_animimg_1.c" >
+      <Filter>lvgl\examples\widgets\animimg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\arc\lv_example_arc_1.c" >
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\arc\lv_example_arc_2.c" >
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_1.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_2.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_3.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_4.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_5.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_6.c" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_1.c" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_2.c" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_3.c" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.c" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.c" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.c" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\calendar\lv_example_calendar_1.c" >
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\canvas\lv_example_canvas_1.c" >
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\canvas\lv_example_canvas_2.c" >
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_1.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_2.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_3.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_4.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_5.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_6.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_7.c" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\checkbox\lv_example_checkbox_1.c" >
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.c" >
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_1.c" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_2.c" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_3.c" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_1.c" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_2.c" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_3.c" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_4.c" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.c" >
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\keyboard\lv_example_keyboard_1.c" >
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_1.c" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_2.c" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_3.c" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\led\lv_example_led_1.c" >
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\line\lv_example_line_1.c" >
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\list\lv_example_list_1.c" >
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_1.c" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_2.c" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_3.c" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_4.c" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\msgbox\lv_example_msgbox_1.c" >
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\obj\lv_example_obj_1.c" >
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\obj\lv_example_obj_2.c" >
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_1.c" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_2.c" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_3.c" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_1.c" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_2.c" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_3.c" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\span\lv_example_span_1.c" >
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinbox\lv_example_spinbox_1.c" >
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinner\lv_example_spinner_1.c" >
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\switch\lv_example_switch_1.c" >
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\table\lv_example_table_1.c" >
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\table\lv_example_table_2.c" >
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tabview\lv_example_tabview_1.c" >
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tabview\lv_example_tabview_2.c" >
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_1.c" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_2.c" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_3.c" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tileview\lv_example_tileview_1.c" >
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\win\lv_example_win_1.c" >
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_disp.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_event.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_group.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_indev.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_indev_scroll.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_class.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_draw.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_pos.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_scroll.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_style.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_style_gen.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_obj_tree.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_refr.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_theme.c" >
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_arc.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_blend.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_img.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_label.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_line.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_mask.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_rect.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw_triangle.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_buf.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_cache.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_img_decoder.c" >
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\layouts\flex\lv_flex.c" >
+      <Filter>lvgl\src\extra\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\layouts\grid\lv_grid.c" >
+      <Filter>lvgl\src\extra\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\basic\lv_theme_basic.c" >
+      <Filter>lvgl\src\extra\themes\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\default\lv_theme_default.c" >
+      <Filter>lvgl\src\extra\themes\default</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\themes\mono\lv_theme_mono.c" >
+      <Filter>lvgl\src\extra\themes\mono</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\animimg\lv_animimg.c" >
+      <Filter>lvgl\src\extra\widgets\animimg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar.c" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c" >
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\chart\lv_chart.c" >
+      <Filter>lvgl\src\extra\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c" >
+      <Filter>lvgl\src\extra\widgets\colorwheel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c" >
+      <Filter>lvgl\src\extra\widgets\imgbtn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\keyboard\lv_keyboard.c" >
+      <Filter>lvgl\src\extra\widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\led\lv_led.c" >
+      <Filter>lvgl\src\extra\widgets\led</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\list\lv_list.c" >
+      <Filter>lvgl\src\extra\widgets\list</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\meter\lv_meter.c" >
+      <Filter>lvgl\src\extra\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\msgbox\lv_msgbox.c" >
+      <Filter>lvgl\src\extra\widgets\msgbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\span\lv_span.c" >
+      <Filter>lvgl\src\extra\widgets\span</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\spinbox\lv_spinbox.c" >
+      <Filter>lvgl\src\extra\widgets\spinbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\spinner\lv_spinner.c" >
+      <Filter>lvgl\src\extra\widgets\spinner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\tabview\lv_tabview.c" >
+      <Filter>lvgl\src\extra\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\tileview\lv_tileview.c" >
+      <Filter>lvgl\src\extra\widgets\tileview</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\widgets\win\lv_win.c" >
+      <Filter>lvgl\src\extra\widgets\win</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\lv_extra.c" >
+      <Filter>lvgl\src\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_fmt_txt.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_loader.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_10.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_12.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_12_subpx.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_14.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_16.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_18.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_20.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_22.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_24.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_26.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_28.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_28_compressed.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_30.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_32.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_34.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_36.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_38.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_40.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_42.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_44.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_46.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_48.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_montserrat_8.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_simsun_16_cjk.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_unscii_16.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font_unscii_8.c" >
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_pxp.c" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_pxp_osa.c" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_nxp_vglite.c" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_sdl.c" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu_stm32_dma2d.c" >
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_disp.c" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_indev.c" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal_tick.c" >
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_anim.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_area.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_async.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_bidi.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_color.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_fs.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_gc.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_ll.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_log.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_math.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_mem.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_printf.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_style.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_style_gen.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_templ.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_timer.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_tlsf.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_txt.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_txt_ap.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_utils.c" >
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_arc.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_bar.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_btn.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_btnmatrix.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_canvas.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_checkbox.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_dropdown.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_img.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_label.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_line.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_objx_templ.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_roller.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_slider.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_switch.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_table.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_textarea.c" >
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\ISSUE_TEMPLATE\bug-report.md" >
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\ISSUE_TEMPLATE\config.yml" >
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\ISSUE_TEMPLATE\dev-discussion.md" >
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\build_micropython.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\ccpp.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\check_conf.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\close_old_issues.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\compile_docs.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\esp_upload_component.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\main.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\workflows\release.yml" >
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\auto-comment.yml" >
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\FUNDING.yml" >
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.github\pull_request_template.md" >
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\arduino.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\espressif.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\index.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\micropython.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\nuttx.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\nxp.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\pc-simulator.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\quick-overview.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\get-started\stm32.md" >
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\intro\index.md" >
+      <Filter>lvgl\docs\intro</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\layouts\flex.md" >
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\layouts\grid.md" >
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\layouts\index.md" >
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\bmp.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\freetype.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\fsdrv.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\gif.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\index.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\png.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\qrcode.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\rlottie.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\libs\sjpg.md">
+      <Filter>lvgl\docs\libs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\align.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\anim-timeline.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\bidi.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\boxmodel.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\btn_example.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\button_style_example.gif" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\button_style_example.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\codeblocks.jpg" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\eclipse.jpg" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\layers.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\par_child1.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\par_child2.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\par_child3.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\platformio.jpg" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\qtcreator.jpg" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\simple_button_example.gif" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\simple_button_example.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\symbols.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\sys.png" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\misc\visualstudio.jpg" >
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\others\index.md" >
+      <Filter>lvgl\docs\others</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\others\snapshot.md" >
+      <Filter>lvgl\docs\others</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\animation.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\color.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\coords.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\display.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\drawing.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\event.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\file-system.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\font.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\image.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\indev.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\index.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\layer.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\new_widget.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\object.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\scroll.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\style-props.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\style.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\overview\timer.md" >
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\display.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\indev.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\index.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\log.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\os.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\project.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\sleep.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\task-handler.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\porting\tick.md" >
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\arc.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\bar.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\btn.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\btnmatrix.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\canvas.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\checkbox.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\dropdown.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\img.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\index.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\label.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\line.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\roller.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\slider.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\switch.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\table.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\core\textarea.md" >
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\animimg.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\calendar.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\chart.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\colorwheel.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\imgbtn.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\index.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\keyboard.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\led.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\list.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\meter.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\msgbox.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\span.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\spinbox.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\spinner.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\tabview.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\tileview.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\extra\win.md" >
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\index.md" >
+      <Filter>lvgl\docs\widgets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\widgets\obj.md" >
+      <Filter>lvgl\docs\widgets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_ext\lv_example.py" >
+      <Filter>lvgl\docs\_ext</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\css\custom.css" >
+      <Filter>lvgl\docs\_static\css</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\css\fontawesome.min.css" >
+      <Filter>lvgl\docs\_static\css</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_1.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_2.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_3.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_4.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_5.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_6.png" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_static\img\home_banner.jpg" >
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_templates\layout.html" >
+      <Filter>lvgl\docs\_templates</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\_templates\page.html" >
+      <Filter>lvgl\docs\_templates</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\build.py" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\CHANGELOG.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\CODE_OF_CONDUCT.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\CODING_STYLE.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\conf.py" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\CONTRIBUTING.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\example_list.py" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\favicon.png" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\header.rst" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\index.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\logo_lvgl.png" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\requirements.txt" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\docs\ROADMAP.md" >
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\index.rst" >
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_1.py" >
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_2.py" >
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_3.py" >
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\anim\lv_example_anim_timeline_1.py" >
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\arduino\LVGL_Arduino\LVGL_Arduino.ino" >
+      <Filter>lvgl\examples\arduino\LVGL_Arduino</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\font\lv_font_simsun_16_cjk.fnt" >
+      <Filter>lvgl\examples\assets\font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\font\montserrat-16.fnt" >
+      <Filter>lvgl\examples\assets\font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\font\montserrat-22.fnt" >
+      <Filter>lvgl\examples\assets\font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg001.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg002.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\animimg003.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\caret_down.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_left.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_mid.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\imgbtn_right.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_caret_down.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_argb.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_chroma_keyed.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_indexed16.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_cogwheel_rgb.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_hand_hour.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_hand_min.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_skew_strip.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_skew_strip_80x20_argb8888.fnt" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_star.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\img_strip.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\skew_strip.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\assets\star.png" >
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\index.rst" >
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_1.py" >
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_2.py" >
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\event\lv_example_event_3.py" >
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\index.rst" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_1.py" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_2.py" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\get_started\lv_example_get_started_3.py" >
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\index.rst" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_1.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_2.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_3.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_4.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_5.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\flex\lv_example_flex_6.py" >
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\index.rst" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_1.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_2.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_3.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_4.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_5.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\layouts\grid\lv_example_grid_6.py" >
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\bmp\example_16bit.bmp">
+      <Filter>lvgl\examples\libs\bmp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\bmp\example_24bit.bmp">
+      <Filter>lvgl\examples\libs\bmp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\bmp\example_32bit.bmp">
+      <Filter>lvgl\examples\libs\bmp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\bmp\index.rst">
+      <Filter>lvgl\examples\libs\bmp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\freetype\arial.ttf">
+      <Filter>lvgl\examples\libs\freetype</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\freetype\index.rst">
+      <Filter>lvgl\examples\libs\freetype</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\gif\bulb.gif">
+      <Filter>lvgl\examples\libs\gif</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\gif\index.rst">
+      <Filter>lvgl\examples\libs\gif</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\png\index.rst">
+      <Filter>lvgl\examples\libs\png</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\png\wink.png">
+      <Filter>lvgl\examples\libs\png</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\qrcode\index.rst">
+      <Filter>lvgl\examples\libs\qrcode</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\rlottie\index.rst">
+      <Filter>lvgl\examples\libs\rlottie</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\rlottie\lv_example_rlottie_approve.json">
+      <Filter>lvgl\examples\libs\rlottie</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\sjpg\index.rst">
+      <Filter>lvgl\examples\libs\sjpg</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\libs\sjpg\small_image.sjpg">
+      <Filter>lvgl\examples\libs\sjpg</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\others\snapshot\index.rst" >
+      <Filter>lvgl\examples\others\snapshot</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\others\snapshot\lv_example_snapshot_1.py" >
+      <Filter>lvgl\examples\others\snapshot</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\index.rst" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_1.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_2.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_3.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_4.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_5.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\scroll\lv_example_scroll_6.py" >
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\index.rst" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_1.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_10.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_11.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_12.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_13.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_14.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_2.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_3.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_4.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_5.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_6.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_7.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_8.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\styles\lv_example_style_9.py" >
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\animimg\index.rst" >
+      <Filter>lvgl\examples\widgets\animimg</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\animimg\lv_example_animimg_1.py" >
+      <Filter>lvgl\examples\widgets\animimg</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\arc\index.rst" >
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\arc\lv_example_arc_1.py" >
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\arc\lv_example_arc_2.py" >
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\index.rst" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_1.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_2.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_3.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_4.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_5.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\lv_example_bar_6.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\bar\test.py" >
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\index.rst" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_1.py" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_2.py" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btn\lv_example_btn_3.py" >
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\index.rst" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.py" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.py" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.py" >
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\calendar\index.rst" >
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\calendar\lv_example_calendar_1.py" >
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\canvas\index.rst" >
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\canvas\lv_example_canvas_1.py" >
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\canvas\lv_example_canvas_2.py" >
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\index.rst" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_1.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_2.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_3.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_4.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_5.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_6.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_7.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\chart\lv_example_chart_9.py" >
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\checkbox\index.rst" >
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\checkbox\lv_example_checkbox_1.py" >
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\colorwheel\index.rst" >
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.py" >
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\index.rst" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_1.py" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_2.py" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\dropdown\lv_example_dropdown_3.py" >
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\index.rst" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_1.py" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_2.py" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_3.py" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\img\lv_example_img_4.py" >
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\imgbtn\index.rst" >
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.py" >
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\keyboard\index.rst" >
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\keyboard\lv_example_keyboard_1.py" >
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\index.rst" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_1.py" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_2.py" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\label\lv_example_label_3.py" >
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\led\index.rst" >
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\led\lv_example_led_1.py" >
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\line\index.rst" >
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\line\lv_example_line_1.py" >
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\list\index.rst" >
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\list\lv_example_list_1.py" >
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\list\lv_example_list_2.py" >
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\list\test.py" >
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\index.rst" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_1.py" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_2.py" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_3.py" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\meter\lv_example_meter_4.py" >
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\msgbox\index.rst" >
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\msgbox\lv_example_msgbox_1.py" >
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\obj\index.rst" >
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\obj\lv_example_obj_1.py" >
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\obj\lv_example_obj_2.py" >
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\index.rst" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_1.py" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_2.py" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\roller\lv_example_roller_3.py" >
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\index.rst" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_1.py" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_2.py" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\slider\lv_example_slider_3.py" >
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\span\index.rst" >
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\span\lv_example_span_1.py" >
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinbox\index.rst" >
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinbox\lv_example_spinbox_1.py" >
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinner\index.rst" >
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\spinner\lv_example_spinner_1.py" >
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\switch\index.rst" >
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\switch\lv_example_switch_1.py" >
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\table\index.rst" >
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\table\lv_example_table_1.py" >
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\table\lv_example_table_2.py" >
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tabview\index.rst" >
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tabview\lv_example_tabview_1.py" >
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tabview\lv_example_tabview_2.py" >
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\index.rst" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_1.py" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_2.py" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\textarea\lv_example_textarea_3.py" >
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tileview\index.rst" >
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\tileview\lv_example_tileview_1.py" >
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\win\index.rst" >
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\widgets\win\lv_example_win_1.py" >
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\examples.mk" >
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\header.py" >
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\examples\test_ex.sh" >
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\rt-thread\SConscript" >
+      <Filter>lvgl\rt-thread</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\built_in_font_gen.py" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\DejaVuSans.ttf" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\FontAwesome5-Solid+Brands+Regular.woff" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\generate_all.py" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\Montserrat-Medium.ttf" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\SimSun.woff" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\built_in_font\unscii-8.ttf" >
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\release\com.py" >
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\release\commits.txt" >
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\release\patch.py" >
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\release\release.py" >
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\.gitignore" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\build_html_examples.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\code-format.cfg" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\code-format.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\cppcheck_run.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\Doxyfile" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\find_version.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\genexamplelist.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\infer_run.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\install-prerequisites.sh" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\jpg_to_sjpg.py" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\lv_conf_internal_gen.py" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\scripts\style_api_gen.py" >
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\core\lv_core.mk" >
+      <Filter>lvgl\src\core</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\draw\lv_draw.mk" >
+      <Filter>lvgl\src\draw</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\extra.mk" >
+      <Filter>lvgl\src\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\README.md" >
+      <Filter>lvgl\src\extra</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\korean.ttf" >
+      <Filter>lvgl\src\font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\font\lv_font.mk" >
+      <Filter>lvgl\src\font</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\lv_gpu_sdl.mk" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\sdl\README.md" >
+      <Filter>lvgl\src\gpu\sdl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\gpu\lv_gpu.mk" >
+      <Filter>lvgl\src\gpu</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\hal\lv_hal.mk" >
+      <Filter>lvgl\src\hal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\misc\lv_misc.mk" >
+      <Filter>lvgl\src\misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\src\widgets\lv_widgets.mk" >
+      <Filter>lvgl\src\widgets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\ref_imgs\dropdown_1.png" >
+      <Filter>lvgl\tests\ref_imgs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\ref_imgs\dropdown_2.png" >
+      <Filter>lvgl\tests\ref_imgs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\ref_imgs\scr1.png" >
+      <Filter>lvgl\tests\ref_imgs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\unity\generate_test_runner.rb" >
+      <Filter>lvgl\tests\unity</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\unity\run_test.erb" >
+      <Filter>lvgl\tests\unity</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\unity\type_sanitizer.rb" >
+      <Filter>lvgl\tests\unity</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\.gitignore" >
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\CMakeLists.txt" >
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\config.yml" >
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\main.py" >
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\tests\README.md" >
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\zephyr\module.yml" >
+      <Filter>lvgl\zephyr</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.codecov.yml" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.editorconfig" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.git" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.gitignore" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\.gitmodules" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\CMakeLists.txt" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\component.mk" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\idf_component.yml" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\Kconfig" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\library.json" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\library.properties" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\LICENCE.txt" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\lvgl.mk" >
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl\README.md" >
+      <Filter>lvgl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

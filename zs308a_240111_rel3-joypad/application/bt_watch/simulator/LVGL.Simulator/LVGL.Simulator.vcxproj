@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="Mile.Project\Mile.Project.Platform.Win32.props" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3CA6E070-4AC1-475E-BB17-CF29AE4806DF}</ProjectGuid>
+    <RootNamespace>LVGL</RootNamespace>
+    <MileProjectType>ConsoleApplication</MileProjectType>
+    <MileProjectManifestFile>LVGL.Simulator.manifest</MileProjectManifestFile>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="Mile.Project\Mile.Project.props" />
+  <Import Project="Mile.Project\Mile.Project.Runtime.VC-LTL.props" />
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory);$(MSBuildThisFileDirectory)..\..\..\..\framework\core\include;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\property;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\include;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\include\core;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\include\utils;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\include\utils\iterator;$(MSBuildThisFileDirectory)..\..\..\..\framework\base\include\utils\stream;$(MSBuildThisFileDirectory)..\..\..\..\framework\display\include;$(MSBuildThisFileDirectory)..\..\..\..\framework\display\include\lvgl;$(MSBuildThisFileDirectory)..\..\..\..\framework\display\include\memory;$(MSBuildThisFileDirectory)..\..\..\..\framework\include\include;$(MSBuildThisFileDirectory)..\..\..\..\framework\system\input;$(MSBuildThisFileDirectory)..\..\..\..\framework\system\include;$(MSBuildThisFileDirectory)..\..\..\..\framework\audio;$(MSBuildThisFileDirectory)..\..\..\..\framework\media\libmedia;$(MSBuildThisFileDirectory)..\..\..\..\framework\media;$(MSBuildThisFileDirectory)..\..\..\..\framework\media\include;$(MSBuildThisFileDirectory)..\..\src\include;$(MSBuildThisFileDirectory)..\..\src;$(MSBuildThisFileDirectory)..\..\src\launcher;$(MSBuildThisFileDirectory)..\..\src\main;$(MSBuildThisFileDirectory)utils\drivers\display;$(MSBuildThisFileDirectory)utils\drivers;$(MSBuildThisFileDirectory)utils;$(MSBuildThisFileDirectory)..\..\..\..\thirdparty\lib\gui\lvgl;$(MSBuildThisFileDirectory)framework_porting\include\al;$(MSBuildThisFileDirectory)framework_porting\include\display;$(MSBuildThisFileDirectory)framework_porting\include\memory;$(MSBuildThisFileDirectory)framework_porting\include;$(MSBuildThisFileDirectory)utils\heap;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;CONFIG_SIMULATOR;__SIZEOF_LONG__;__CHAR_BIT__;LV_LVGL_H_INCLUDE_SIMPLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization Condition="'$(Configuration)'=='Release'">MinSpace</Optimization>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(MSBuildThisFileDirectory)simulator_config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(MSBuildThisFileDirectory)simulator_config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(MSBuildThisFileDirectory)simulator_config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(MSBuildThisFileDirectory)simulator_config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\libs\debug_win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libdisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\libs\release_win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libdisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="LVGL.Portable.vcxitems" />
+  <Import Project="LVGL.Drivers.vcxitems" />
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\framework\base\core\srv_manager_inner.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\core\app_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\core\mem_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\core\msg_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\core\property_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\core\srv_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\acts_ringbuf.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\energy_statistics.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\iterator\file_iterator.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\iterator\iterator.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\buffer_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\clone_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\file_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\loop_fstream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\net_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\psram_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\ringbuff_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\stream\zero_stream.h" />
+    <ClInclude Include="..\..\..\..\framework\base\include\utils\timeline.h" />
+    <ClInclude Include="..\..\..\..\framework\base\property\property_inner.h" />
+    <ClInclude Include="..\..\..\..\framework\base\utils\misc\trace.h" />
+    <ClInclude Include="..\..\..\..\framework\base\utils\stream\stream_internal.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\bitmap_font_api.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\font_mempool.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\freetype_font_api.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\graphic_buffer.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\gui_api.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\input_recorder.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\led_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_bitmap_font.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_freetype_font.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_img_loader.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_memory.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_res_loader.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lvgl\lvgl_view.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\lz4.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\memory\gui_text_cache.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\msgbox_cache.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\res_manager_api.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\res_mempool.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\seg_led_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_math.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_mem.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_region.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_service.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\ui_surface.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\view_cache.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\view_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\display\include\view_stack.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\decompress\lz4.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\decompress\spress.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\lvgl\lvgl_input_dev.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\lvgl\lvgl_virtual_display.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\ui_service\ui_service_inner.h" />
+    <ClInclude Include="..\..\..\..\framework\display\libdisplay\ui_service\view_manager_inner.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\alarm_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\app_switch.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\esd_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\fm_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\fs_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\hotplug_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\input_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\input_manager_type.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\power_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\system_util.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\sys_event.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\sys_event_type.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\sys_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\sys_monitor.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\sys_wakelock.h" />
+    <ClInclude Include="..\..\..\..\framework\system\include\tts_manager.h" />
+    <ClInclude Include="..\..\..\..\framework\system\input\input_manager_inner.h" />
+    <ClInclude Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\barcode\barcodegen.h" />
+    <ClInclude Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\barcode\lv_barcode.h" />
+    <ClInclude Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\qrcode\lv_qrcode.h" />
+    <ClInclude Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\qrcode\qrcodegen.h" />
+    <ClInclude Include="..\..\src\include\app_defines.h" />
+    <ClInclude Include="..\..\src\include\app_ui.h" />
+    <ClInclude Include="..\..\src\launcher\alipay\alipay_ui.h" />
+    <ClInclude Include="..\..\src\launcher\applist\applist.h" />
+    <ClInclude Include="..\..\src\launcher\applist\applist_view.h" />
+    <ClInclude Include="..\..\src\launcher\applist\compass_view.h" />
+    <ClInclude Include="..\..\src\launcher\clock_view.h" />
+    <ClInclude Include="..\..\src\launcher\health\bp_view.h" />
+    <ClInclude Include="..\..\src\launcher\health\health.h" />
+    <ClInclude Include="..\..\src\launcher\health\spo2_view.h" />
+    <ClInclude Include="..\..\src\launcher\heart_view.h" />
+    <ClInclude Include="..\..\src\launcher\launcher_app.h" />
+    <ClInclude Include="..\..\src\launcher\main_view.h" />
+    <ClInclude Include="..\..\src\launcher\message_view.h" />
+    <ClInclude Include="..\..\src\main\fcc_drv_extern.h" />
+    <ClInclude Include="..\..\src\main\system_app.h" />
+    <ClInclude Include="..\..\src\widgets\anim_img.h" />
+    <ClInclude Include="..\..\src\widgets\clock_pointer.h" />
+    <ClInclude Include="..\..\src\widgets\compass.h" />
+    <ClInclude Include="..\..\src\widgets\discrete_pointer.h" />
+    <ClInclude Include="..\..\src\widgets\draw_util.h" />
+    <ClInclude Include="..\..\src\widgets\img_label.h" />
+    <ClInclude Include="..\..\src\widgets\img_number.h" />
+    <ClInclude Include="..\..\src\widgets\msg_box.h" />
+    <ClInclude Include="..\..\src\widgets\msg_list.h" />
+    <ClInclude Include="..\..\src\widgets\progress_arc.h" />
+    <ClInclude Include="..\..\src\widgets\simple_img.h" />
+    <ClInclude Include="..\..\src\widgets\text_canvas.h" />
+    <ClInclude Include="..\..\src\widgets\watch_clock.h" />
+    <ClInclude Include="..\..\src\widgets\watch_list.h" />
+    <ClInclude Include="boards\ats3085c_dvb_watch_ext_nor_conf.h" />
+    <ClInclude Include="boards\ats3085l_dvb_watch_ext_nor_max_conf.h" />
+    <ClInclude Include="boards\ats3085_dvb_watch_conf.h" />
+    <ClInclude Include="bt_watch_simulator.h" />
+    <ClInclude Include="framework_porting\include\audio_hal.h" />
+    <ClInclude Include="framework_porting\include\display\display_composer.h" />
+    <ClInclude Include="framework_porting\include\display\sw_draw.h" />
+    <ClInclude Include="framework_porting\include\display\sw_math.h" />
+    <ClInclude Include="framework_porting\include\display\sw_rotate.h" />
+    <ClInclude Include="framework_porting\include\display\ui_graphics.h" />
+    <ClInclude Include="framework_porting\include\display\ui_memsetcpy.h" />
+    <ClInclude Include="framework_porting\include\dma2d_hal.h" />
+    <ClInclude Include="framework_porting\include\drivers\rtc.h" />
+    <ClInclude Include="framework_porting\include\key_hal.h" />
+    <ClInclude Include="framework_porting\include\memory\mem_cache.h" />
+    <ClInclude Include="framework_porting\include\os_common_api.h" />
+    <ClInclude Include="framework_porting\include\soc.h" />
+    <ClInclude Include="framework_porting\include\watchdog_hal.h" />
+    <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="simulator_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_drv_conf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="LVGL.Simulator.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mile.Project.Properties.h" />
+    <ClInclude Include="native_window.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\framework\base\core\app_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\base\core\msg_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\base\core\srv_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\base\memory\mem_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\base\memory\mem_pool.c" />
+    <ClCompile Include="..\..\..\..\framework\base\property\property_cache.c" />
+    <ClCompile Include="..\..\..\..\framework\base\property\property_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\base\utils\acts_ringbuf\acts_ringbuf.c" />
+    <ClCompile Include="..\..\..\..\framework\base\utils\stream\bufferstream.c" />
+    <ClCompile Include="..\..\..\..\framework\base\utils\stream\ringbuff_stream.c" />
+    <ClCompile Include="..\..\..\..\framework\base\utils\stream\stream.c" />
+    <ClCompile Include="..\..\..\..\framework\base\utils\stream\zero_stream.c" />
+    <ClCompile Include="..\..\..\..\framework\display\lvgl\lvgl_img_loader.c" />
+    <ClCompile Include="..\..\..\..\framework\display\lvgl\lvgl_memory.c" />
+    <ClCompile Include="..\..\..\..\framework\display\lvgl\lvgl_res_loader.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\font_mempool.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\res_mempool.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\ui_mem.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\ui_mem_fb.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\ui_mem_gui.c" />
+    <ClCompile Include="..\..\..\..\framework\display\memory\ui_mem_res.c" />
+    <ClCompile Include="..\..\..\..\framework\display\res_manager\res_manager_api.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_math.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_region.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_service\gesture.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_service\msgbox_cache_lvgl.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_service\view_cache.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_service\view_cache_lite.c" />
+    <ClCompile Include="..\..\..\..\framework\display\ui_service\view_stack.c" />
+    <ClCompile Include="..\..\..\..\framework\system\alarm_manager\alarm_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\system\app_switcher.c" />
+    <ClCompile Include="..\..\..\..\framework\system\hotplug\hotplug_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\system\input\input_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\system\system_init.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_event.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_manager.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_monitor.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_power_off.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_standby.c" />
+    <ClCompile Include="..\..\..\..\framework\system\sys_wakelock.c" />
+    <ClCompile Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\barcode\barcodegen.c" />
+    <ClCompile Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\barcode\lv_barcode.c" />
+    <ClCompile Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\qrcode\lv_qrcode.c" />
+    <ClCompile Include="..\..\..\..\thirdparty\lib\gui\lvgl\src\extra\libs\qrcode\qrcodegen.c" />
+    <ClCompile Include="..\..\..\..\thirdparty\lib\gui\lvgl\win32\lvgl.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\alipay_bind_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\alipay_pay_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\alipay_ui.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\alipay_unbind_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\presenter_mock_alipay.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\presenter_mock_wxpay.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\wxpay_bind_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\wxpay_pay_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay\wxpay_unbind_view.c" />
+    <ClCompile Include="..\..\src\launcher\alipay_main_view.c" />
+    <ClCompile Include="..\..\src\launcher\applist\applist.c" />
+    <ClCompile Include="..\..\src\launcher\applist\applist_view.c" />
+    <ClCompile Include="..\..\src\launcher\applist\compass_view.c" />
+    <ClCompile Include="..\..\src\launcher\clock_selector\clock_selector.c" />
+    <ClCompile Include="..\..\src\launcher\clock_selector\clock_selector_subview.c" />
+    <ClCompile Include="..\..\src\launcher\clock_selector\clock_selector_view.c" />
+    <ClCompile Include="..\..\src\launcher\clock_view.c" />
+    <ClCompile Include="..\..\src\launcher\health\bp_view.c" />
+    <ClCompile Include="..\..\src\launcher\health\health.c" />
+    <ClCompile Include="..\..\src\launcher\health\spo2_view.c" />
+    <ClCompile Include="..\..\src\launcher\heart_view.c" />
+    <ClCompile Include="..\..\src\launcher\launcher_app.c" />
+    <ClCompile Include="..\..\src\launcher\main_view.c" />
+    <ClCompile Include="..\..\src\launcher\message_view.c" />
+    <ClCompile Include="..\..\src\launcher\music_view.c" />
+    <ClCompile Include="..\..\src\launcher\power\power_view.c" />
+    <ClCompile Include="..\..\src\launcher\sport_view.c" />
+    <ClCompile Include="..\..\src\launcher\stopwatch\stopwatch_view.c" />
+    <ClCompile Include="..\..\src\launcher\wxpay_main_view.c" />
+    <ClCompile Include="..\..\src\main\system_app_event.c" />
+    <ClCompile Include="..\..\src\main\system_app_input.c" />
+    <ClCompile Include="..\..\src\main\system_app_launcher.c" />
+    <ClCompile Include="..\..\src\main\system_app_main.c" />
+    <ClCompile Include="..\..\src\main\system_event_map.c" />
+    <ClCompile Include="..\..\src\main\system_lpower_msgbox_view.c" />
+    <ClCompile Include="..\..\src\main\system_tts_policy.c" />
+    <ClCompile Include="..\..\src\widgets\anim_img.c" />
+    <ClCompile Include="..\..\src\widgets\clock_pointer.c" />
+    <ClCompile Include="..\..\src\widgets\compass.c" />
+    <ClCompile Include="..\..\src\widgets\discrete_pointer.c" />
+    <ClCompile Include="..\..\src\widgets\draw_util.c" />
+    <ClCompile Include="..\..\src\widgets\img_label.c" />
+    <ClCompile Include="..\..\src\widgets\img_number.c" />
+    <ClCompile Include="..\..\src\widgets\msg_box.c" />
+    <ClCompile Include="..\..\src\widgets\msg_list.c" />
+    <ClCompile Include="..\..\src\widgets\progress_arc.c" />
+    <ClCompile Include="..\..\src\widgets\simple_img.c" />
+    <ClCompile Include="..\..\src\widgets\text_canvas.c" />
+    <ClCompile Include="..\..\src\widgets\watch_clock.c" />
+    <ClCompile Include="..\..\src\widgets\watch_list.c" />
+    <ClCompile Include="bt_watch_simulator.c" />
+    <ClCompile Include="framework_porting\audio\audioin_hal.c" />
+    <ClCompile Include="framework_porting\audio\audioout_hal.c" />
+    <ClCompile Include="framework_porting\display\display.c" />
+    <ClCompile Include="framework_porting\display\display_composer.c" />
+    <ClCompile Include="framework_porting\display\sw_blend.c" />
+    <ClCompile Include="framework_porting\display\sw_math.c" />
+    <ClCompile Include="framework_porting\display\sw_rotate.c" />
+    <ClCompile Include="framework_porting\fs.c" />
+    <ClCompile Include="framework_porting\input\input_keypad.c" />
+    <ClCompile Include="framework_porting\input\input_pointer.c" />
+    <ClCompile Include="framework_porting\memory\mem_cache.c" />
+    <ClCompile Include="framework_porting\osal\display_work_q.c" />
+    <ClCompile Include="framework_porting\osal\os_message.c" />
+    <ClCompile Include="framework_porting\osal\os_mutex.c" />
+    <ClCompile Include="framework_porting\osal\os_sem.c" />
+    <ClCompile Include="framework_porting\osal\os_thread.c" />
+    <ClCompile Include="framework_porting\osal\os_work.c" />
+    <ClCompile Include="framework_porting\osal\os_wrapper.c" />
+    <ClCompile Include="framework_porting\osal\user_work_q.c" />
+    <ClCompile Include="framework_porting\os_malloc.c" />
+    <ClCompile Include="framework_porting\soc.c" />
+    <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="native_window.c" />
+    <ClCompile Include="utils\heap\heap-validate.c" />
+    <ClCompile Include="utils\heap\heap.c" />
+    <ClCompile Include="utils\heap\kheap.c" />
+    <ClCompile Include="utils\hex.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LVGL.Simulator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LVGL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\launcher\Kconfig" />
+    <None Include="..\..\src\main\Makefile" />
+    <None Include="LVGL.Portable.vcxitems" />
+    <None Include="LVGL.Portable.vcxitems.filters" />
+    <None Include="LVGL.Drivers.vcxitems" />
+    <None Include="LVGL.Drivers.vcxitems.filters" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\main\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="Mile.Project\Mile.Project.targets" />
+</Project>

@@ -1,0 +1,2746 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--Actions IDE, Rapid Application Development-->
+<ui-rad>
+    <property name="prj_name" value="bt_watch" />
+    <property name="prj_language" value="0x0" />
+    <property name="prj_screen_width" value="0x168" />
+    <property name="prj_screen_height" value="0x168" />
+    <property name="prj_res_file" value="..\..\boards\ats3085c_dvb_watch_ext_nor\res\bt_watch.res" />
+    <property name="prj_res_str_dir" value="..\..\boards\ats3085c_dvb_watch_ext_nor\res" />
+    <property name="prj_res_head_file" value=".\bt_watch_pic.h" />
+    <property name="prj_res_str_head_file" value=".\bt_watch_str.h" />
+    <property name="prj_sty_head_file" value=".\bt_watch_sty.h" />
+    <property name="prj_sty_file" value="..\..\boards\ats3085c_dvb_watch_ext_nor\res\bt_watch.sty" />
+    <property name="prj_build_res_type" value="0x1" />
+    <property name="prj_build_res_mode" value="0x0" />
+    <property name="prj_case_path" value="..\360x360" />
+    <property name="prj_sdk_path" value="..\360x360" />
+    <property name="desktop_file_create" value="0x0" />
+    <property name="desktop_file_path" value="" />
+    <property name="desktop_file_comment" value="" />
+    <property name="desktop_file_exec_dir" value="/mnt/diska/apps/" />
+    <property name="desktop_file_type" value="0x0" />
+    <property name="desktop_file_child" value="" />
+    <property name="desktop_file_exec" value="Application.app" />
+    <property name="desktop_file_icon_id" value="0x0" />
+    <property name="desktop_file_icon" value="0x0" />
+    <property name="desktop_file_name_id" value="0x0" />
+    <property name="desktop_file_name" value="Application" />
+    <property name="desktop_file_name_str_id" value="" />
+    <scene>
+        <property name="name" value="SCENE_APPLIST565_VIEW" />
+        <property name="id" value="30000" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="30001" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0168" />
+            <property name="height" value="0x0168" />
+            <property name="background" value="0x00202020" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="resgroup_resource">
+                <property name="name" value="res_stopwatch" />
+                <property name="id" value="30002" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0xffea" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30003" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\秒表.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30937" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_STOPWATCH" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_alarmclock" />
+                <property name="id" value="30005" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30006" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\闹钟.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30938" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_ALARMCLOCK" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_timer" />
+                <property name="id" value="30008" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x008c" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30009" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\计时器.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30939" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_TIMER" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_phone_on" />
+                <property name="id" value="30011" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x00dd" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30012" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\电话：开.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30940" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_PHONE_ON" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_phone_off" />
+                <property name="id" value="30014" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x00dd" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30015" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\电话：关.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30941" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_PHONE_OFF" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_vibration_on" />
+                <property name="id" value="30017" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x012e" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30018" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\振动：开.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30942" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_VIBRATION_ON" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_vibration_off" />
+                <property name="id" value="30020" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x012e" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30021" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\振动：关.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30943" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_VIBRATION_OFF" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_aod_on" />
+                <property name="id" value="30023" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x017f" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30024" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\剧院模式.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30944" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_aod_off" />
+                <property name="id" value="30978" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x017f" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30979" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\剧院模式.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30980" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_recovery" />
+                <property name="id" value="30026" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x01d0" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30027" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\恢复出厂设置.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30951" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_FACTORY_RESET" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_poweroff" />
+                <property name="id" value="30029" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0221" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30030" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\关机.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30945" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_POWER_OFF" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_alipay" />
+                <property name="id" value="30032" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0272" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30033" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\app下载.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30946" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_test_longview" />
+                <property name="id" value="30035" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x02c3" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00202020" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30036" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\关于.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30947" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_compass" />
+                <property name="id" value="30961" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0314" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0051" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_icon" />
+                    <property name="id" value="30962" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0007" />
+                    <property name="width" value="0x0042" />
+                    <property name="height" value="0x0042" />
+                    <property name="visible" value="0x0010" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0019" />
+                    <element class="layer">
+                        <property name="0" value=".\applist\jpg\icon\指南针.jpg" />
+                    </element>
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="str_text" />
+                    <property name="id" value="30963" />
+                    <property name="x" value="0x0054" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x001c" />
+                    <property name="foreground" value="0x00ffffff" />
+                    <property name="background" value="0x00000000" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x001c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="STR_COMPASS" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_drag_track" />
+                <property name="id" value="30039" />
+                <property name="x" value="0x0110" />
+                <property name="y" value="0x00b4" />
+                <property name="width" value="0x00d9" />
+                <property name="height" value="0x00d9" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0000" />
+                <property name="editable" value="1" />
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_padtop" />
+                <property name="id" value="30898" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x008c" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0000" />
+                <property name="editable" value="1" />
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_padbottom" />
+                <property name="id" value="30899" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x00dd" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x008c" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0000" />
+                <property name="editable" value="1" />
+            </element>
+        </element>
+    </scene>
+    <scene>
+        <property name="name" value="SCENE_SYSTEM_VIEW" />
+        <property name="id" value="30089" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="30090" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0168" />
+            <property name="height" value="0x0168" />
+            <property name="background" value="0x00191919" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picture_resource">
+                <property name="name" value="PIC_WEATHER" />
+                <property name="id" value="30091" />
+                <property name="x" value="0x003e" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\天气未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_WEATHER_H" />
+                <property name="id" value="30902" />
+                <property name="x" value="0x003e" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\天气.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BRIGHTNESS" />
+                <property name="id" value="30092" />
+                <property name="x" value="0x0094" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\亮度未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BRIGHTNESS_H" />
+                <property name="id" value="30903" />
+                <property name="x" value="0x0094" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\亮度.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BLUETOOTH" />
+                <property name="id" value="30093" />
+                <property name="x" value="0x00ea" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\蓝牙未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BLUETOOTH_H" />
+                <property name="id" value="30904" />
+                <property name="x" value="0x00ea" />
+                <property name="y" value="0x003b" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\蓝牙.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_VIBRATOR" />
+                <property name="id" value="30094" />
+                <property name="x" value="0x0026" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\抖动未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_VIBRATOR_H" />
+                <property name="id" value="30095" />
+                <property name="x" value="0x0026" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\抖动.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_GLASS" />
+                <property name="id" value="30096" />
+                <property name="x" value="0x0094" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\影院模式未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_GLASS_H" />
+                <property name="id" value="30905" />
+                <property name="x" value="0x0094" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\影院模式.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_SETTING" />
+                <property name="id" value="30097" />
+                <property name="x" value="0x0104" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\设置未选中.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_SETTING_H" />
+                <property name="id" value="30906" />
+                <property name="x" value="0x0104" />
+                <property name="y" value="0x0092" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\设置.png" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_DATE" />
+                <property name="id" value="30098" />
+                <property name="x" value="0x0038" />
+                <property name="y" value="0x00f0" />
+                <property name="width" value="0x00b4" />
+                <property name="height" value="0x0020" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0020" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_WEEK" />
+                <property name="id" value="30099" />
+                <property name="x" value="0x00fc" />
+                <property name="y" value="0x00ee" />
+                <property name="width" value="0x0040" />
+                <property name="height" value="0x0020" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0020" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_BAT" />
+                <property name="id" value="30100" />
+                <property name="x" value="0x007a" />
+                <property name="y" value="0x0124" />
+                <property name="width" value="0x0060" />
+                <property name="height" value="0x0020" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0020" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BAT1" />
+                <property name="id" value="30101" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x012a" />
+                <property name="width" value="0x0024" />
+                <property name="height" value="0x0013" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\电池1.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BAT2" />
+                <property name="id" value="30102" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x012a" />
+                <property name="width" value="0x0024" />
+                <property name="height" value="0x0013" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\电池2.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BAT3" />
+                <property name="id" value="30103" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x012a" />
+                <property name="width" value="0x0024" />
+                <property name="height" value="0x0013" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\电池3.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BAT4" />
+                <property name="id" value="30104" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x012a" />
+                <property name="width" value="0x0024" />
+                <property name="height" value="0x0013" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\电池4.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BAT5" />
+                <property name="id" value="30105" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x012a" />
+                <property name="width" value="0x0024" />
+                <property name="height" value="0x0013" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\sysview\raw\电池5.png" />
+                </element>
+            </element>
+        </element>
+    </scene>
+    <scene>
+        <property name="name" value="SCENE_CLOCK_VIEW" />
+        <property name="id" value="30161" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="30162" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0168" />
+            <property name="height" value="0x0168" />
+            <property name="background" value="0x00202020" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picture_resource">
+                <property name="name" value="pic_background" />
+                <property name="id" value="30163" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0168" />
+                <property name="visible" value="0x0010" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0025" />
+                <element class="layer">
+                    <property name="0" value=".\clock\raw\analog_clock\background.jpg" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_tm_hour" />
+                <property name="id" value="30164" />
+                <property name="x" value="0x00ac" />
+                <property name="y" value="0x005b" />
+                <property name="width" value="0x0010" />
+                <property name="height" value="0x005f" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30166" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0010" />
+                    <property name="height" value="0x005f" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\hour.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_tm_minute" />
+                <property name="id" value="30167" />
+                <property name="x" value="0x00ac" />
+                <property name="y" value="0x0027" />
+                <property name="width" value="0x0010" />
+                <property name="height" value="0x0093" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30168" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0010" />
+                    <property name="height" value="0x0093" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\minute.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_tm_second" />
+                <property name="id" value="30170" />
+                <property name="x" value="0x00ad" />
+                <property name="y" value="0x0026" />
+                <property name="width" value="0x000e" />
+                <property name="height" value="0x0095" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30172" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x000e" />
+                    <property name="height" value="0x0095" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\second.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_step_count" />
+                <property name="id" value="30184" />
+                <property name="x" value="0x0099" />
+                <property name="y" value="0x00fd" />
+                <property name="width" value="0x0036" />
+                <property name="height" value="0x000b" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30416" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\0.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_1" />
+                    <property name="id" value="30419" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\1.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_2" />
+                    <property name="id" value="30422" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\2.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_3" />
+                    <property name="id" value="30425" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\3.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_4" />
+                    <property name="id" value="30428" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\4.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_5" />
+                    <property name="id" value="30431" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\5.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_6" />
+                    <property name="id" value="30434" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\6.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_7" />
+                    <property name="id" value="30437" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\7.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_8" />
+                    <property name="id" value="30440" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\8.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_9" />
+                    <property name="id" value="30443" />
+                    <property name="x" value="0xff67" />
+                    <property name="y" value="0xff03" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\9.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_heart_rate" />
+                <property name="id" value="30185" />
+                <property name="x" value="0x006d" />
+                <property name="y" value="0x00ca" />
+                <property name="width" value="0x001b" />
+                <property name="height" value="0x000b" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30417" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\0.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_1" />
+                    <property name="id" value="30420" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\1.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_2" />
+                    <property name="id" value="30423" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\2.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_3" />
+                    <property name="id" value="30426" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\3.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_4" />
+                    <property name="id" value="30429" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\4.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_5" />
+                    <property name="id" value="30432" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\5.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_6" />
+                    <property name="id" value="30435" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\6.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_7" />
+                    <property name="id" value="30438" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\7.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_8" />
+                    <property name="id" value="30441" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\8.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_9" />
+                    <property name="id" value="30444" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\9.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="res_calories" />
+                <property name="id" value="30186" />
+                <property name="x" value="0x00df" />
+                <property name="y" value="0x00ca" />
+                <property name="width" value="0x001b" />
+                <property name="height" value="0x000b" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="pic_0" />
+                    <property name="id" value="30418" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\0.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_1" />
+                    <property name="id" value="30421" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\1.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_2" />
+                    <property name="id" value="30424" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\2.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_3" />
+                    <property name="id" value="30427" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\3.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_4" />
+                    <property name="id" value="30430" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\4.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_5" />
+                    <property name="id" value="30433" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\5.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_6" />
+                    <property name="id" value="30436" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\6.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_7" />
+                    <property name="id" value="30439" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\7.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_8" />
+                    <property name="id" value="30442" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\8.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="pic_9" />
+                    <property name="id" value="30445" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0009" />
+                    <property name="height" value="0x000b" />
+                    <property name="visible" value="0x0011" />
+                    <property name="compress" value="0x0000" />
+                    <property name="PNG_A8" value="0x0000" />
+                    <property name="ARGB" value="0x0075" />
+                    <element class="layer">
+                        <property name="0" value=".\clock\raw\analog_clock\number\9.png" />
+                    </element>
+                </element>
+            </element>
+        </element>
+    </scene>
+    <scene>
+        <property name="name" value="SCENE_BTCALL_VIEW" />
+        <property name="id" value="30377" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="30378" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0168" />
+            <property name="height" value="0x0168" />
+            <property name="background" value="0x00c8c8c8" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picture_resource">
+                <property name="name" value="PIC_BG_BTCALL" />
+                <property name="id" value="30379" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0168" />
+                <property name="visible" value="0x0010" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\btcall_bg.jpg" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_COMING_HEAD" />
+                <property name="id" value="30380" />
+                <property name="x" value="0x008a" />
+                <property name="y" value="0x002a" />
+                <property name="width" value="0x0056" />
+                <property name="height" value="0x0056" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\来电头像.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_CALLING_HEAD" />
+                <property name="id" value="30381" />
+                <property name="x" value="0x008a" />
+                <property name="y" value="0x002a" />
+                <property name="width" value="0x0056" />
+                <property name="height" value="0x0056" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\通话头像.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_REJECT" />
+                <property name="id" value="30382" />
+                <property name="x" value="0x0049" />
+                <property name="y" value="0x00ea" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\挂断.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_ACCEPT" />
+                <property name="id" value="30383" />
+                <property name="x" value="0x00e0" />
+                <property name="y" value="0x00ea" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\接听.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_CALLING_MUTE" />
+                <property name="id" value="30384" />
+                <property name="x" value="0x0046" />
+                <property name="y" value="0x00e7" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\静音.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_CALLING_KEYB" />
+                <property name="id" value="30385" />
+                <property name="x" value="0x009e" />
+                <property name="y" value="0x00f1" />
+                <property name="width" value="0x002a" />
+                <property name="height" value="0x002a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\通话中-键盘.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_CALLING_HANG_UP" />
+                <property name="id" value="30386" />
+                <property name="x" value="0x00ea" />
+                <property name="y" value="0x00e7" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\挂断.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_CALLING_VOL_BG" />
+                <property name="id" value="30387" />
+                <property name="x" value="0x0130" />
+                <property name="y" value="0x007e" />
+                <property name="width" value="0x001e" />
+                <property name="height" value="0x006a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\vol_bg.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_CALLING_VOL_DOWN" />
+                <property name="id" value="30388" />
+                <property name="x" value="0x0138" />
+                <property name="y" value="0x008d" />
+                <property name="width" value="0x000e" />
+                <property name="height" value="0x000e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\vol_down.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_CALLING_VOL_SYMBOL" />
+                <property name="id" value="30389" />
+                <property name="x" value="0x0135" />
+                <property name="y" value="0x00aa" />
+                <property name="width" value="0x0014" />
+                <property name="height" value="0x0012" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\vol.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_CALLING_VOL_UP" />
+                <property name="id" value="30390" />
+                <property name="x" value="0x0138" />
+                <property name="y" value="0x00d0" />
+                <property name="width" value="0x000e" />
+                <property name="height" value="0x000e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\vol_up.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_OUTGOING_SYMBOL" />
+                <property name="id" value="30399" />
+                <property name="x" value="0x0085" />
+                <property name="y" value="0x0077" />
+                <property name="width" value="0x005e" />
+                <property name="height" value="0x005e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\开启通话.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_OUTGOING_HANG_UP" />
+                <property name="id" value="30400" />
+                <property name="x" value="0x0095" />
+                <property name="y" value="0x0104" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\挂断.png" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_CALL_NUM" />
+                <property name="id" value="30391" />
+                <property name="x" value="0x003c" />
+                <property name="y" value="0x009b" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0028" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0024" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_REJECT" />
+                <property name="id" value="30392" />
+                <property name="x" value="0x0050" />
+                <property name="y" value="0x012f" />
+                <property name="width" value="0x0030" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ccfccf" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_ACCEPT" />
+                <property name="id" value="30393" />
+                <property name="x" value="0x00e7" />
+                <property name="y" value="0x012f" />
+                <property name="width" value="0x0030" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ccfccf" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_CALLING_NUM" />
+                <property name="id" value="30394" />
+                <property name="x" value="0x003c" />
+                <property name="y" value="0x0093" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0028" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0024" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_CALLING_TIME" />
+                <property name="id" value="30395" />
+                <property name="x" value="0x003c" />
+                <property name="y" value="0x00bc" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_OUTGOING_NUM" />
+                <property name="id" value="30401" />
+                <property name="x" value="0x0064" />
+                <property name="y" value="0x001a" />
+                <property name="width" value="0x00a0" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x001a" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BG_SIRI" />
+                <property name="id" value="30553" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0168" />
+                <property name="height" value="0x0168" />
+                <property name="visible" value="0x0010" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\siri\siri_bg.jpg" />
+                </element>
+            </element>
+            <element class="picregion_resource">
+                <property name="name" value="res_siri_animation" />
+                <property name="id" value="30554" />
+                <property name="x" value="0x007b" />
+                <property name="y" value="0x00f3" />
+                <property name="width" value="0x0072" />
+                <property name="height" value="0x0072" />
+                <property name="visible" value="0x0010" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\siri\动画\00000.jpg" />
+                    <property name="1" value=".\btcall\raw\siri\动画\00001.jpg" />
+                    <property name="2" value=".\btcall\raw\siri\动画\00002.jpg" />
+                    <property name="3" value=".\btcall\raw\siri\动画\00003.jpg" />
+                    <property name="4" value=".\btcall\raw\siri\动画\00004.jpg" />
+                    <property name="5" value=".\btcall\raw\siri\动画\00005.jpg" />
+                    <property name="6" value=".\btcall\raw\siri\动画\00006.jpg" />
+                    <property name="7" value=".\btcall\raw\siri\动画\00007.jpg" />
+                    <property name="8" value=".\btcall\raw\siri\动画\00008.jpg" />
+                    <property name="9" value=".\btcall\raw\siri\动画\00009.jpg" />
+                    <property name="10" value=".\btcall\raw\siri\动画\00010.jpg" />
+                    <property name="11" value=".\btcall\raw\siri\动画\00011.jpg" />
+                    <property name="12" value=".\btcall\raw\siri\动画\00012.jpg" />
+                    <property name="13" value=".\btcall\raw\siri\动画\00013.jpg" />
+                    <property name="14" value=".\btcall\raw\siri\动画\00014.jpg" />
+                    <property name="15" value=".\btcall\raw\siri\动画\00015.jpg" />
+                    <property name="16" value=".\btcall\raw\siri\动画\00016.jpg" />
+                    <property name="17" value=".\btcall\raw\siri\动画\00017.jpg" />
+                    <property name="18" value=".\btcall\raw\siri\动画\00018.jpg" />
+                    <property name="19" value=".\btcall\raw\siri\动画\00019.jpg" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_3W_HUP_CUR" />
+                <property name="id" value="30969" />
+                <property name="x" value="0x002a" />
+                <property name="y" value="0x00be" />
+                <property name="width" value="0x003a" />
+                <property name="height" value="0x003a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\3way\组-2.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_3W_ANS_ANOTH" />
+                <property name="id" value="30970" />
+                <property name="x" value="0x0047" />
+                <property name="y" value="0x00dc" />
+                <property name="width" value="0x003a" />
+                <property name="height" value="0x003a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\3way\组-1.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_3W_HUP" />
+                <property name="id" value="30971" />
+                <property name="x" value="0x0096" />
+                <property name="y" value="0x00c4" />
+                <property name="width" value="0x003e" />
+                <property name="height" value="0x003e" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\3way\挂断.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_3W_HOLD_CUR" />
+                <property name="id" value="30972" />
+                <property name="x" value="0x00e8" />
+                <property name="y" value="0x00be" />
+                <property name="width" value="0x003a" />
+                <property name="height" value="0x003a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\3way\组-3.png" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_BTN_3W_ANS_ALL" />
+                <property name="id" value="30973" />
+                <property name="x" value="0x0104" />
+                <property name="y" value="0x00dc" />
+                <property name="width" value="0x003a" />
+                <property name="height" value="0x003a" />
+                <property name="visible" value="0x0011" />
+                <property name="compress" value="0x0000" />
+                <property name="PNG_A8" value="0x0000" />
+                <property name="ARGB" value="0x0006" />
+                <element class="layer">
+                    <property name="0" value=".\btcall\raw\3way\组-1.png" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_3W_HUP_ANS" />
+                <property name="id" value="30974" />
+                <property name="x" value="0x001e" />
+                <property name="y" value="0x0123" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x001c" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_3W_HOLD_ANS" />
+                <property name="id" value="30975" />
+                <property name="x" value="0x00e6" />
+                <property name="y" value="0x0123" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x001c" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_3W_HOLD_NUM" />
+                <property name="id" value="30976" />
+                <property name="x" value="0x003c" />
+                <property name="y" value="0x0078" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_3W_ANOTH_NUM" />
+                <property name="id" value="30977" />
+                <property name="x" value="0x003c" />
+                <property name="y" value="0x0034" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x001e" />
+                <property name="foreground" value="0x00ffffff" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x0018" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="STR_NULL" />
+            </element>
+        </element>
+    </scene>
+    <resource>
+        <picture value=".\heart\raw\心率bg.jpg" />
+        <picture value=".\sport\raw\开始运动bg.jpg" />
+        <picture value=".\sport\raw\开始运动图标.png" />
+        <picture value=".\sport\raw\开始运动图标_高亮.png" />
+        <picture value=".\sysview\raw\电池1.png" />
+        <picture value=".\sysview\raw\电池2.png" />
+        <picture value=".\sysview\raw\电池3.png" />
+        <picture value=".\sysview\raw\电池4.png" />
+        <picture value=".\sysview\raw\电池5.png" />
+        <picture value=".\clock\raw\analog_clock\background.jpg" />
+        <picture value=".\clock\raw\analog_clock\hour\0.png" />
+        <picture value=".\clock\raw\analog_clock\hour\1.png" />
+        <picture value=".\clock\raw\analog_clock\hour\2.png" />
+        <picture value=".\clock\raw\analog_clock\hour\3.png" />
+        <picture value=".\clock\raw\analog_clock\hour\4.png" />
+        <picture value=".\clock\raw\analog_clock\hour\5.png" />
+        <picture value=".\clock\raw\analog_clock\hour\6.png" />
+        <picture value=".\clock\raw\analog_clock\hour\7.png" />
+        <picture value=".\clock\raw\analog_clock\hour\8.png" />
+        <picture value=".\clock\raw\analog_clock\hour\9.png" />
+        <picture value=".\clock\raw\analog_clock\hour\10.png" />
+        <picture value=".\clock\raw\analog_clock\hour\11.png" />
+        <picture value=".\clock\raw\analog_clock\hour\12.png" />
+        <picture value=".\clock\raw\analog_clock\hour\13.png" />
+        <picture value=".\clock\raw\analog_clock\hour\14.png" />
+        <picture value=".\clock\raw\analog_clock\hour\15.png" />
+        <picture value=".\clock\raw\analog_clock\minute\0.png" />
+        <picture value=".\clock\raw\analog_clock\minute\1.png" />
+        <picture value=".\clock\raw\analog_clock\minute\2.png" />
+        <picture value=".\clock\raw\analog_clock\minute\3.png" />
+        <picture value=".\clock\raw\analog_clock\minute\4.png" />
+        <picture value=".\clock\raw\analog_clock\minute\5.png" />
+        <picture value=".\clock\raw\analog_clock\minute\6.png" />
+        <picture value=".\clock\raw\analog_clock\minute\7.png" />
+        <picture value=".\clock\raw\analog_clock\second\0.png" />
+        <picture value=".\clock\raw\analog_clock\second\1.png" />
+        <picture value=".\clock\raw\analog_clock\second\2.png" />
+        <picture value=".\clock\raw\analog_clock\second\3.png" />
+        <picture value=".\clock\raw\analog_clock\second\4.png" />
+        <picture value=".\clock\raw\analog_clock\second\5.png" />
+        <picture value=".\clock\raw\analog_clock\second\6.png" />
+        <picture value=".\clock\raw\analog_clock\second\7.png" />
+        <picture value=".\clock\raw\analog_clock\number\0.png" />
+        <picture value=".\clock\raw\analog_clock\number\1.png" />
+        <picture value=".\clock\raw\analog_clock\number\2.png" />
+        <picture value=".\clock\raw\analog_clock\number\3.png" />
+        <picture value=".\clock\raw\analog_clock\number\4.png" />
+        <picture value=".\clock\raw\analog_clock\number\5.png" />
+        <picture value=".\clock\raw\analog_clock\number\6.png" />
+        <picture value=".\clock\raw\analog_clock\number\7.png" />
+        <picture value=".\clock\raw\analog_clock\number\8.png" />
+        <picture value=".\clock\raw\analog_clock\number\9.png" />
+        <picture value=".\clock\raw\digital_clock\背景.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\充电\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\温度\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\晴朗.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\阴天.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\冰雹.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\沙尘暴.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\雾.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\大雨.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\大雪.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\雷阵雨.jpg" />
+        <picture value=".\clock\raw\digital_clock\天气\晴转多云.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\时分钟\冒号.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\时间\秒钟\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\心率计步\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\10.jpg" />
+        <picture value=".\clock\raw\digital_clock\动画\11.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\日期\-.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\0.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\1.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\2.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\3.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\4.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\5.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\6.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\7.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\8.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\9.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\dian.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\k.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\m.jpg" />
+        <picture value=".\clock\raw\digital_clock\睡眠距离\h.jpg" />
+        <picture value=".\clock\raw\analog_clock\hour.png" />
+        <picture value=".\clock\raw\analog_clock\minute.png" />
+        <picture value=".\clock\raw\analog_clock\second.png" />
+        <picture value=".\message\raw\短信.png" />
+        <picture value=".\message\raw\微信.png" />
+        <picture value=".\message\raw\消息.png" />
+        <picture value=".\message\raw\圆角矩形 4.png" />
+        <picture value=".\compass\main.jpg" />
+        <picture value=".\compass\decor.jpg" />
+        <picture value=".\compass\char\0.jpg" />
+        <picture value=".\compass\char\1.jpg" />
+        <picture value=".\compass\char\2.jpg" />
+        <picture value=".\compass\char\3.jpg" />
+        <picture value=".\compass\char\4.jpg" />
+        <picture value=".\compass\char\5.jpg" />
+        <picture value=".\compass\char\6.jpg" />
+        <picture value=".\compass\char\7.jpg" />
+        <picture value=".\compass\char\8.jpg" />
+        <picture value=".\compass\char\9.jpg" />
+        <picture value=".\compass\char\°.jpg" />
+        <picture value=".\compass\char\东.jpg" />
+        <picture value=".\compass\char\南.jpg" />
+        <picture value=".\compass\char\西.jpg" />
+        <picture value=".\compass\char\北.jpg" />
+        <picture value=".\lcmusic\raw\背景.jpg" />
+        <picture value=".\lcmusic\raw\播放.png" />
+        <picture value=".\lcmusic\raw\暂停.png" />
+        <picture value=".\lcmusic\raw\上一曲.png" />
+        <picture value=".\lcmusic\raw\下一曲.png" />
+        <picture value=".\lcmusic\raw\顺序播放.png" />
+        <picture value=".\lcmusic\raw\列表循环.png" />
+        <picture value=".\lcmusic\raw\随机播放.png" />
+        <picture value=".\lcmusic\raw\单曲循环.png" />
+        <picture value=".\lcmusic\raw\音量.png" />
+        <picture value=".\lcmusic\raw\更多.png" />
+        <picture value=".\lcmusic\raw\本地.jpg" />
+        <picture value=".\lcmusic\raw\vol_bg.jpg" />
+        <picture value=".\lcmusic\raw\vol_up.png" />
+        <picture value=".\lcmusic\raw\vol_down.png" />
+        <picture value=".\lcmusic\raw\vol_bar.png" />
+        <picture value=".\lcmusic\raw\vol_val.png" />
+        <picture value=".\lcmusic\raw\watch.png" />
+        <picture value=".\lcmusic\raw\phone.png" />
+        <picture value=".\lcmusic\raw\bt.png" />
+        <picture value=".\compass\decor.png" />
+        <picture value=".\clock\raw\analog_clock\hour\16.png" />
+        <picture value=".\btcall\raw\btcall_bg.jpg" />
+        <picture value=".\btcall\raw\来电头像.png" />
+        <picture value=".\btcall\raw\通话头像.png" />
+        <picture value=".\btcall\raw\挂断.png" />
+        <picture value=".\btcall\raw\接听.png" />
+        <picture value=".\btcall\raw\静音.png" />
+        <picture value=".\btcall\raw\通话中-键盘.png" />
+        <picture value=".\btcall\raw\vol_bg.png" />
+        <picture value=".\btcall\raw\vol_down.png" />
+        <picture value=".\btcall\raw\vol.png" />
+        <picture value=".\btcall\raw\vol_up.png" />
+        <picture value=".\card_reader\usb.jpg" />
+        <picture value=".\btcall\raw\开启通话.png" />
+        <picture value=".\clock_selector\analog.jpg" />
+        <picture value=".\clock_selector\digital.jpg" />
+        <picture value=".\blood_pressure\number\0.png" />
+        <picture value=".\blood_pressure\number\1.png" />
+        <picture value=".\blood_pressure\number\2.png" />
+        <picture value=".\blood_pressure\number\3.png" />
+        <picture value=".\blood_pressure\number\4.png" />
+        <picture value=".\blood_pressure\number\5.png" />
+        <picture value=".\blood_pressure\number\6.png" />
+        <picture value=".\blood_pressure\number\7.png" />
+        <picture value=".\blood_pressure\number\8.png" />
+        <picture value=".\blood_pressure\number\9.png" />
+        <picture value=".\blood_pressure\anim\1.png" />
+        <picture value=".\blood_pressure\anim\2.png" />
+        <picture value=".\blood_pressure\anim\3.png" />
+        <picture value=".\blood_pressure\anim\4.png" />
+        <picture value=".\blood_pressure\anim\5.png" />
+        <picture value=".\blood_pressure\anim\6.png" />
+        <picture value=".\blood_pressure\anim\7.png" />
+        <picture value=".\blood_pressure\anim\8.png" />
+        <picture value=".\blood_pressure\anim\9.png" />
+        <picture value=".\blood_oxygen\血氧bg.jpg" />
+        <picture value=".\blood_oxygen\number\0.png" />
+        <picture value=".\blood_oxygen\number\1.png" />
+        <picture value=".\blood_oxygen\number\2.png" />
+        <picture value=".\blood_oxygen\number\3.png" />
+        <picture value=".\blood_oxygen\number\4.png" />
+        <picture value=".\blood_oxygen\number\5.png" />
+        <picture value=".\blood_oxygen\number\6.png" />
+        <picture value=".\blood_oxygen\number\7.png" />
+        <picture value=".\blood_oxygen\number\8.png" />
+        <picture value=".\blood_oxygen\number\9.png" />
+        <picture value=".\blood_pressure\血压bg.jpg" />
+        <picture value=".\btcall\raw\siri\siri_bg.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00000.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00001.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00002.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00003.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00004.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00005.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00006.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00007.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00008.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00009.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00010.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00011.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00012.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00013.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00014.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00015.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00016.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00017.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00018.jpg" />
+        <picture value=".\btcall\raw\siri\动画\00019.jpg" />
+        <picture value=".\lcmusic\raw\已连接.png" />
+        <picture value=".\lcmusic\raw\未连接.png" />
+        <picture value=".\lcmusic\raw\新设备.png" />
+        <picture value=".\lcmusic\raw\手机.jpg" />
+        <picture value=".\power\raw\bg.jpg" />
+        <picture value=".\power\raw\重启按钮.jpg" />
+        <picture value=".\power\raw\重启.jpg" />
+        <picture value=".\power\raw\关机按钮.jpg" />
+        <picture value=".\power\raw\关机.jpg" />
+        <picture value=".\power\raw\确定重启.jpg" />
+        <picture value=".\power\raw\确定关机.jpg" />
+        <picture value=".\stopwatch\raw\秒表bg.jpg" />
+        <picture value=".\stopwatch\raw\秒表小图标.png" />
+        <picture value=".\stopwatch\raw\刷新复位.png" />
+        <picture value=".\stopwatch\raw\刷新复位1.png" />
+        <picture value=".\stopwatch\raw\暂停.png" />
+        <picture value=".\stopwatch\raw\暂停1.png" />
+        <picture value=".\stopwatch\raw\播放.png" />
+        <picture value=".\stopwatch\raw\播放1.png" />
+        <picture value=".\stopwatch\raw\秒表.jpg" />
+        <picture value=".\stopwatch\raw\冒号.jpg" />
+        <picture value=".\stopwatch\raw\分秒\1.jpg" />
+        <picture value=".\stopwatch\raw\分秒\0.jpg" />
+        <picture value=".\stopwatch\raw\分秒\2.jpg" />
+        <picture value=".\stopwatch\raw\点.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\3.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\5.jpg" />
+        <picture value=".\stopwatch\raw\分秒\3.jpg" />
+        <picture value=".\stopwatch\raw\分秒\4.jpg" />
+        <picture value=".\stopwatch\raw\分秒\5.jpg" />
+        <picture value=".\stopwatch\raw\分秒\6.jpg" />
+        <picture value=".\stopwatch\raw\分秒\7.jpg" />
+        <picture value=".\stopwatch\raw\分秒\8.jpg" />
+        <picture value=".\stopwatch\raw\分秒\9.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\0.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\1.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\2.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\4.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\6.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\7.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\8.jpg" />
+        <picture value=".\stopwatch\raw\毫秒\9.jpg" />
+        <picture value=".\alarm\raw\alarm_bg.jpg" />
+        <picture value=".\alarm\raw\图标.png" />
+        <picture value=".\alarm\raw\闹钟.jpg" />
+        <picture value=".\alarm\raw\添加.png" />
+        <picture value=".\alarm\raw\关.png" />
+        <picture value=".\alarm\raw\开.png" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\冒号.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\1.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\0.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\7.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\冒号.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\0.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\2.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\3.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\4.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\5.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\6.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\8.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\关\9.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\1.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\2.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\3.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\4.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\5.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\6.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\8.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\9.jpg" />
+        <picture value=".\alarm\raw\闹钟开关显示数字\开\7.jpg" />
+        <picture value=".\alarm\raw\向上.png" />
+        <picture value=".\alarm\raw\向下.png" />
+        <picture value=".\alarm\raw\确定.png" />
+        <picture value=".\alarm\raw\数字背景.png" />
+        <picture value=".\alarm\raw\闹钟时间设置\冒号.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\0.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\1.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\2.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\4.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\9.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\8.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\7.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\6.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\5.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字选中\3.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\9.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\8.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\7.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\6.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\5.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\4.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\3.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\2.jpg" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\1.bmp" />
+        <picture value=".\alarm\raw\闹钟时间设置\数字未选中\0.bmp" />
+        <picture value=".\alarm\raw\alarming\alarming_bg.jpg" />
+        <picture value=".\alarm\raw\alarming\图标.jpg" />
+        <picture value=".\alarm\raw\alarming\主题.jpg" />
+        <picture value=".\alarm\raw\alarming\响铃.jpg" />
+        <picture value=".\alarm\raw\alarming\稍后提醒 按下效果.jpg" />
+        <picture value=".\alarm\raw\alarming\稍后提醒.jpg" />
+        <picture value=".\alarm\raw\alarming\停止 按下效果.jpg" />
+        <picture value=".\alarm\raw\alarming\停止.jpg" />
+        <picture value=".\low_power\raw\bg.jpg" />
+        <picture value=".\low_power\raw\请连接充电器.jpg" />
+        <picture value=".\low_power\raw\电池电量低.jpg" />
+        <picture value=".\low_power\raw\还剩.jpg" />
+        <picture value=".\low_power\raw\电量使用情况.jpg" />
+        <picture value=".\low_power\raw\确定.jpg" />
+        <picture value=".\low_power\raw\电量\%.jpg" />
+        <picture value=".\low_power\raw\电量\9.jpg" />
+        <picture value=".\low_power\raw\电量\8.jpg" />
+        <picture value=".\low_power\raw\电量\7.jpg" />
+        <picture value=".\low_power\raw\电量\6.jpg" />
+        <picture value=".\low_power\raw\电量\5.jpg" />
+        <picture value=".\low_power\raw\电量\4.jpg" />
+        <picture value=".\low_power\raw\电量\3.jpg" />
+        <picture value=".\low_power\raw\电量\2.jpg" />
+        <picture value=".\low_power\raw\电量\1.jpg" />
+        <picture value=".\low_power\raw\电量\0.jpg" />
+        <picture value=".\ota\raw\bg.jpg" />
+        <picture value=".\ota\raw\升级.jpg" />
+        <picture value=".\ota\raw\系统升级.jpg" />
+        <picture value=".\ota\raw\时间\点.jpg" />
+        <picture value=".\ota\raw\安装.jpg" />
+        <picture value=".\ota\raw\有可更新的系统版本：.jpg" />
+        <picture value=".\ota\raw\时间\9.jpg" />
+        <picture value=".\ota\raw\时间\8.jpg" />
+        <picture value=".\ota\raw\时间\7.jpg" />
+        <picture value=".\ota\raw\时间\6.jpg" />
+        <picture value=".\ota\raw\时间\5.jpg" />
+        <picture value=".\ota\raw\时间\4.jpg" />
+        <picture value=".\ota\raw\时间\3.jpg" />
+        <picture value=".\ota\raw\时间\2.jpg" />
+        <picture value=".\ota\raw\时间\1.jpg" />
+        <picture value=".\ota\raw\时间\0.jpg" />
+        <picture value=".\applist\jpg\icon\秒表.jpg" />
+        <picture value=".\applist\jpg\icon\闹钟.jpg" />
+        <picture value=".\applist\jpg\icon\计时器.jpg" />
+        <picture value=".\applist\jpg\icon\电话：开.jpg" />
+        <picture value=".\applist\jpg\icon\关机.jpg" />
+        <picture value=".\applist\jpg\icon\振动：开.jpg" />
+        <picture value=".\applist\jpg\icon\振动：关.jpg" />
+        <picture value=".\applist\jpg\icon\剧院模式.jpg" />
+        <picture value=".\applist\jpg\icon\恢复出厂设置.jpg" />
+        <picture value=".\applist\jpg\icon\关于.jpg" />
+        <picture value=".\applist\png\icon\秒表.png" />
+        <picture value=".\applist\png\icon\闹钟.png" />
+        <picture value=".\applist\png\icon\计时器.png" />
+        <picture value=".\applist\png\icon\电话：开.png" />
+        <picture value=".\applist\png\icon\电话：关.png" />
+        <picture value=".\applist\png\icon\振动：关.png" />
+        <picture value=".\applist\png\icon\剧院模式.png" />
+        <picture value=".\applist\png\icon\恢复出厂设置.png" />
+        <picture value=".\applist\png\icon\关机.png" />
+        <picture value=".\applist\png\icon\关于.png" />
+        <picture value=".\applist\png\icon\app下载.png" />
+        <picture value=".\applist\jpg\icon\指南针.jpg" />
+        <picture value=".\applist\png\icon\指南针.png" />
+        <picture value=".\applist\jpg\icon\app下载.jpg" />
+        <picture value=".\applist\jpg\icon\电话：关.jpg" />
+        <picture value=".\sysview\raw\亮度.png" />
+        <picture value=".\sysview\raw\亮度未选中.png" />
+        <picture value=".\sysview\raw\天气.png" />
+        <picture value=".\sysview\raw\天气未选中.png" />
+        <picture value=".\sysview\raw\影院模式.png" />
+        <picture value=".\sysview\raw\影院模式未选中.png" />
+        <picture value=".\sysview\raw\抖动.png" />
+        <picture value=".\sysview\raw\抖动未选中.png" />
+        <picture value=".\sysview\raw\蓝牙.png" />
+        <picture value=".\sysview\raw\蓝牙未选中.png" />
+        <picture value=".\sysview\raw\设置.png" />
+        <picture value=".\sysview\raw\设置未选中.png" />
+        <picture value=".\low_power\raw\提示图标.jpg" />
+        <picture value=".\low_power\raw\电池充电.jpg" />
+        <picture value=".\btcall\raw\3way\组-2.png" />
+        <picture value=".\btcall\raw\3way\组-1.png" />
+        <picture value=".\btcall\raw\3way\挂断.png" />
+        <picture value=".\btcall\raw\3way\组-3.png" />
+        <txt value=".\multilang_translate_table.xls" />
+        <string value="STR_NULL" />
+        <string value="STR_APP_DOWNLOAD" />
+        <string value="STR_PHONE_OFF" />
+        <string value="STR_PHONE_ON" />
+        <string value="STR_POWER_OFF" />
+        <string value="STR_ABOUT" />
+        <string value="STR_FACTORY_RESET" />
+        <string value="STR_TIMER" />
+        <string value="STR_CINEMA_MODE" />
+        <string value="STR_STOPWATCH" />
+        <string value="STR_ALARMCLOCK" />
+        <string value="STR_VIBRATION_OFF" />
+        <string value="STR_VIBRATION_ON" />
+        <string value="STR_COMPASS" />
+    </resource>
+</ui-rad>

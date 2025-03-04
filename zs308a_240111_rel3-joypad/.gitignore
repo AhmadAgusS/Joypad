@@ -1,0 +1,11 @@
+application/bt_watch/outdir/
+application/bt_watch_call/outdir/
+application/view_demo/outdir/
+application/joypad/outdir/
+zephyr/.cache/
+.west/config
+.vscode/
+zephyr/.build_config
+zephyr/scripts/dts/python-devicetree/src/devicetree/__pycache__/
+zephyr/scripts/kconfig/__pycache__/
+zephyr/scripts/west_commands/__pycache__/
